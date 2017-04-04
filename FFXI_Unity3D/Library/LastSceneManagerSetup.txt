@@ -1,0 +1,4 @@
+sceneSetups:
+- path: C:/Users/Adam/Documents/GitRepositories/FFXI_Unity3D/ffxi project/Assets/Zones/Bastok/Bastok_Markets.unity
+  isLoaded: 1
+  isActive: 1
