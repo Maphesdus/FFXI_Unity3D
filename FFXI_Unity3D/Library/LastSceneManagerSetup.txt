@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Miscellaneous/Main.unity
+- path: Assets/Zones/Bastok/Bastok_Markets.unity
   isLoaded: 1
   isActive: 1
