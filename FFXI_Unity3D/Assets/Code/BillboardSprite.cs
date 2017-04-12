@@ -6,10 +6,11 @@ using UnityEngine;
 using System.Collections;
 
 public class BillboardSprite: MonoBehaviour {
-	public enum State{AlignToCamera, LookAtCamera};
 	private GameObject cam;
 	private Transform MyCameraTransform;
 	private Transform MyTransform;
+
+	public enum State{AlignToCamera, LookAtCamera};
 	public State AlignmentType;
 
 	// START:
