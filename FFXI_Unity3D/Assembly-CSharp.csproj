@@ -104,9 +104,11 @@
      <Compile Include="Assets\_IMPORTED\Standard Assets\Utility\TimedObjectDestructor.cs" />
      <Compile Include="Assets\_IMPORTED\Standard Assets\Utility\WaypointCircuit.cs" />
      <Compile Include="Assets\_IMPORTED\Standard Assets\Utility\WaypointProgressTracker.cs" />
+     <None Include="Assets\Miscellaneous\TransparentDiffuse.shader" />
      <None Include="Assets\_IMPORTED\UCLAGameLab\Wireframe\Shaders\UCLA GameLab Wireframe Functions.cginc" />
      <None Include="Assets\_IMPORTED\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Simple.shader" />
      <None Include="Assets\_IMPORTED\UCLAGameLab\Wireframe\Shaders\UCLA GameLab Wireframe.shader" />
+     <None Include="Assets\Miscellaneous\TransparentWithShadow.shader" />
      <None Include="Assets\_IMPORTED\Standard Assets\Environment\Water (Basic)\Shaders\FXWaterBasic.shader" />
      <None Include="Assets\_IMPORTED\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
      <None Include="Assets\Zones\Jeuno\New Text Document.txt" />
