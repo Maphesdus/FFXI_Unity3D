@@ -1,0 +1,194 @@
+fileFormatVersion: 2
+guid: 5e420d87879c054468d13b442f8d1f2c
+timeCreated: 1492098295
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: '0000_m_jun01_c       '
+    100002: '0001_m_cst_06        '
+    100004: '0002_m_obj_21        '
+    100006: '0003_m_dsk_09        '
+    100008: '0004_m_cst_19        '
+    100010: '0005_m_bed_04        '
+    100012: '0006_m_jun01_a       '
+    100014: '0007_m_jun01_b       '
+    100016: '0008_m_jun01_t       '
+    100018: '0009_m_jun01_a       '
+    100020: '0010_m_jun01_t       '
+    100022: '0011_m_jun01_a       '
+    100024: '0012_m_jun01_t_yuka  '
+    100026: '0013_m_jun01_t       '
+    100028: '0014_m_jun01_a       '
+    100030: '0015_m_jun01_b       '
+    100032: '0016_m_jun01_t       '
+    100034: '0017_m_jun01_a       '
+    100036: '0018__kabin1         '
+    100038: '0019__kabin1         '
+    100040: '0020_m_cst_09        '
+    100042: '0021_retter          '
+    100044: '0022_m_jun01_t       '
+    100046: //RootNode
+    400000: '0000_m_jun01_c       '
+    400002: '0001_m_cst_06        '
+    400004: '0002_m_obj_21        '
+    400006: '0003_m_dsk_09        '
+    400008: '0004_m_cst_19        '
+    400010: '0005_m_bed_04        '
+    400012: '0006_m_jun01_a       '
+    400014: '0007_m_jun01_b       '
+    400016: '0008_m_jun01_t       '
+    400018: '0009_m_jun01_a       '
+    400020: '0010_m_jun01_t       '
+    400022: '0011_m_jun01_a       '
+    400024: '0012_m_jun01_t_yuka  '
+    400026: '0013_m_jun01_t       '
+    400028: '0014_m_jun01_a       '
+    400030: '0015_m_jun01_b       '
+    400032: '0016_m_jun01_t       '
+    400034: '0017_m_jun01_a       '
+    400036: '0018__kabin1         '
+    400038: '0019__kabin1         '
+    400040: '0020_m_cst_09        '
+    400042: '0021_retter          '
+    400044: '0022_m_jun01_t       '
+    400046: //RootNode
+    2300000: '0000_m_jun01_c       '
+    2300002: '0001_m_cst_06        '
+    2300004: '0002_m_obj_21        '
+    2300006: '0003_m_dsk_09        '
+    2300008: '0004_m_cst_19        '
+    2300010: '0005_m_bed_04        '
+    2300012: '0006_m_jun01_a       '
+    2300014: '0007_m_jun01_b       '
+    2300016: '0008_m_jun01_t       '
+    2300018: '0009_m_jun01_a       '
+    2300020: '0010_m_jun01_t       '
+    2300022: '0011_m_jun01_a       '
+    2300024: '0012_m_jun01_t_yuka  '
+    2300026: '0013_m_jun01_t       '
+    2300028: '0014_m_jun01_a       '
+    2300030: '0015_m_jun01_b       '
+    2300032: '0016_m_jun01_t       '
+    2300034: '0017_m_jun01_a       '
+    2300036: '0018__kabin1         '
+    2300038: '0019__kabin1         '
+    2300040: '0020_m_cst_09        '
+    2300042: '0021_retter          '
+    2300044: '0022_m_jun01_t       '
+    3300000: '0000_m_jun01_c       '
+    3300002: '0001_m_cst_06        '
+    3300004: '0002_m_obj_21        '
+    3300006: '0003_m_dsk_09        '
+    3300008: '0004_m_cst_19        '
+    3300010: '0005_m_bed_04        '
+    3300012: '0006_m_jun01_a       '
+    3300014: '0007_m_jun01_b       '
+    3300016: '0008_m_jun01_t       '
+    3300018: '0009_m_jun01_a       '
+    3300020: '0010_m_jun01_t       '
+    3300022: '0011_m_jun01_a       '
+    3300024: '0012_m_jun01_t_yuka  '
+    3300026: '0013_m_jun01_t       '
+    3300028: '0014_m_jun01_a       '
+    3300030: '0015_m_jun01_b       '
+    3300032: '0016_m_jun01_t       '
+    3300034: '0017_m_jun01_a       '
+    3300036: '0018__kabin1         '
+    3300038: '0019__kabin1         '
+    3300040: '0020_m_cst_09        '
+    3300042: '0021_retter          '
+    3300044: '0022_m_jun01_t       '
+    4300000: '0000_m_jun01_c       '
+    4300002: '0001_m_cst_06        '
+    4300004: '0002_m_obj_21        '
+    4300006: '0003_m_dsk_09        '
+    4300008: '0004_m_cst_19        '
+    4300010: '0005_m_bed_04        '
+    4300012: '0006_m_jun01_a       '
+    4300014: '0007_m_jun01_b       '
+    4300016: '0008_m_jun01_t       '
+    4300018: '0009_m_jun01_a       '
+    4300020: '0010_m_jun01_t       '
+    4300022: '0011_m_jun01_a       '
+    4300024: '0012_m_jun01_t_yuka  '
+    4300026: '0013_m_jun01_t       '
+    4300028: '0014_m_jun01_a       '
+    4300030: '0015_m_jun01_b       '
+    4300032: '0016_m_jun01_t       '
+    4300034: '0017_m_jun01_a       '
+    4300036: '0018__kabin1         '
+    4300038: '0019__kabin1         '
+    4300040: '0020_m_cst_09        '
+    4300042: '0021_retter          '
+    4300044: '0022_m_jun01_t       '
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 100
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
