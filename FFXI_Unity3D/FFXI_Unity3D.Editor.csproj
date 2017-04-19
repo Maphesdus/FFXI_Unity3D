@@ -120,6 +120,10 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\OVR\Editor\OVRBuild.cs" />
+    <Compile Include="Assets\OVR\Editor\OVRManifestPreprocessor.cs" />
+    <Compile Include="Assets\OVR\Editor\OVRMoonlightLoader.cs" />
+    <Compile Include="Assets\OVR\Editor\OVRScreenshotWizard.cs" />
     <Compile Include="Assets\SteamVR\Editor\SteamVR_Editor.cs" />
     <Compile Include="Assets\SteamVR\Editor\SteamVR_Preferences.cs" />
     <Compile Include="Assets\SteamVR\Editor\SteamVR_RenderModelEditor.cs" />
@@ -129,6 +133,14 @@
     <Compile Include="Assets\_IMPORTED\Standard Assets\Editor\CrossPlatformInput\CrossPlatformInputInitialize.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\Miscellaneous\TransparentDiffuse.shader" />
+    <None Include="Assets\Miscellaneous\TransparentWithShadow.shader" />
+    <None Include="Assets\OVR\Editor\AndroidManifest.OVRSubmission.xml" />
+    <None Include="Assets\OVR\Resources\Underlay Impostor.shader" />
+    <None Include="Assets\OVR\Resources\Underlay Transparent Occluder.shader" />
+    <None Include="Assets\OVR\Resources\Unlit Transparent Color.shader" />
+    <None Include="Assets\OVR\Shaders\OVRColorRampAlpha.shader" />
+    <None Include="Assets\OVR\Shaders\Unlit Crosshair.shader" />
     <None Include="Assets\SteamVR\InteractionSystem\Core\Shaders\SeeThru.shader" />
     <None Include="Assets\SteamVR\InteractionSystem\Core\Shaders\Silhouette.shader" />
     <None Include="Assets\SteamVR\InteractionSystem\Hints\Shaders\ControllerButtonHints.shader" />

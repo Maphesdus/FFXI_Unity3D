@@ -1,0 +1,4493 @@
+fileFormatVersion: 2
+guid: 432faf507e360fc4d8021a273435a4f9
+timeCreated: 1492125183
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: '0000_wi_hand00       '
+    100002: '0001_wi_hand01       '
+    100004: 0001_wi_hand01      !
+    100006: '0002_wi_hand02       '
+    100008: '0003_wi_hand03       '
+    100010: '0004_wi_hand04       '
+    100012: '0005_wi_hand05       '
+    100014: '0006_wi_hand06       '
+    100016: '0007_wi_hand07       '
+    100018: '0008_wi_hand08       '
+    100020: '0009_wi_hand09       '
+    100022: '0010_wi_hand10       '
+    100024: '0011_wi_hand11       '
+    100026: '0012_wi_hand12       '
+    100028: '0013_wi_hand13       '
+    100030: '0014_wi_hand14       '
+    100032: '0015_wi_hand15       '
+    100034: '0016_wi_hand16       '
+    100036: '0017_wi_hand17       '
+    100038: '0018_wi_hand18       '
+    100040: '0019_wi_hand19       '
+    100042: '0020_wi_hand20       '
+    100044: '0021_wi_hand21       '
+    100046: '0022_wi_hand22       '
+    100048: '0023_wi_hand23       '
+    100050: '0024_wi_hand24       '
+    100052: '0025_wi_hand25       '
+    100054: '0026_wi_hand26       '
+    100056: '0027_wi_hand27       '
+    100058: '0028_wi_hand28       '
+    100060: '0029_wi_hand29       '
+    100062: '0030_wi_misr01       '
+    100064: '0031_wi_misr00       '
+    100066: '0032_wi_misr02       '
+    100068: '0033_wi_misr03       '
+    100070: '0034_wi_misr04       '
+    100072: '0035_wi_misr05       '
+    100074: '0036_wi_misr06       '
+    100076: '0037_wi_misr09       '
+    100078: '0038_wi_misr15       '
+    100080: '0039_wi_my01         '
+    100082: '0040_wi_my03         '
+    100084: '0041_wi_mish01       '
+    100086: '0042_wi_z_jmp01      '
+    100088: '0043_wi_hand13_3     '
+    100090: '0044_wi_hand17_1     '
+    100092: '0045_wi_misr01_2     '
+    100094: '0046_wi_misr00_1     '
+    100096: '0047_wi_misr01_1     '
+    100098: '0048_wi_hand7_1      '
+    100100: '0049_wi_hand25_1     '
+    100102: '0050_wi_hand15_1     '
+    100104: '0051_wi_hand13_2     '
+    100106: '0052_wi_hand00       '
+    100108: '0053_wi_hand01       '
+    100110: '0054_wi_hand02       '
+    100112: '0055_wi_hand03       '
+    100114: '0056_wi_hand04       '
+    100116: '0057_wi_hand05       '
+    100118: '0058_wi_hand06       '
+    100120: '0059_wi_hand07       '
+    100122: '0060_wi_hand08       '
+    100124: '0061_wi_hand09       '
+    100126: '0062_wi_hand10       '
+    100128: '0063_wi_hand11       '
+    100130: '0064_wi_hand12       '
+    100132: '0065_wi_hand14       '
+    100134: '0066_wi_hand15       '
+    100136: '0067_wi_hand16       '
+    100138: '0068_wi_hand17       '
+    100140: '0069_wi_hand18       '
+    100142: '0070_wi_hand19       '
+    100144: '0071_wi_hand20       '
+    100146: '0072_wi_hand21       '
+    100148: '0073_wi_hand22       '
+    100150: '0074_wi_hand23       '
+    100152: '0075_wi_hand24       '
+    100154: '0076_wi_hand25       '
+    100156: '0077_wi_hand26       '
+    100158: '0078_wi_hand27       '
+    100160: '0079_wi_hand28       '
+    100162: '0080_wi_hand29       '
+    100164: '0081_wi_misr01       '
+    100166: '0082_wi_misr00       '
+    100168: '0083_wi_misr02       '
+    100170: '0084_wi_misr03       '
+    100172: '0085_wi_misr04       '
+    100174: '0086_wi_misr05       '
+    100176: '0087_wi_misr06       '
+    100178: '0088_wi_misr07       '
+    100180: '0089_wi_misr08       '
+    100182: '0090_wi_misr09       '
+    100184: '0091_wi_misr10       '
+    100186: '0092_wi_misr11       '
+    100188: '0093_wi_misr12       '
+    100190: '0094_wi_misr14       '
+    100192: '0095_wi_misr15       '
+    100194: '0096_wi_my01         '
+    100196: '0097_wi_my03         '
+    100198: '0098_wi_mish00       '
+    100200: '0099_wi_mish01       '
+    100202: '0100_wi_mish02       '
+    100204: '0101_wi_mish03       '
+    100206: '0102_wi_z_jmp01      '
+    100208: '0103_wi_z_jmp02      '
+    100210: '0104_wi_misr09_1     '
+    100212: '0105_wi_hand17_1     '
+    100214: '0106_wi_misr01_2     '
+    100216: '0107_wi_hand00       '
+    100218: '0108_wi_hand01       '
+    100220: '0109_wi_hand02       '
+    100222: '0110_wi_hand03       '
+    100224: '0111_wi_hand04       '
+    100226: '0112_wi_hand05       '
+    100228: '0113_wi_hand06       '
+    100230: '0114_wi_hand07       '
+    100232: '0115_wi_hand08       '
+    100234: '0116_wi_hand09       '
+    100236: '0117_wi_hand10       '
+    100238: '0118_wi_hand11       '
+    100240: '0119_wi_hand12       '
+    100242: '0120_wi_hand13       '
+    100244: '0121_wi_hand14       '
+    100246: '0122_wi_hand15       '
+    100248: '0123_wi_hand16       '
+    100250: '0124_wi_hand17       '
+    100252: '0125_wi_hand18       '
+    100254: '0126_wi_hand19       '
+    100256: '0127_wi_hand20       '
+    100258: '0128_wi_hand21       '
+    100260: '0129_wi_hand22       '
+    100262: '0130_wi_hand23       '
+    100264: '0131_wi_hand24       '
+    100266: '0132_wi_hand25       '
+    100268: '0133_wi_hand26       '
+    100270: '0134_wi_hand27       '
+    100272: '0135_wi_hand28       '
+    100274: '0136_wi_hand29       '
+    100276: '0137_wi_misr01       '
+    100278: '0138_wi_misr00       '
+    100280: '0139_wi_misr02       '
+    100282: '0140_wi_misr03       '
+    100284: '0141_wi_misr04       '
+    100286: '0142_wi_misr05       '
+    100288: '0143_wi_misr06       '
+    100290: '0144_wi_misr07       '
+    100292: '0145_wi_misr08       '
+    100294: '0146_wi_misr09       '
+    100296: '0147_wi_misr10       '
+    100298: '0148_wi_misr11       '
+    100300: '0149_wi_misr12       '
+    100302: '0150_wi_misr14       '
+    100304: '0151_wi_misr15       '
+    100306: '0152_wi_my01         '
+    100308: '0153_wi_my03         '
+    100310: '0154_wi_mish00       '
+    100312: '0155_wi_mish01       '
+    100314: '0156_wi_mish02       '
+    100316: '0157_wi_mish03       '
+    100318: '0158_wi_z_jmp01      '
+    100320: '0159_wi_z_jmp02      '
+    100322: '0160_wi_misr09_1     '
+    100324: '0161_wi_hand13_3     '
+    100326: '0162_wi_misr01_2     '
+    100328: '0163_wi_hand13_1     '
+    100330: '0164_wi_misr00_1     '
+    100332: '0165_wi_hand29_1     '
+    100334: '0166_wi_hand19_1     '
+    100336: '0167_wi_hand13_2     '
+    100338: '0178_wi_hand10       '
+    100340: '0192_wi_hand24       '
+    100342: '0225_wi_hand13_1     '
+    100344: '0235_wi_my01_1       '
+    100346: '0237_wi_hand29_1     '
+    100348: '0238_wi_hand26_2     '
+    100350: '0239_wi_hand26_1     '
+    100352: '0240_wi_hand20_1     '
+    100354: '0241_wi_hand19_1     '
+    100356: '0243_wi_hand14_1     '
+    100358: '0244_wi_hand13_2     '
+    100360: '0245_wi_my03_1       '
+    100362: '0247_wi_hand01       '
+    100364: '0248_wi_hand03       '
+    100366: '0253_wi_hand10       '
+    100368: '0254_wi_hand11       '
+    100370: '0259_wi_hand18       '
+    100372: '0271_wi_misr05       '
+    100374: '0273_wi_misr09       '
+    100376: '0277_wi_hand13_1     '
+    100378: '0278_wi_hand7_1      '
+    100380: '0281_wi_hand15_1     '
+    100382: '0282_wi_hand14_1     '
+    100384: '0283_chok_win01      '
+    100386: '0284_wi_hand01       '
+    100388: '0293_wi_hand10       '
+    100390: '0318_wi_misr05       '
+    100392: '0320_wi_misr08       '
+    100394: '0323_wi_misr11       '
+    100396: '0334_wi_z_jmp02      '
+    100398: '0336_wi_misr01_2     '
+    100400: '0337_wi_hand13_1     '
+    100402: '0338_wi_misr00_1     '
+    100404: '0339_wi_misr01_1     '
+    100406: '0340_wi_hand7_1      '
+    100408: '0341_wi_hand29_1     '
+    100410: '0342_wi_hand26_2     '
+    100412: '0343_wi_hand19_1     '
+    100414: '0344_wi_hand05       '
+    100416: '0345_wi_hand14       '
+    100418: '0346_wi_hand20       '
+    100420: '0347_wi_hand26       '
+    100422: '0348_wi_misr04       '
+    100424: '0349_wi_misr07       '
+    100426: '0350_wi_misr08       '
+    100428: '0351_wi_misr10       '
+    100430: '0352_wi_fountain01   '
+    100432: '0353_wi_hand05       '
+    100434: '0354_wi_hand14       '
+    100436: '0356_wi_hand13_1     '
+    100438: '0357_wi_fountain00   '
+    100440: '0358_wi_hand07       '
+    100442: '0359_wi_hand15       '
+    100444: '0360_wi_h_ryoji00h   '
+    100446: '0361_wi_h_in00       '
+    100448: '0362_wi_h_auc00h     '
+    100450: '0363_wi_h_gate00     '
+    100452: '0364_wi_h_gate00     '
+    100454: '0365_wi_h_gate03     '
+    100456: '0366_wi_h_myroom00   '
+    100458: '0367_wi_i_ryj00      '
+    100460: '0368_wi_i_inf0       '
+    100462: '0369_wi_i_inf1       '
+    100464: '0370_wi_h_auc01h     '
+    100466: '0371_wi_h_auc02h     '
+    100468: '0372_wi_h_myroom00_2 '
+    100470: '0373_wi_h_in00_1     '
+    100472: '0374_wi_h_in00_2     '
+    100474: '0375_wi_h_ryoji01h   '
+    100476: '0376_chok_win01      '
+    100478: '0377_chok_win02      '
+    100480: '0381_wi_h_auc00h     '
+    100482: '0382_wi_h_gate03     '
+    100484: '0383_wi_h_myroom04   '
+    100486: '0388_chok_win01      '
+    100488: '0389_chok_win02      '
+    100490: '0390_wi_hand17       '
+    100492: '0391_wi_hand17_1     '
+    100494: '0394_wi_hand20       '
+    100496: '0395_wi_misr04       '
+    100498: '0396_wi_misr07       '
+    100500: '0397_wi_misr08       '
+    100502: '0398_wi_misr10       '
+    100504: '0399_wi_hand20       '
+    100506: '0401_wi_hand13_1     '
+    100508: '0402_wi_misr04       '
+    100510: '0403_wi_k_arch05     '
+    100512: '0404_wi_r_hukuro01   '
+    100514: '0405_wi_r_kanban     '
+    100516: '0406_wi_r_komo02     '
+    100518: '0407_wi_r_komo03     '
+    100520: '0408_wi_k_aucknb01   '
+    100522: '0409_wi_h_ryoji00h   '
+    100524: '0410_wi_h_in00       '
+    100526: '0411_wi_h_auc00h     '
+    100528: '0412_wi_h_gate01     '
+    100530: '0413_wi_h_gate00     '
+    100532: '0414_wi_h_gate00     '
+    100534: '0415_wi_h_gate03     '
+    100536: '0416_wi_h_myroom00   '
+    100538: '0417_wi_i_inf0       '
+    100540: '0418_wi_i_inf1       '
+    100542: '0419_wi_h_auc01h     '
+    100544: '0420_wi_h_auc02h     '
+    100546: '0421_wi_h_myroom00_2 '
+    100548: '0422_wi_h_gate02     '
+    100550: '0423_wi_h_in00_1     '
+    100552: '0424_wi_h_in00_2     '
+    100554: '0425_wi_h_ryoji01h   '
+    100556: '0426_wi_i_arai01     '
+    100558: '0427_wi_i_table      '
+    100560: '0428_chok_win01      '
+    100562: '0429_chok_win02      '
+    100564: '0432_wi_h_auc00h     '
+    100566: '0434_wi_h_myroom04   '
+    100568: '0435_wi_h_auc01h     '
+    100570: '0437_wi_h_myroom00_1 '
+    100572: '0438_wi_h_myroom00_2 '
+    100574: '0441_wi_h_in00       '
+    100576: '0442_wi_h_gate01     '
+    100578: '0443_wi_h_gate00     '
+    100580: '0444_wi_h_gate00     '
+    100582: '0445_wi_h_gate03     '
+    100584: '0446_wi_ha_saku2     '
+    100586: '0447_wi_h_gate02     '
+    100588: '0448_wi_h_in00_1     '
+    100590: '0449_wi_h_in00_2     '
+    100592: '0450_chok_win01      '
+    100594: '0451_chok_win02      '
+    100596: '0452_wi_h_in00       '
+    100598: '0453_wi_h_tent00     '
+    100600: '0454_wi_h_tent00     '
+    100602: '0455_wi_k_arch05     '
+    100604: '0456_wi_ml_yane      '
+    100606: '0457_wi_g_hata       '
+    100608: '0458_wi_c_yane01     '
+    100610: '0459_wi_r_kasa       '
+    100612: '0460_wi_r_tana       '
+    100614: '0461_wi_r_tukue      '
+    100616: '0462_wi_k_f_gate     '
+    100618: '0463_wi_k_f_hand     '
+    100620: '0464_wi_c_koya_1     '
+    100622: '0465_wi_h_auc00h     '
+    100624: '0466_wi_h_auc_kanb   '
+    100626: '0467_wi_h_auc_dai    '
+    100628: '0468_wi_h_auc_cou    '
+    100630: '0469_wi_h_auc01h     '
+    100632: '0470_wi_h_auc02h     '
+    100634: '0471_wi_c_mado_1     '
+    100636: '0472_chok_win01      '
+    100638: '0473_wi_fountain00   '
+    100640: '0474_wi_fountain01   '
+    100642: '0475_wi_fountain00   '
+    100644: '0476_wi_h_gate03     '
+    100646: '0477_wi_fountain01   '
+    100648: '0478_wi_bri01h       '
+    100650: '0479_wi_bri02h       '
+    100652: '0480_wi_bri04h       '
+    100654: '0481_wi_bri05h       '
+    100656: '0482_wi_bri06h       '
+    100658: '0483_wi_bri07h       '
+    100660: '0484_wi_bri08h       '
+    100662: '0485_wi_bri09h       '
+    100664: '0486_wi_bri10h       '
+    100666: '0487_wi_bri11h       '
+    100668: '0488_wi_bri12h       '
+    100670: '0489_wi_bri13h       '
+    100672: '0490_wi_bri14h       '
+    100674: '0491_wi_ms_dai       '
+    100676: '0492_wi_m_ita01      '
+    100678: '0493_wi_m_ita00      '
+    100680: '0494_wi_m_ita        '
+    100682: '0495_wi_m_dai00      '
+    100684: '0496_wi_m_fukuro     '
+    100686: '0497_wi_kirisaku     '
+    100688: '0498_wi_k_tubo03     '
+    100690: '0499_wi_k_tana       '
+    100692: '0500_wi_ms_dai_1     '
+    100694: '0501_wi_bri02a       '
+    100696: '0502_wi_bri01a       '
+    100698: '0503_wi_bri04a       '
+    100700: '0504_wi_bri05a       '
+    100702: '0505_wi_bri06a       '
+    100704: '0506_wi_bri07a       '
+    100706: '0507_wi_bri08a       '
+    100708: '0508_wi_bri09a       '
+    100710: '0509_wi_bri10a       '
+    100712: '0510_wi_bri11a       '
+    100714: '0511_wi_bri12a       '
+    100716: '0512_wi_bri13a       '
+    100718: '0513_wi_bri14a       '
+    100720: '0514_wi_kirin00a     '
+    100722: '0515_wi_m_dai00a     '
+    100724: '0516_wi_m_dai01a     '
+    100726: '0517_wi_h_tent00     '
+    100728: '0518_wi_h_tent00     '
+    100730: '0519_wi_ha_saku4     '
+    100732: '0520_wi_ha_saku5     '
+    100734: '0521_wi_ms_yane      '
+    100736: '0522_wi_ms_hasira    '
+    100738: '0523_wi_ms_dai       '
+    100740: '0524_wi_ml_mado      '
+    100742: '0525_wi_ml_hasira    '
+    100744: '0526_wi_ml_body      '
+    100746: '0527_wi_g_mado       '
+    100748: '0528_wi_g_hisasi     '
+    100750: '0529_wi_g_hasira     '
+    100752: '0530_wi_c_yane00     '
+    100754: '0531_wi_c_mado       '
+    100756: '0532_wi_c_koya       '
+    100758: '0533_wi_c_hisasi01   '
+    100760: '0534_wi_c_hisasi00   '
+    100762: '0535_wi_c_hasira     '
+    100764: '0536_wi_c_dai        '
+    100766: '0537_wi_h_yatai      '
+    100768: '0538_wi_c_saku       '
+    100770: '0539_wi_c_baketu1    '
+    100772: '0540_wi_k_gate01     '
+    100774: '0541_wi_r_kasa       '
+    100776: '0542_wi_r_tukue      '
+    100778: '0543_wi_k_arch08     '
+    100780: '0544_wi_k_arch09     '
+    100782: '0545_wi_k_arch09     '
+    100784: '0546_wi_g_mado_1     '
+    100786: '0547_wi_g_hasira_1   '
+    100788: '0548_wi_c_hasira_1   '
+    100790: '0549_wi_c_mado_1     '
+    100792: '0550_wi_c_kabe_1     '
+    100794: '0551_wi_ms_hasira1   '
+    100796: '0552_wi_ml_hasira1   '
+    100798: '0553_wi_ml_body_1    '
+    100800: '0554_wi_c_koya_1     '
+    100802: '0555_wi_h_tent00     '
+    100804: '0556_wi_h_tent00     '
+    100806: '0557_wi_g_hata       '
+    100808: '0558_wi_c_yane01     '
+    100810: '0559_wi_r_bin01      '
+    100812: '0560_wi_r_bin01      '
+    100814: '0561_wi_r_bin02      '
+    100816: '0562_wi_r_hako       '
+    100818: '0563_wi_r_hako       '
+    100820: '0564_wi_r_hukuro01   '
+    100822: '0565_wi_r_kabin      '
+    100824: '0566_wi_r_kanban     '
+    100826: '0567_wi_r_kasa       '
+    100828: '0568_wi_r_kodana     '
+    100830: '0569_wi_r_komo01     '
+    100832: '0570_wi_r_komo02     '
+    100834: '0571_wi_r_komo03     '
+    100836: '0572_wi_r_oke        '
+    100838: '0573_wi_r_oke        '
+    100840: '0574_wi_r_pict       '
+    100842: '0575_wi_r_tana       '
+    100844: '0576_wi_r_tubo       '
+    100846: '0577_wi_r_tuitate    '
+    100848: '0578_wi_r_tukue      '
+    100850: '0579_wi_k_tubo03     '
+    100852: '0580_wi_k_tubo00     '
+    100854: '0581_wi_k_tubo02     '
+    100856: '0582_wi_k_kago00     '
+    100858: '0583_wi_k_kago00     '
+    100860: '0584_wi_k_tubo01     '
+    100862: '0585_wi_k_ramp       '
+    100864: '0586_wi_k_hako00     '
+    100866: '0587_wi_k_dai        '
+    100868: '0588_wi_k_hako01     '
+    100870: '0589_wi_r_ramp       '
+    100872: '0590_wi_k_kago01     '
+    100874: '0591_wi_k_tubo04     '
+    100876: '0592_wi_k_f_hand     '
+    100878: '0593_wi_k_dai00      '
+    100880: '0594_wi_h_tent03     '
+    100882: '0595_wi_h_tent01     '
+    100884: '0596_wi_h_tent01     '
+    100886: '0597_wi_ms_yane      '
+    100888: '0598_wi_ml_yane      '
+    100890: '0599_wi_m_nuno       '
+    100892: '0600_wi_h_yatai      '
+    100894: '0601_wi_h_tent02     '
+    100896: '0602_wi_r_kasa       '
+    100898: '0603_wi_h_tent04     '
+    100900: '0604_wi_ml_yane_1    '
+    100902: '0605_wi_h_myroom00   '
+    100904: '0606_wi_h_myroom04   '
+    100906: '0607_wi_h_myroom00_1 '
+    100908: '0608_wi_h_myroom00   '
+    100910: '0609_wi_h_myroom01   '
+    100912: '0610_wi_h_myroom03   '
+    100914: '0611_wi_h_myroom00_2 '
+    100916: '0614_wi_kirin00h     '
+    100918: '0615_wi_ha_door      '
+    100920: '0616_wi_ha_saku3     '
+    100922: '0617_wi_ha_saku2     '
+    100924: '0618_wi_ha_saku      '
+    100926: '0619_wi_ml_yane      '
+    100928: '0620_wi_ml_hasira    '
+    100930: '0621_wi_ml_body      '
+    100932: '0622_wi_m_dai01      '
+    100934: '0623_wi_m_dai00      '
+    100936: '0624_wi_g_yane       '
+    100938: '0625_wi_g_ita        '
+    100940: '0626_wi_g_hisasi     '
+    100942: '0627_wi_g_body       '
+    100944: '0628_wi_i_gild00     '
+    100946: '0629_wi_i_gild       '
+    100948: '0630_wi_i_gild01     '
+    100950: '0631_wi_i_choco      '
+    100952: '0632_wi_c_yane00     '
+    100954: '0633_wi_c_kabe       '
+    100956: '0634_wi_c_hisasi01   '
+    100958: '0635_wi_c_hisasi00   '
+    100960: '0636_wi_c_dai        '
+    100962: '0637_wi_h_yatai      '
+    100964: '0638_wi_c_esa6       '
+    100966: '0639_wi_g_ita_1      '
+    100968: '0640_wi_g_body_1     '
+    100970: '0641_wi_c_dai_1      '
+    100972: '0642_wi_c_kabe_1     '
+    100974: '0643_wi_ml_body_1    '
+    100976: '0644_wi_m_dai00_1    '
+    100978: '0645_wi_c_koya_1     '
+    100980: '0646_wi_m_dai01_1    '
+    100982: '0647_wi_kirin00a     '
+    100984: '0648_wi_m_dai00a     '
+    100986: '0649_wi_m_dai01a     '
+    100988: '0650__win_w04l       '
+    100990: '0651__win_w04l       '
+    100992: '0652__win_w04l       '
+    100994: '0653__win_w05l       '
+    100996: '0654__win_w05l       '
+    100998: '0655__win_w05l       '
+    101000: '0656__win_w03l       '
+    101002: '0657__win_w03l       '
+    101004: '0658__win_w03l       '
+    101006: '0659__wi_wood        '
+    101008: '0660__wi_kikabe      '
+    101010: '0661__wi_kikabe      '
+    101012: '0662__wi_kikabe      '
+    101014: '0663_wi_k_arch01     '
+    101016: '0664_wi_k_arch02     '
+    101018: '0665_wi_k_arch03     '
+    101020: '0666_wi_k_arch05     '
+    101022: '0667_wi_k_arch04     '
+    101024: '0668_wi_k_arch04     '
+    101026: '0669_wi_ml_yane      '
+    101028: '0670_wi_m_nuno       '
+    101030: '0671_wi_g_k_ori0     '
+    101032: '0672_wi_g_hata       '
+    101034: '0673_wi_g_k_ori1     '
+    101036: '0674_wi_g_k_hone     '
+    101038: '0675_wi_g_k_zatu     '
+    101040: '0676_wi_c_yane01     '
+    101042: '0677_wi_k_mon        '
+    101044: '0678_wi_k_in00h      '
+    101046: '0679_wi_k_gate01     '
+    101048: '0680_wi_r_kanban     '
+    101050: '0681_wi_r_tana       '
+    101052: '0682_wi_k_flag00h    '
+    101054: '0683_wi_k_ramp       '
+    101056: '0684_wi_k_f_gate     '
+    101058: '0685_wi_c_kanban     '
+    101060: '0686_wi_g_hasira_1   '
+    101062: '0687_wi_k_aucknb00   '
+    101064: '0688_wi_k_aucknb01   '
+    101066: '0689_wi_k_ktori      '
+    101068: '0690_wi_k_kthone     '
+    101070: '0691_wi_k_ktzatu     '
+    101072: '0692_wi_k_ktchoco    '
+    101074: '0693_wi_k_ktkus      '
+    101076: '0694_wi_k_arch01     '
+    101078: '0695_wi_k_arch03     '
+    101080: '0696_wi_k_arch05     '
+    101082: '0697_wi_k_arch04     '
+    101084: '0698_wi_k_arch04     '
+    101086: '0699_wi_k_in00h      '
+    101088: '0700_wi_k_gate00     '
+    101090: '0701_wi_k_ryojih     '
+    101092: '0702_wi_k_myroom00   '
+    101094: '0703_wi_r_hukuro01   '
+    101096: '0704_wi_r_komo01     '
+    101098: '0705_wi_r_komo02     '
+    101100: '0706_wi_r_komo03     '
+    101102: '0707_wi_k_arch08     '
+    101104: '0708_wi_k_flag00h    '
+    101106: '0709_wi_r_ramp       '
+    101108: '0710_wi_k_arch01     '
+    101110: '0711_wi_k_arch02     '
+    101112: 0711_wi_k_arch02    !
+    101114: '0712_wi_g_k_ori0     '
+    101116: '0713_wi_g_k_ori1     '
+    101118: '0714_wi_g_k_hone     '
+    101120: '0715_wi_k_mon        '
+    101122: '0716_wi_k_gate00     '
+    101124: '0717_wi_k_gate01     '
+    101126: '0718_wi_k_ryojih     '
+    101128: '0719_wi_r_kanban     '
+    101130: '0720_wi_k_aucknb00   '
+    101132: '0721_wi_k_aucknb01   '
+    101134: '0722_wi_k_kthone     '
+    101136: '0723_wi_ha_door      '
+    101138: '0724_wi_ms_yane      '
+    101140: '0725_wi_m_isu        '
+    101142: '0726_wi_m_tabel      '
+    101144: '0727_wi_m_tubo       '
+    101146: '0728_wi_d_choco      '
+    101148: '0729_wi_d_choco      '
+    101150: '0730_wi_m_kago       '
+    101152: '0731_wi_h_yatai      '
+    101154: '0732_wi_m_fukuro     '
+    101156: '0733_wi_d_in1f       '
+    101158: '0734_wi_d_in2f       '
+    101160: '0735_wi_r_kasa       '
+    101162: '0736_wi_k_yumidai    '
+    101164: '0737_wi_k_yumi       '
+    101166: '0738_wi_k_ya         '
+    101168: '0739_wi_ml_body_1    '
+    101170: '0740_wi_ha_saku3     '
+    101172: '0741_wi_ha_saku      '
+    101174: '0742_wi_ms_dai       '
+    101176: '0743_wi_ms_body      '
+    101178: '0744_wi_ml_body      '
+    101180: '0745_wi_g_body       '
+    101182: '0746_wi_c_koya       '
+    101184: '0747_wi_c_kabe       '
+    101186: '0748_wi_g_body_1     '
+    101188: '0749_wi_c_kabe_1     '
+    101190: '0750_wi_ms_body_1    '
+    101192: '0751_wi_ml_body_1    '
+    101194: '0752_wi_c_koya_1     '
+    101196: '0753_wi_ms_yane      '
+    101198: '0754_wi_ml_yane      '
+    101200: '0755_wi_ml_mado      '
+    101202: '0756_wi_g_yane       '
+    101204: '0757_wi_g_mado       '
+    101206: '0758_wi_g_hisasi     '
+    101208: '0759_wi_c_yane00     '
+    101210: '0760_wi_c_hisasi01   '
+    101212: '0761_wi_c_hisasi00   '
+    101214: '0762_wi_ml_yane      '
+    101216: '0763_wi_ml_yane      '
+    101218: '0764_wi_ml_mado      '
+    101220: '0765_wi_g_mado       '
+    101222: '0766_wi_c_yane01     '
+    101224: '0767_wi_c_mado       '
+    101226: '0768_wi_h_yatai      '
+    101228: '0769_wi_c_baketu1    '
+    101230: '0770_wi_c_ballel1    '
+    101232: '0771_wi_c_barrel2    '
+    101234: '0772_wi_c_box01      '
+    101236: '0773_wi_c_box01      '
+    101238: '0774_wi_c_esa6       '
+    101240: '0775_wi_c_fork       '
+    101242: '0776_wi_c_scoop1     '
+    101244: '0777_wi_c_scoop2     '
+    101246: '0778_wi_kirisaku     '
+    101248: '0779_wi_r_kasa       '
+    101250: '0780_wi_h_tentka     '
+    101252: '0781_wi_ha_saku4_1   '
+    101254: '0782_wi_g_k_ori0     '
+    101256: '0783_wi_g_k_ori1     '
+    101258: '0784_wi_g_k_hone     '
+    101260: '0785_wi_g_k_zatu     '
+    101262: '0786_wi_h_yatai      '
+    101264: '0787_wi_k_in00h      '
+    101266: '0788_wi_k_ryojih     '
+    101268: '0789_wi_k_f_gate     '
+    101270: '0790_wi_c_kanban     '
+    101272: '0791_wi_k_f_hand     '
+    101274: '0792_wi_k_aucknb00   '
+    101276: '0793_wi_k_aucknb01   '
+    101278: '0794_wi_k_ktori      '
+    101280: '0795_wi_k_kthone     '
+    101282: '0796_wi_k_ktzatu     '
+    101284: '0797_wi_k_ktchoco    '
+    101286: '0798_wi_k_ktkus      '
+    101288: '0799_wi_d_gild       '
+    101290: '0800_wi_d_gild       '
+    101292: '0801_wi_d_choco      '
+    101294: '0802_wi_d_choco      '
+    101296: '0803_wi_c_koya       '
+    101298: '0804_wi_d_in1f       '
+    101300: '0805_wi_d_in2f       '
+    101302: '0806_wi_d_gate       '
+    101304: '0807_wi_d_ryof1      '
+    101306: '0808_wi_c_hasira_1   '
+    101308: '0809_wi_ms_body_1    '
+    101310: '0810_chok_win01      '
+    101312: '0811_wi_d_gild       '
+    101314: '0812_wi_d_gild       '
+    101316: '0813_wi_d_choco      '
+    101318: '0814_wi_d_choco      '
+    101320: '0815_wi_d_in1f       '
+    101322: '0816_wi_d_ryof1      '
+    101324: '0817_wi_d_ryof1_2    '
+    101326: '0818_wi_d_choco      '
+    101328: '0819_wi_d_choco      '
+    101330: '0820_wi_d_in1f       '
+    101332: '0821__win_m01_h      '
+    101334: '0822__win_m01_h      '
+    101336: '0823__win_m01_t      '
+    101338: '0824__win_m02        '
+    101340: '0825__wi_kusa01      '
+    101342: '0826__wi_kusa01      '
+    101344: polySurface1
+    101346: polySurface10
+    101348: polySurface100
+    101350: polySurface101
+    101352: polySurface102
+    101354: polySurface103
+    101356: polySurface104
+    101358: polySurface105
+    101360: polySurface106
+    101362: polySurface107
+    101364: polySurface108
+    101366: polySurface109
+    101368: polySurface11
+    101370: polySurface110
+    101372: polySurface111
+    101374: polySurface112
+    101376: polySurface113
+    101378: polySurface114
+    101380: polySurface115
+    101382: polySurface116
+    101384: polySurface117
+    101386: polySurface118
+    101388: polySurface119
+    101390: polySurface12
+    101392: polySurface120
+    101394: polySurface121
+    101396: polySurface122
+    101398: polySurface123
+    101400: polySurface124
+    101402: polySurface125
+    101404: polySurface126
+    101406: polySurface127
+    101408: polySurface128
+    101410: polySurface129
+    101412: polySurface13
+    101414: polySurface130
+    101416: polySurface131
+    101418: polySurface132
+    101420: polySurface133
+    101422: polySurface134
+    101424: polySurface135
+    101426: polySurface136
+    101428: polySurface137
+    101430: polySurface138
+    101432: polySurface139
+    101434: polySurface14
+    101436: polySurface140
+    101438: polySurface141
+    101440: polySurface142
+    101442: polySurface143
+    101444: polySurface144
+    101446: polySurface145
+    101448: polySurface146
+    101450: polySurface147
+    101452: polySurface148
+    101454: polySurface149
+    101456: polySurface15
+    101458: polySurface150
+    101460: polySurface16
+    101462: polySurface17
+    101464: polySurface18
+    101466: polySurface19
+    101468: polySurface2
+    101470: polySurface20
+    101472: polySurface21
+    101474: polySurface22
+    101476: polySurface23
+    101478: polySurface24
+    101480: polySurface25
+    101482: polySurface26
+    101484: polySurface27
+    101486: polySurface28
+    101488: polySurface29
+    101490: polySurface3
+    101492: polySurface30
+    101494: polySurface31
+    101496: polySurface32
+    101498: polySurface33
+    101500: polySurface34
+    101502: polySurface35
+    101504: polySurface36
+    101506: polySurface37
+    101508: polySurface38
+    101510: polySurface39
+    101512: polySurface4
+    101514: polySurface40
+    101516: polySurface41
+    101518: polySurface42
+    101520: polySurface43
+    101522: polySurface44
+    101524: polySurface45
+    101526: polySurface46
+    101528: polySurface47
+    101530: polySurface48
+    101532: polySurface49
+    101534: polySurface5
+    101536: polySurface50
+    101538: polySurface51
+    101540: polySurface52
+    101542: polySurface53
+    101544: polySurface54
+    101546: polySurface55
+    101548: polySurface56
+    101550: polySurface57
+    101552: polySurface58
+    101554: polySurface59
+    101556: polySurface6
+    101558: polySurface60
+    101560: polySurface61
+    101562: polySurface62
+    101564: polySurface63
+    101566: polySurface64
+    101568: polySurface65
+    101570: polySurface66
+    101572: polySurface67
+    101574: polySurface68
+    101576: polySurface69
+    101578: polySurface7
+    101580: polySurface70
+    101582: polySurface71
+    101584: polySurface72
+    101586: polySurface73
+    101588: polySurface74
+    101590: polySurface75
+    101592: polySurface76
+    101594: polySurface77
+    101596: polySurface78
+    101598: polySurface79
+    101600: polySurface8
+    101602: polySurface80
+    101604: polySurface81
+    101606: polySurface82
+    101608: polySurface83
+    101610: polySurface84
+    101612: polySurface85
+    101614: polySurface86
+    101616: polySurface87
+    101618: polySurface88
+    101620: polySurface89
+    101622: polySurface9
+    101624: polySurface90
+    101626: polySurface91
+    101628: polySurface92
+    101630: polySurface93
+    101632: polySurface94
+    101634: polySurface95
+    101636: polySurface96
+    101638: polySurface97
+    101640: polySurface98
+    101642: polySurface99
+    101644: pPlane1
+    101646: pPlane2
+    101648: pPlane3
+    101650: pPlane4
+    101652: pPlane5
+    101654: //RootNode
+    101656: transform1
+    101658: transform100
+    101660: transform101
+    101662: transform102
+    101664: transform103
+    101666: transform104
+    101668: transform105
+    101670: transform106
+    101672: transform107
+    101674: transform108
+    101676: transform109
+    101678: transform110
+    101680: transform111
+    101682: transform112
+    101684: transform113
+    101686: transform114
+    101688: transform115
+    101690: transform116
+    101692: transform117
+    101694: transform118
+    101696: transform119
+    101698: transform120
+    101700: transform121
+    101702: transform122
+    101704: transform123
+    101706: transform124
+    101708: transform125
+    101710: transform126
+    101712: transform127
+    101714: transform128
+    101716: transform129
+    101718: transform130
+    101720: transform131
+    101722: transform132
+    101724: transform133
+    101726: transform134
+    101728: transform135
+    101730: transform136
+    101732: transform137
+    101734: transform138
+    101736: transform139
+    101738: transform140
+    101740: transform141
+    101742: transform142
+    101744: transform143
+    101746: transform144
+    101748: transform145
+    101750: transform146
+    101752: transform147
+    101754: transform148
+    101756: transform149
+    101758: transform150
+    101760: transform151
+    101762: transform152
+    101764: transform153
+    101766: transform154
+    101768: transform155
+    101770: transform156
+    101772: transform157
+    101774: transform158
+    101776: transform159
+    101778: transform160
+    101780: transform161
+    101782: transform162
+    101784: transform163
+    101786: transform164
+    101788: transform165
+    101790: transform166
+    101792: transform167
+    101794: transform168
+    101796: transform169
+    101798: transform170
+    101800: transform171
+    101802: transform172
+    101804: transform173
+    101806: transform174
+    101808: transform175
+    101810: transform176
+    101812: transform177
+    101814: transform178
+    101816: transform179
+    101818: transform180
+    101820: transform181
+    101822: transform182
+    101824: transform183
+    101826: transform184
+    101828: transform185
+    101830: transform186
+    101832: transform187
+    101834: transform188
+    101836: transform189
+    101838: transform19
+    101840: transform190
+    101842: transform191
+    101844: transform192
+    101846: transform193
+    101848: transform194
+    101850: transform195
+    101852: transform196
+    101854: transform197
+    101856: transform198
+    101858: transform199
+    101860: transform2
+    101862: transform20
+    101864: transform200
+    101866: transform201
+    101868: transform202
+    101870: transform203
+    101872: transform204
+    101874: transform205
+    101876: transform206
+    101878: transform207
+    101880: transform208
+    101882: transform209
+    101884: transform21
+    101886: transform210
+    101888: transform211
+    101890: transform212
+    101892: transform213
+    101894: transform214
+    101896: transform215
+    101898: transform216
+    101900: transform217
+    101902: transform218
+    101904: transform219
+    101906: transform22
+    101908: transform220
+    101910: transform221
+    101912: transform222
+    101914: transform223
+    101916: transform224
+    101918: transform225
+    101920: transform226
+    101922: transform227
+    101924: transform228
+    101926: transform229
+    101928: transform23
+    101930: transform230
+    101932: transform231
+    101934: transform232
+    101936: transform233
+    101938: transform234
+    101940: transform235
+    101942: transform236
+    101944: transform237
+    101946: transform238
+    101948: transform239
+    101950: transform24
+    101952: transform240
+    101954: transform241
+    101956: transform242
+    101958: transform243
+    101960: transform244
+    101962: transform245
+    101964: transform246
+    101966: transform247
+    101968: transform248
+    101970: transform249
+    101972: transform25
+    101974: transform250
+    101976: transform251
+    101978: transform252
+    101980: transform253
+    101982: transform254
+    101984: transform255
+    101986: transform256
+    101988: transform257
+    101990: transform258
+    101992: transform259
+    101994: transform26
+    101996: transform260
+    101998: transform261
+    102000: transform262
+    102002: transform263
+    102004: transform264
+    102006: transform265
+    102008: transform266
+    102010: transform267
+    102012: transform268
+    102014: transform269
+    102016: transform27
+    102018: transform270
+    102020: transform271
+    102022: transform272
+    102024: transform273
+    102026: transform274
+    102028: transform275
+    102030: transform276
+    102032: transform277
+    102034: transform278
+    102036: transform279
+    102038: transform28
+    102040: transform280
+    102042: transform281
+    102044: transform282
+    102046: transform283
+    102048: transform284
+    102050: transform285
+    102052: transform286
+    102054: transform287
+    102056: transform288
+    102058: transform289
+    102060: transform29
+    102062: transform290
+    102064: transform291
+    102066: transform292
+    102068: transform293
+    102070: transform294
+    102072: transform295
+    102074: transform296
+    102076: transform297
+    102078: transform298
+    102080: transform299
+    102082: transform3
+    102084: transform30
+    102086: transform300
+    102088: transform301
+    102090: transform302
+    102092: transform303
+    102094: transform304
+    102096: transform305
+    102098: transform306
+    102100: transform307
+    102102: transform308
+    102104: transform309
+    102106: transform31
+    102108: transform310
+    102110: transform311
+    102112: transform312
+    102114: transform313
+    102116: transform314
+    102118: transform315
+    102120: transform316
+    102122: transform317
+    102124: transform318
+    102126: transform319
+    102128: transform32
+    102130: transform320
+    102132: transform321
+    102134: transform322
+    102136: transform323
+    102138: transform324
+    102140: transform325
+    102142: transform326
+    102144: transform327
+    102146: transform328
+    102148: transform329
+    102150: transform33
+    102152: transform330
+    102154: transform331
+    102156: transform332
+    102158: transform333
+    102160: transform334
+    102162: transform335
+    102164: transform336
+    102166: transform337
+    102168: transform338
+    102170: transform339
+    102172: transform34
+    102174: transform340
+    102176: transform341
+    102178: transform342
+    102180: transform343
+    102182: transform344
+    102184: transform345
+    102186: transform346
+    102188: transform347
+    102190: transform348
+    102192: transform349
+    102194: transform35
+    102196: transform350
+    102198: transform351
+    102200: transform352
+    102202: transform353
+    102204: transform354
+    102206: transform355
+    102208: transform356
+    102210: transform357
+    102212: transform358
+    102214: transform359
+    102216: transform36
+    102218: transform360
+    102220: transform361
+    102222: transform362
+    102224: transform363
+    102226: transform364
+    102228: transform365
+    102230: transform366
+    102232: transform367
+    102234: transform368
+    102236: transform369
+    102238: transform37
+    102240: transform370
+    102242: transform371
+    102244: transform372
+    102246: transform373
+    102248: transform374
+    102250: transform375
+    102252: transform376
+    102254: transform377
+    102256: transform378
+    102258: transform379
+    102260: transform38
+    102262: transform380
+    102264: transform39
+    102266: transform4
+    102268: transform40
+    102270: transform41
+    102272: transform42
+    102274: transform43
+    102276: transform44
+    102278: transform45
+    102280: transform46
+    102282: transform47
+    102284: transform48
+    102286: transform49
+    102288: transform5
+    102290: transform50
+    102292: transform51
+    102294: transform52
+    102296: transform53
+    102298: transform54
+    102300: transform55
+    102302: transform56
+    102304: transform57
+    102306: transform58
+    102308: transform59
+    102310: transform6
+    102312: transform60
+    102314: transform61
+    102316: transform62
+    102318: transform63
+    102320: transform64
+    102322: transform65
+    102324: transform66
+    102326: transform67
+    102328: transform68
+    102330: transform69
+    102332: transform7
+    102334: transform70
+    102336: transform71
+    102338: transform72
+    102340: transform73
+    102342: transform74
+    102344: transform75
+    102346: transform76
+    102348: transform77
+    102350: transform78
+    102352: transform79
+    102354: transform8
+    102356: transform80
+    102358: transform81
+    102360: transform82
+    102362: transform83
+    102364: transform84
+    102366: transform85
+    102368: transform86
+    102370: transform87
+    102372: transform88
+    102374: transform89
+    102376: transform90
+    102378: transform91
+    102380: transform92
+    102382: transform93
+    102384: transform94
+    102386: transform95
+    102388: transform96
+    102390: transform97
+    102392: transform98
+    102394: transform99
+    400000: '0000_wi_hand00       '
+    400002: '0001_wi_hand01       '
+    400004: 0001_wi_hand01      !
+    400006: '0002_wi_hand02       '
+    400008: '0003_wi_hand03       '
+    400010: '0004_wi_hand04       '
+    400012: '0005_wi_hand05       '
+    400014: '0006_wi_hand06       '
+    400016: '0007_wi_hand07       '
+    400018: '0008_wi_hand08       '
+    400020: '0009_wi_hand09       '
+    400022: '0010_wi_hand10       '
+    400024: '0011_wi_hand11       '
+    400026: '0012_wi_hand12       '
+    400028: '0013_wi_hand13       '
+    400030: '0014_wi_hand14       '
+    400032: '0015_wi_hand15       '
+    400034: '0016_wi_hand16       '
+    400036: '0017_wi_hand17       '
+    400038: '0018_wi_hand18       '
+    400040: '0019_wi_hand19       '
+    400042: '0020_wi_hand20       '
+    400044: '0021_wi_hand21       '
+    400046: '0022_wi_hand22       '
+    400048: '0023_wi_hand23       '
+    400050: '0024_wi_hand24       '
+    400052: '0025_wi_hand25       '
+    400054: '0026_wi_hand26       '
+    400056: '0027_wi_hand27       '
+    400058: '0028_wi_hand28       '
+    400060: '0029_wi_hand29       '
+    400062: '0030_wi_misr01       '
+    400064: '0031_wi_misr00       '
+    400066: '0032_wi_misr02       '
+    400068: '0033_wi_misr03       '
+    400070: '0034_wi_misr04       '
+    400072: '0035_wi_misr05       '
+    400074: '0036_wi_misr06       '
+    400076: '0037_wi_misr09       '
+    400078: '0038_wi_misr15       '
+    400080: '0039_wi_my01         '
+    400082: '0040_wi_my03         '
+    400084: '0041_wi_mish01       '
+    400086: '0042_wi_z_jmp01      '
+    400088: '0043_wi_hand13_3     '
+    400090: '0044_wi_hand17_1     '
+    400092: '0045_wi_misr01_2     '
+    400094: '0046_wi_misr00_1     '
+    400096: '0047_wi_misr01_1     '
+    400098: '0048_wi_hand7_1      '
+    400100: '0049_wi_hand25_1     '
+    400102: '0050_wi_hand15_1     '
+    400104: '0051_wi_hand13_2     '
+    400106: '0052_wi_hand00       '
+    400108: '0053_wi_hand01       '
+    400110: '0054_wi_hand02       '
+    400112: '0055_wi_hand03       '
+    400114: '0056_wi_hand04       '
+    400116: '0057_wi_hand05       '
+    400118: '0058_wi_hand06       '
+    400120: '0059_wi_hand07       '
+    400122: '0060_wi_hand08       '
+    400124: '0061_wi_hand09       '
+    400126: '0062_wi_hand10       '
+    400128: '0063_wi_hand11       '
+    400130: '0064_wi_hand12       '
+    400132: '0065_wi_hand14       '
+    400134: '0066_wi_hand15       '
+    400136: '0067_wi_hand16       '
+    400138: '0068_wi_hand17       '
+    400140: '0069_wi_hand18       '
+    400142: '0070_wi_hand19       '
+    400144: '0071_wi_hand20       '
+    400146: '0072_wi_hand21       '
+    400148: '0073_wi_hand22       '
+    400150: '0074_wi_hand23       '
+    400152: '0075_wi_hand24       '
+    400154: '0076_wi_hand25       '
+    400156: '0077_wi_hand26       '
+    400158: '0078_wi_hand27       '
+    400160: '0079_wi_hand28       '
+    400162: '0080_wi_hand29       '
+    400164: '0081_wi_misr01       '
+    400166: '0082_wi_misr00       '
+    400168: '0083_wi_misr02       '
+    400170: '0084_wi_misr03       '
+    400172: '0085_wi_misr04       '
+    400174: '0086_wi_misr05       '
+    400176: '0087_wi_misr06       '
+    400178: '0088_wi_misr07       '
+    400180: '0089_wi_misr08       '
+    400182: '0090_wi_misr09       '
+    400184: '0091_wi_misr10       '
+    400186: '0092_wi_misr11       '
+    400188: '0093_wi_misr12       '
+    400190: '0094_wi_misr14       '
+    400192: '0095_wi_misr15       '
+    400194: '0096_wi_my01         '
+    400196: '0097_wi_my03         '
+    400198: '0098_wi_mish00       '
+    400200: '0099_wi_mish01       '
+    400202: '0100_wi_mish02       '
+    400204: '0101_wi_mish03       '
+    400206: '0102_wi_z_jmp01      '
+    400208: '0103_wi_z_jmp02      '
+    400210: '0104_wi_misr09_1     '
+    400212: '0105_wi_hand17_1     '
+    400214: '0106_wi_misr01_2     '
+    400216: '0107_wi_hand00       '
+    400218: '0108_wi_hand01       '
+    400220: '0109_wi_hand02       '
+    400222: '0110_wi_hand03       '
+    400224: '0111_wi_hand04       '
+    400226: '0112_wi_hand05       '
+    400228: '0113_wi_hand06       '
+    400230: '0114_wi_hand07       '
+    400232: '0115_wi_hand08       '
+    400234: '0116_wi_hand09       '
+    400236: '0117_wi_hand10       '
+    400238: '0118_wi_hand11       '
+    400240: '0119_wi_hand12       '
+    400242: '0120_wi_hand13       '
+    400244: '0121_wi_hand14       '
+    400246: '0122_wi_hand15       '
+    400248: '0123_wi_hand16       '
+    400250: '0124_wi_hand17       '
+    400252: '0125_wi_hand18       '
+    400254: '0126_wi_hand19       '
+    400256: '0127_wi_hand20       '
+    400258: '0128_wi_hand21       '
+    400260: '0129_wi_hand22       '
+    400262: '0130_wi_hand23       '
+    400264: '0131_wi_hand24       '
+    400266: '0132_wi_hand25       '
+    400268: '0133_wi_hand26       '
+    400270: '0134_wi_hand27       '
+    400272: '0135_wi_hand28       '
+    400274: '0136_wi_hand29       '
+    400276: '0137_wi_misr01       '
+    400278: '0138_wi_misr00       '
+    400280: '0139_wi_misr02       '
+    400282: '0140_wi_misr03       '
+    400284: '0141_wi_misr04       '
+    400286: '0142_wi_misr05       '
+    400288: '0143_wi_misr06       '
+    400290: '0144_wi_misr07       '
+    400292: '0145_wi_misr08       '
+    400294: '0146_wi_misr09       '
+    400296: '0147_wi_misr10       '
+    400298: '0148_wi_misr11       '
+    400300: '0149_wi_misr12       '
+    400302: '0150_wi_misr14       '
+    400304: '0151_wi_misr15       '
+    400306: '0152_wi_my01         '
+    400308: '0153_wi_my03         '
+    400310: '0154_wi_mish00       '
+    400312: '0155_wi_mish01       '
+    400314: '0156_wi_mish02       '
+    400316: '0157_wi_mish03       '
+    400318: '0158_wi_z_jmp01      '
+    400320: '0159_wi_z_jmp02      '
+    400322: '0160_wi_misr09_1     '
+    400324: '0161_wi_hand13_3     '
+    400326: '0162_wi_misr01_2     '
+    400328: '0163_wi_hand13_1     '
+    400330: '0164_wi_misr00_1     '
+    400332: '0165_wi_hand29_1     '
+    400334: '0166_wi_hand19_1     '
+    400336: '0167_wi_hand13_2     '
+    400338: '0178_wi_hand10       '
+    400340: '0192_wi_hand24       '
+    400342: '0225_wi_hand13_1     '
+    400344: '0235_wi_my01_1       '
+    400346: '0237_wi_hand29_1     '
+    400348: '0238_wi_hand26_2     '
+    400350: '0239_wi_hand26_1     '
+    400352: '0240_wi_hand20_1     '
+    400354: '0241_wi_hand19_1     '
+    400356: '0243_wi_hand14_1     '
+    400358: '0244_wi_hand13_2     '
+    400360: '0245_wi_my03_1       '
+    400362: '0247_wi_hand01       '
+    400364: '0248_wi_hand03       '
+    400366: '0253_wi_hand10       '
+    400368: '0254_wi_hand11       '
+    400370: '0259_wi_hand18       '
+    400372: '0271_wi_misr05       '
+    400374: '0273_wi_misr09       '
+    400376: '0277_wi_hand13_1     '
+    400378: '0278_wi_hand7_1      '
+    400380: '0281_wi_hand15_1     '
+    400382: '0282_wi_hand14_1     '
+    400384: '0283_chok_win01      '
+    400386: '0284_wi_hand01       '
+    400388: '0293_wi_hand10       '
+    400390: '0318_wi_misr05       '
+    400392: '0320_wi_misr08       '
+    400394: '0323_wi_misr11       '
+    400396: '0334_wi_z_jmp02      '
+    400398: '0336_wi_misr01_2     '
+    400400: '0337_wi_hand13_1     '
+    400402: '0338_wi_misr00_1     '
+    400404: '0339_wi_misr01_1     '
+    400406: '0340_wi_hand7_1      '
+    400408: '0341_wi_hand29_1     '
+    400410: '0342_wi_hand26_2     '
+    400412: '0343_wi_hand19_1     '
+    400414: '0344_wi_hand05       '
+    400416: '0345_wi_hand14       '
+    400418: '0346_wi_hand20       '
+    400420: '0347_wi_hand26       '
+    400422: '0348_wi_misr04       '
+    400424: '0349_wi_misr07       '
+    400426: '0350_wi_misr08       '
+    400428: '0351_wi_misr10       '
+    400430: '0352_wi_fountain01   '
+    400432: '0353_wi_hand05       '
+    400434: '0354_wi_hand14       '
+    400436: '0356_wi_hand13_1     '
+    400438: '0357_wi_fountain00   '
+    400440: '0358_wi_hand07       '
+    400442: '0359_wi_hand15       '
+    400444: '0360_wi_h_ryoji00h   '
+    400446: '0361_wi_h_in00       '
+    400448: '0362_wi_h_auc00h     '
+    400450: '0363_wi_h_gate00     '
+    400452: '0364_wi_h_gate00     '
+    400454: '0365_wi_h_gate03     '
+    400456: '0366_wi_h_myroom00   '
+    400458: '0367_wi_i_ryj00      '
+    400460: '0368_wi_i_inf0       '
+    400462: '0369_wi_i_inf1       '
+    400464: '0370_wi_h_auc01h     '
+    400466: '0371_wi_h_auc02h     '
+    400468: '0372_wi_h_myroom00_2 '
+    400470: '0373_wi_h_in00_1     '
+    400472: '0374_wi_h_in00_2     '
+    400474: '0375_wi_h_ryoji01h   '
+    400476: '0376_chok_win01      '
+    400478: '0377_chok_win02      '
+    400480: '0381_wi_h_auc00h     '
+    400482: '0382_wi_h_gate03     '
+    400484: '0383_wi_h_myroom04   '
+    400486: '0388_chok_win01      '
+    400488: '0389_chok_win02      '
+    400490: '0390_wi_hand17       '
+    400492: '0391_wi_hand17_1     '
+    400494: '0394_wi_hand20       '
+    400496: '0395_wi_misr04       '
+    400498: '0396_wi_misr07       '
+    400500: '0397_wi_misr08       '
+    400502: '0398_wi_misr10       '
+    400504: '0399_wi_hand20       '
+    400506: '0401_wi_hand13_1     '
+    400508: '0402_wi_misr04       '
+    400510: '0403_wi_k_arch05     '
+    400512: '0404_wi_r_hukuro01   '
+    400514: '0405_wi_r_kanban     '
+    400516: '0406_wi_r_komo02     '
+    400518: '0407_wi_r_komo03     '
+    400520: '0408_wi_k_aucknb01   '
+    400522: '0409_wi_h_ryoji00h   '
+    400524: '0410_wi_h_in00       '
+    400526: '0411_wi_h_auc00h     '
+    400528: '0412_wi_h_gate01     '
+    400530: '0413_wi_h_gate00     '
+    400532: '0414_wi_h_gate00     '
+    400534: '0415_wi_h_gate03     '
+    400536: '0416_wi_h_myroom00   '
+    400538: '0417_wi_i_inf0       '
+    400540: '0418_wi_i_inf1       '
+    400542: '0419_wi_h_auc01h     '
+    400544: '0420_wi_h_auc02h     '
+    400546: '0421_wi_h_myroom00_2 '
+    400548: '0422_wi_h_gate02     '
+    400550: '0423_wi_h_in00_1     '
+    400552: '0424_wi_h_in00_2     '
+    400554: '0425_wi_h_ryoji01h   '
+    400556: '0426_wi_i_arai01     '
+    400558: '0427_wi_i_table      '
+    400560: '0428_chok_win01      '
+    400562: '0429_chok_win02      '
+    400564: '0432_wi_h_auc00h     '
+    400566: '0434_wi_h_myroom04   '
+    400568: '0435_wi_h_auc01h     '
+    400570: '0437_wi_h_myroom00_1 '
+    400572: '0438_wi_h_myroom00_2 '
+    400574: '0441_wi_h_in00       '
+    400576: '0442_wi_h_gate01     '
+    400578: '0443_wi_h_gate00     '
+    400580: '0444_wi_h_gate00     '
+    400582: '0445_wi_h_gate03     '
+    400584: '0446_wi_ha_saku2     '
+    400586: '0447_wi_h_gate02     '
+    400588: '0448_wi_h_in00_1     '
+    400590: '0449_wi_h_in00_2     '
+    400592: '0450_chok_win01      '
+    400594: '0451_chok_win02      '
+    400596: '0452_wi_h_in00       '
+    400598: '0453_wi_h_tent00     '
+    400600: '0454_wi_h_tent00     '
+    400602: '0455_wi_k_arch05     '
+    400604: '0456_wi_ml_yane      '
+    400606: '0457_wi_g_hata       '
+    400608: '0458_wi_c_yane01     '
+    400610: '0459_wi_r_kasa       '
+    400612: '0460_wi_r_tana       '
+    400614: '0461_wi_r_tukue      '
+    400616: '0462_wi_k_f_gate     '
+    400618: '0463_wi_k_f_hand     '
+    400620: '0464_wi_c_koya_1     '
+    400622: '0465_wi_h_auc00h     '
+    400624: '0466_wi_h_auc_kanb   '
+    400626: '0467_wi_h_auc_dai    '
+    400628: '0468_wi_h_auc_cou    '
+    400630: '0469_wi_h_auc01h     '
+    400632: '0470_wi_h_auc02h     '
+    400634: '0471_wi_c_mado_1     '
+    400636: '0472_chok_win01      '
+    400638: '0473_wi_fountain00   '
+    400640: '0474_wi_fountain01   '
+    400642: '0475_wi_fountain00   '
+    400644: '0476_wi_h_gate03     '
+    400646: '0477_wi_fountain01   '
+    400648: '0478_wi_bri01h       '
+    400650: '0479_wi_bri02h       '
+    400652: '0480_wi_bri04h       '
+    400654: '0481_wi_bri05h       '
+    400656: '0482_wi_bri06h       '
+    400658: '0483_wi_bri07h       '
+    400660: '0484_wi_bri08h       '
+    400662: '0485_wi_bri09h       '
+    400664: '0486_wi_bri10h       '
+    400666: '0487_wi_bri11h       '
+    400668: '0488_wi_bri12h       '
+    400670: '0489_wi_bri13h       '
+    400672: '0490_wi_bri14h       '
+    400674: '0491_wi_ms_dai       '
+    400676: '0492_wi_m_ita01      '
+    400678: '0493_wi_m_ita00      '
+    400680: '0494_wi_m_ita        '
+    400682: '0495_wi_m_dai00      '
+    400684: '0496_wi_m_fukuro     '
+    400686: '0497_wi_kirisaku     '
+    400688: '0498_wi_k_tubo03     '
+    400690: '0499_wi_k_tana       '
+    400692: '0500_wi_ms_dai_1     '
+    400694: '0501_wi_bri02a       '
+    400696: '0502_wi_bri01a       '
+    400698: '0503_wi_bri04a       '
+    400700: '0504_wi_bri05a       '
+    400702: '0505_wi_bri06a       '
+    400704: '0506_wi_bri07a       '
+    400706: '0507_wi_bri08a       '
+    400708: '0508_wi_bri09a       '
+    400710: '0509_wi_bri10a       '
+    400712: '0510_wi_bri11a       '
+    400714: '0511_wi_bri12a       '
+    400716: '0512_wi_bri13a       '
+    400718: '0513_wi_bri14a       '
+    400720: '0514_wi_kirin00a     '
+    400722: '0515_wi_m_dai00a     '
+    400724: '0516_wi_m_dai01a     '
+    400726: '0517_wi_h_tent00     '
+    400728: '0518_wi_h_tent00     '
+    400730: '0519_wi_ha_saku4     '
+    400732: '0520_wi_ha_saku5     '
+    400734: '0521_wi_ms_yane      '
+    400736: '0522_wi_ms_hasira    '
+    400738: '0523_wi_ms_dai       '
+    400740: '0524_wi_ml_mado      '
+    400742: '0525_wi_ml_hasira    '
+    400744: '0526_wi_ml_body      '
+    400746: '0527_wi_g_mado       '
+    400748: '0528_wi_g_hisasi     '
+    400750: '0529_wi_g_hasira     '
+    400752: '0530_wi_c_yane00     '
+    400754: '0531_wi_c_mado       '
+    400756: '0532_wi_c_koya       '
+    400758: '0533_wi_c_hisasi01   '
+    400760: '0534_wi_c_hisasi00   '
+    400762: '0535_wi_c_hasira     '
+    400764: '0536_wi_c_dai        '
+    400766: '0537_wi_h_yatai      '
+    400768: '0538_wi_c_saku       '
+    400770: '0539_wi_c_baketu1    '
+    400772: '0540_wi_k_gate01     '
+    400774: '0541_wi_r_kasa       '
+    400776: '0542_wi_r_tukue      '
+    400778: '0543_wi_k_arch08     '
+    400780: '0544_wi_k_arch09     '
+    400782: '0545_wi_k_arch09     '
+    400784: '0546_wi_g_mado_1     '
+    400786: '0547_wi_g_hasira_1   '
+    400788: '0548_wi_c_hasira_1   '
+    400790: '0549_wi_c_mado_1     '
+    400792: '0550_wi_c_kabe_1     '
+    400794: '0551_wi_ms_hasira1   '
+    400796: '0552_wi_ml_hasira1   '
+    400798: '0553_wi_ml_body_1    '
+    400800: '0554_wi_c_koya_1     '
+    400802: '0555_wi_h_tent00     '
+    400804: '0556_wi_h_tent00     '
+    400806: '0557_wi_g_hata       '
+    400808: '0558_wi_c_yane01     '
+    400810: '0559_wi_r_bin01      '
+    400812: '0560_wi_r_bin01      '
+    400814: '0561_wi_r_bin02      '
+    400816: '0562_wi_r_hako       '
+    400818: '0563_wi_r_hako       '
+    400820: '0564_wi_r_hukuro01   '
+    400822: '0565_wi_r_kabin      '
+    400824: '0566_wi_r_kanban     '
+    400826: '0567_wi_r_kasa       '
+    400828: '0568_wi_r_kodana     '
+    400830: '0569_wi_r_komo01     '
+    400832: '0570_wi_r_komo02     '
+    400834: '0571_wi_r_komo03     '
+    400836: '0572_wi_r_oke        '
+    400838: '0573_wi_r_oke        '
+    400840: '0574_wi_r_pict       '
+    400842: '0575_wi_r_tana       '
+    400844: '0576_wi_r_tubo       '
+    400846: '0577_wi_r_tuitate    '
+    400848: '0578_wi_r_tukue      '
+    400850: '0579_wi_k_tubo03     '
+    400852: '0580_wi_k_tubo00     '
+    400854: '0581_wi_k_tubo02     '
+    400856: '0582_wi_k_kago00     '
+    400858: '0583_wi_k_kago00     '
+    400860: '0584_wi_k_tubo01     '
+    400862: '0585_wi_k_ramp       '
+    400864: '0586_wi_k_hako00     '
+    400866: '0587_wi_k_dai        '
+    400868: '0588_wi_k_hako01     '
+    400870: '0589_wi_r_ramp       '
+    400872: '0590_wi_k_kago01     '
+    400874: '0591_wi_k_tubo04     '
+    400876: '0592_wi_k_f_hand     '
+    400878: '0593_wi_k_dai00      '
+    400880: '0594_wi_h_tent03     '
+    400882: '0595_wi_h_tent01     '
+    400884: '0596_wi_h_tent01     '
+    400886: '0597_wi_ms_yane      '
+    400888: '0598_wi_ml_yane      '
+    400890: '0599_wi_m_nuno       '
+    400892: '0600_wi_h_yatai      '
+    400894: '0601_wi_h_tent02     '
+    400896: '0602_wi_r_kasa       '
+    400898: '0603_wi_h_tent04     '
+    400900: '0604_wi_ml_yane_1    '
+    400902: '0605_wi_h_myroom00   '
+    400904: '0606_wi_h_myroom04   '
+    400906: '0607_wi_h_myroom00_1 '
+    400908: '0608_wi_h_myroom00   '
+    400910: '0609_wi_h_myroom01   '
+    400912: '0610_wi_h_myroom03   '
+    400914: '0611_wi_h_myroom00_2 '
+    400916: '0614_wi_kirin00h     '
+    400918: '0615_wi_ha_door      '
+    400920: '0616_wi_ha_saku3     '
+    400922: '0617_wi_ha_saku2     '
+    400924: '0618_wi_ha_saku      '
+    400926: '0619_wi_ml_yane      '
+    400928: '0620_wi_ml_hasira    '
+    400930: '0621_wi_ml_body      '
+    400932: '0622_wi_m_dai01      '
+    400934: '0623_wi_m_dai00      '
+    400936: '0624_wi_g_yane       '
+    400938: '0625_wi_g_ita        '
+    400940: '0626_wi_g_hisasi     '
+    400942: '0627_wi_g_body       '
+    400944: '0628_wi_i_gild00     '
+    400946: '0629_wi_i_gild       '
+    400948: '0630_wi_i_gild01     '
+    400950: '0631_wi_i_choco      '
+    400952: '0632_wi_c_yane00     '
+    400954: '0633_wi_c_kabe       '
+    400956: '0634_wi_c_hisasi01   '
+    400958: '0635_wi_c_hisasi00   '
+    400960: '0636_wi_c_dai        '
+    400962: '0637_wi_h_yatai      '
+    400964: '0638_wi_c_esa6       '
+    400966: '0639_wi_g_ita_1      '
+    400968: '0640_wi_g_body_1     '
+    400970: '0641_wi_c_dai_1      '
+    400972: '0642_wi_c_kabe_1     '
+    400974: '0643_wi_ml_body_1    '
+    400976: '0644_wi_m_dai00_1    '
+    400978: '0645_wi_c_koya_1     '
+    400980: '0646_wi_m_dai01_1    '
+    400982: '0647_wi_kirin00a     '
+    400984: '0648_wi_m_dai00a     '
+    400986: '0649_wi_m_dai01a     '
+    400988: '0650__win_w04l       '
+    400990: '0651__win_w04l       '
+    400992: '0652__win_w04l       '
+    400994: '0653__win_w05l       '
+    400996: '0654__win_w05l       '
+    400998: '0655__win_w05l       '
+    401000: '0656__win_w03l       '
+    401002: '0657__win_w03l       '
+    401004: '0658__win_w03l       '
+    401006: '0659__wi_wood        '
+    401008: '0660__wi_kikabe      '
+    401010: '0661__wi_kikabe      '
+    401012: '0662__wi_kikabe      '
+    401014: '0663_wi_k_arch01     '
+    401016: '0664_wi_k_arch02     '
+    401018: '0665_wi_k_arch03     '
+    401020: '0666_wi_k_arch05     '
+    401022: '0667_wi_k_arch04     '
+    401024: '0668_wi_k_arch04     '
+    401026: '0669_wi_ml_yane      '
+    401028: '0670_wi_m_nuno       '
+    401030: '0671_wi_g_k_ori0     '
+    401032: '0672_wi_g_hata       '
+    401034: '0673_wi_g_k_ori1     '
+    401036: '0674_wi_g_k_hone     '
+    401038: '0675_wi_g_k_zatu     '
+    401040: '0676_wi_c_yane01     '
+    401042: '0677_wi_k_mon        '
+    401044: '0678_wi_k_in00h      '
+    401046: '0679_wi_k_gate01     '
+    401048: '0680_wi_r_kanban     '
+    401050: '0681_wi_r_tana       '
+    401052: '0682_wi_k_flag00h    '
+    401054: '0683_wi_k_ramp       '
+    401056: '0684_wi_k_f_gate     '
+    401058: '0685_wi_c_kanban     '
+    401060: '0686_wi_g_hasira_1   '
+    401062: '0687_wi_k_aucknb00   '
+    401064: '0688_wi_k_aucknb01   '
+    401066: '0689_wi_k_ktori      '
+    401068: '0690_wi_k_kthone     '
+    401070: '0691_wi_k_ktzatu     '
+    401072: '0692_wi_k_ktchoco    '
+    401074: '0693_wi_k_ktkus      '
+    401076: '0694_wi_k_arch01     '
+    401078: '0695_wi_k_arch03     '
+    401080: '0696_wi_k_arch05     '
+    401082: '0697_wi_k_arch04     '
+    401084: '0698_wi_k_arch04     '
+    401086: '0699_wi_k_in00h      '
+    401088: '0700_wi_k_gate00     '
+    401090: '0701_wi_k_ryojih     '
+    401092: '0702_wi_k_myroom00   '
+    401094: '0703_wi_r_hukuro01   '
+    401096: '0704_wi_r_komo01     '
+    401098: '0705_wi_r_komo02     '
+    401100: '0706_wi_r_komo03     '
+    401102: '0707_wi_k_arch08     '
+    401104: '0708_wi_k_flag00h    '
+    401106: '0709_wi_r_ramp       '
+    401108: '0710_wi_k_arch01     '
+    401110: '0711_wi_k_arch02     '
+    401112: 0711_wi_k_arch02    !
+    401114: '0712_wi_g_k_ori0     '
+    401116: '0713_wi_g_k_ori1     '
+    401118: '0714_wi_g_k_hone     '
+    401120: '0715_wi_k_mon        '
+    401122: '0716_wi_k_gate00     '
+    401124: '0717_wi_k_gate01     '
+    401126: '0718_wi_k_ryojih     '
+    401128: '0719_wi_r_kanban     '
+    401130: '0720_wi_k_aucknb00   '
+    401132: '0721_wi_k_aucknb01   '
+    401134: '0722_wi_k_kthone     '
+    401136: '0723_wi_ha_door      '
+    401138: '0724_wi_ms_yane      '
+    401140: '0725_wi_m_isu        '
+    401142: '0726_wi_m_tabel      '
+    401144: '0727_wi_m_tubo       '
+    401146: '0728_wi_d_choco      '
+    401148: '0729_wi_d_choco      '
+    401150: '0730_wi_m_kago       '
+    401152: '0731_wi_h_yatai      '
+    401154: '0732_wi_m_fukuro     '
+    401156: '0733_wi_d_in1f       '
+    401158: '0734_wi_d_in2f       '
+    401160: '0735_wi_r_kasa       '
+    401162: '0736_wi_k_yumidai    '
+    401164: '0737_wi_k_yumi       '
+    401166: '0738_wi_k_ya         '
+    401168: '0739_wi_ml_body_1    '
+    401170: '0740_wi_ha_saku3     '
+    401172: '0741_wi_ha_saku      '
+    401174: '0742_wi_ms_dai       '
+    401176: '0743_wi_ms_body      '
+    401178: '0744_wi_ml_body      '
+    401180: '0745_wi_g_body       '
+    401182: '0746_wi_c_koya       '
+    401184: '0747_wi_c_kabe       '
+    401186: '0748_wi_g_body_1     '
+    401188: '0749_wi_c_kabe_1     '
+    401190: '0750_wi_ms_body_1    '
+    401192: '0751_wi_ml_body_1    '
+    401194: '0752_wi_c_koya_1     '
+    401196: '0753_wi_ms_yane      '
+    401198: '0754_wi_ml_yane      '
+    401200: '0755_wi_ml_mado      '
+    401202: '0756_wi_g_yane       '
+    401204: '0757_wi_g_mado       '
+    401206: '0758_wi_g_hisasi     '
+    401208: '0759_wi_c_yane00     '
+    401210: '0760_wi_c_hisasi01   '
+    401212: '0761_wi_c_hisasi00   '
+    401214: '0762_wi_ml_yane      '
+    401216: '0763_wi_ml_yane      '
+    401218: '0764_wi_ml_mado      '
+    401220: '0765_wi_g_mado       '
+    401222: '0766_wi_c_yane01     '
+    401224: '0767_wi_c_mado       '
+    401226: '0768_wi_h_yatai      '
+    401228: '0769_wi_c_baketu1    '
+    401230: '0770_wi_c_ballel1    '
+    401232: '0771_wi_c_barrel2    '
+    401234: '0772_wi_c_box01      '
+    401236: '0773_wi_c_box01      '
+    401238: '0774_wi_c_esa6       '
+    401240: '0775_wi_c_fork       '
+    401242: '0776_wi_c_scoop1     '
+    401244: '0777_wi_c_scoop2     '
+    401246: '0778_wi_kirisaku     '
+    401248: '0779_wi_r_kasa       '
+    401250: '0780_wi_h_tentka     '
+    401252: '0781_wi_ha_saku4_1   '
+    401254: '0782_wi_g_k_ori0     '
+    401256: '0783_wi_g_k_ori1     '
+    401258: '0784_wi_g_k_hone     '
+    401260: '0785_wi_g_k_zatu     '
+    401262: '0786_wi_h_yatai      '
+    401264: '0787_wi_k_in00h      '
+    401266: '0788_wi_k_ryojih     '
+    401268: '0789_wi_k_f_gate     '
+    401270: '0790_wi_c_kanban     '
+    401272: '0791_wi_k_f_hand     '
+    401274: '0792_wi_k_aucknb00   '
+    401276: '0793_wi_k_aucknb01   '
+    401278: '0794_wi_k_ktori      '
+    401280: '0795_wi_k_kthone     '
+    401282: '0796_wi_k_ktzatu     '
+    401284: '0797_wi_k_ktchoco    '
+    401286: '0798_wi_k_ktkus      '
+    401288: '0799_wi_d_gild       '
+    401290: '0800_wi_d_gild       '
+    401292: '0801_wi_d_choco      '
+    401294: '0802_wi_d_choco      '
+    401296: '0803_wi_c_koya       '
+    401298: '0804_wi_d_in1f       '
+    401300: '0805_wi_d_in2f       '
+    401302: '0806_wi_d_gate       '
+    401304: '0807_wi_d_ryof1      '
+    401306: '0808_wi_c_hasira_1   '
+    401308: '0809_wi_ms_body_1    '
+    401310: '0810_chok_win01      '
+    401312: '0811_wi_d_gild       '
+    401314: '0812_wi_d_gild       '
+    401316: '0813_wi_d_choco      '
+    401318: '0814_wi_d_choco      '
+    401320: '0815_wi_d_in1f       '
+    401322: '0816_wi_d_ryof1      '
+    401324: '0817_wi_d_ryof1_2    '
+    401326: '0818_wi_d_choco      '
+    401328: '0819_wi_d_choco      '
+    401330: '0820_wi_d_in1f       '
+    401332: '0821__win_m01_h      '
+    401334: '0822__win_m01_h      '
+    401336: '0823__win_m01_t      '
+    401338: '0824__win_m02        '
+    401340: '0825__wi_kusa01      '
+    401342: '0826__wi_kusa01      '
+    401344: polySurface1
+    401346: polySurface10
+    401348: polySurface100
+    401350: polySurface101
+    401352: polySurface102
+    401354: polySurface103
+    401356: polySurface104
+    401358: polySurface105
+    401360: polySurface106
+    401362: polySurface107
+    401364: polySurface108
+    401366: polySurface109
+    401368: polySurface11
+    401370: polySurface110
+    401372: polySurface111
+    401374: polySurface112
+    401376: polySurface113
+    401378: polySurface114
+    401380: polySurface115
+    401382: polySurface116
+    401384: polySurface117
+    401386: polySurface118
+    401388: polySurface119
+    401390: polySurface12
+    401392: polySurface120
+    401394: polySurface121
+    401396: polySurface122
+    401398: polySurface123
+    401400: polySurface124
+    401402: polySurface125
+    401404: polySurface126
+    401406: polySurface127
+    401408: polySurface128
+    401410: polySurface129
+    401412: polySurface13
+    401414: polySurface130
+    401416: polySurface131
+    401418: polySurface132
+    401420: polySurface133
+    401422: polySurface134
+    401424: polySurface135
+    401426: polySurface136
+    401428: polySurface137
+    401430: polySurface138
+    401432: polySurface139
+    401434: polySurface14
+    401436: polySurface140
+    401438: polySurface141
+    401440: polySurface142
+    401442: polySurface143
+    401444: polySurface144
+    401446: polySurface145
+    401448: polySurface146
+    401450: polySurface147
+    401452: polySurface148
+    401454: polySurface149
+    401456: polySurface15
+    401458: polySurface150
+    401460: polySurface16
+    401462: polySurface17
+    401464: polySurface18
+    401466: polySurface19
+    401468: polySurface2
+    401470: polySurface20
+    401472: polySurface21
+    401474: polySurface22
+    401476: polySurface23
+    401478: polySurface24
+    401480: polySurface25
+    401482: polySurface26
+    401484: polySurface27
+    401486: polySurface28
+    401488: polySurface29
+    401490: polySurface3
+    401492: polySurface30
+    401494: polySurface31
+    401496: polySurface32
+    401498: polySurface33
+    401500: polySurface34
+    401502: polySurface35
+    401504: polySurface36
+    401506: polySurface37
+    401508: polySurface38
+    401510: polySurface39
+    401512: polySurface4
+    401514: polySurface40
+    401516: polySurface41
+    401518: polySurface42
+    401520: polySurface43
+    401522: polySurface44
+    401524: polySurface45
+    401526: polySurface46
+    401528: polySurface47
+    401530: polySurface48
+    401532: polySurface49
+    401534: polySurface5
+    401536: polySurface50
+    401538: polySurface51
+    401540: polySurface52
+    401542: polySurface53
+    401544: polySurface54
+    401546: polySurface55
+    401548: polySurface56
+    401550: polySurface57
+    401552: polySurface58
+    401554: polySurface59
+    401556: polySurface6
+    401558: polySurface60
+    401560: polySurface61
+    401562: polySurface62
+    401564: polySurface63
+    401566: polySurface64
+    401568: polySurface65
+    401570: polySurface66
+    401572: polySurface67
+    401574: polySurface68
+    401576: polySurface69
+    401578: polySurface7
+    401580: polySurface70
+    401582: polySurface71
+    401584: polySurface72
+    401586: polySurface73
+    401588: polySurface74
+    401590: polySurface75
+    401592: polySurface76
+    401594: polySurface77
+    401596: polySurface78
+    401598: polySurface79
+    401600: polySurface8
+    401602: polySurface80
+    401604: polySurface81
+    401606: polySurface82
+    401608: polySurface83
+    401610: polySurface84
+    401612: polySurface85
+    401614: polySurface86
+    401616: polySurface87
+    401618: polySurface88
+    401620: polySurface89
+    401622: polySurface9
+    401624: polySurface90
+    401626: polySurface91
+    401628: polySurface92
+    401630: polySurface93
+    401632: polySurface94
+    401634: polySurface95
+    401636: polySurface96
+    401638: polySurface97
+    401640: polySurface98
+    401642: polySurface99
+    401644: pPlane1
+    401646: pPlane2
+    401648: pPlane3
+    401650: pPlane4
+    401652: pPlane5
+    401654: //RootNode
+    401656: transform1
+    401658: transform100
+    401660: transform101
+    401662: transform102
+    401664: transform103
+    401666: transform104
+    401668: transform105
+    401670: transform106
+    401672: transform107
+    401674: transform108
+    401676: transform109
+    401678: transform110
+    401680: transform111
+    401682: transform112
+    401684: transform113
+    401686: transform114
+    401688: transform115
+    401690: transform116
+    401692: transform117
+    401694: transform118
+    401696: transform119
+    401698: transform120
+    401700: transform121
+    401702: transform122
+    401704: transform123
+    401706: transform124
+    401708: transform125
+    401710: transform126
+    401712: transform127
+    401714: transform128
+    401716: transform129
+    401718: transform130
+    401720: transform131
+    401722: transform132
+    401724: transform133
+    401726: transform134
+    401728: transform135
+    401730: transform136
+    401732: transform137
+    401734: transform138
+    401736: transform139
+    401738: transform140
+    401740: transform141
+    401742: transform142
+    401744: transform143
+    401746: transform144
+    401748: transform145
+    401750: transform146
+    401752: transform147
+    401754: transform148
+    401756: transform149
+    401758: transform150
+    401760: transform151
+    401762: transform152
+    401764: transform153
+    401766: transform154
+    401768: transform155
+    401770: transform156
+    401772: transform157
+    401774: transform158
+    401776: transform159
+    401778: transform160
+    401780: transform161
+    401782: transform162
+    401784: transform163
+    401786: transform164
+    401788: transform165
+    401790: transform166
+    401792: transform167
+    401794: transform168
+    401796: transform169
+    401798: transform170
+    401800: transform171
+    401802: transform172
+    401804: transform173
+    401806: transform174
+    401808: transform175
+    401810: transform176
+    401812: transform177
+    401814: transform178
+    401816: transform179
+    401818: transform180
+    401820: transform181
+    401822: transform182
+    401824: transform183
+    401826: transform184
+    401828: transform185
+    401830: transform186
+    401832: transform187
+    401834: transform188
+    401836: transform189
+    401838: transform19
+    401840: transform190
+    401842: transform191
+    401844: transform192
+    401846: transform193
+    401848: transform194
+    401850: transform195
+    401852: transform196
+    401854: transform197
+    401856: transform198
+    401858: transform199
+    401860: transform2
+    401862: transform20
+    401864: transform200
+    401866: transform201
+    401868: transform202
+    401870: transform203
+    401872: transform204
+    401874: transform205
+    401876: transform206
+    401878: transform207
+    401880: transform208
+    401882: transform209
+    401884: transform21
+    401886: transform210
+    401888: transform211
+    401890: transform212
+    401892: transform213
+    401894: transform214
+    401896: transform215
+    401898: transform216
+    401900: transform217
+    401902: transform218
+    401904: transform219
+    401906: transform22
+    401908: transform220
+    401910: transform221
+    401912: transform222
+    401914: transform223
+    401916: transform224
+    401918: transform225
+    401920: transform226
+    401922: transform227
+    401924: transform228
+    401926: transform229
+    401928: transform23
+    401930: transform230
+    401932: transform231
+    401934: transform232
+    401936: transform233
+    401938: transform234
+    401940: transform235
+    401942: transform236
+    401944: transform237
+    401946: transform238
+    401948: transform239
+    401950: transform24
+    401952: transform240
+    401954: transform241
+    401956: transform242
+    401958: transform243
+    401960: transform244
+    401962: transform245
+    401964: transform246
+    401966: transform247
+    401968: transform248
+    401970: transform249
+    401972: transform25
+    401974: transform250
+    401976: transform251
+    401978: transform252
+    401980: transform253
+    401982: transform254
+    401984: transform255
+    401986: transform256
+    401988: transform257
+    401990: transform258
+    401992: transform259
+    401994: transform26
+    401996: transform260
+    401998: transform261
+    402000: transform262
+    402002: transform263
+    402004: transform264
+    402006: transform265
+    402008: transform266
+    402010: transform267
+    402012: transform268
+    402014: transform269
+    402016: transform27
+    402018: transform270
+    402020: transform271
+    402022: transform272
+    402024: transform273
+    402026: transform274
+    402028: transform275
+    402030: transform276
+    402032: transform277
+    402034: transform278
+    402036: transform279
+    402038: transform28
+    402040: transform280
+    402042: transform281
+    402044: transform282
+    402046: transform283
+    402048: transform284
+    402050: transform285
+    402052: transform286
+    402054: transform287
+    402056: transform288
+    402058: transform289
+    402060: transform29
+    402062: transform290
+    402064: transform291
+    402066: transform292
+    402068: transform293
+    402070: transform294
+    402072: transform295
+    402074: transform296
+    402076: transform297
+    402078: transform298
+    402080: transform299
+    402082: transform3
+    402084: transform30
+    402086: transform300
+    402088: transform301
+    402090: transform302
+    402092: transform303
+    402094: transform304
+    402096: transform305
+    402098: transform306
+    402100: transform307
+    402102: transform308
+    402104: transform309
+    402106: transform31
+    402108: transform310
+    402110: transform311
+    402112: transform312
+    402114: transform313
+    402116: transform314
+    402118: transform315
+    402120: transform316
+    402122: transform317
+    402124: transform318
+    402126: transform319
+    402128: transform32
+    402130: transform320
+    402132: transform321
+    402134: transform322
+    402136: transform323
+    402138: transform324
+    402140: transform325
+    402142: transform326
+    402144: transform327
+    402146: transform328
+    402148: transform329
+    402150: transform33
+    402152: transform330
+    402154: transform331
+    402156: transform332
+    402158: transform333
+    402160: transform334
+    402162: transform335
+    402164: transform336
+    402166: transform337
+    402168: transform338
+    402170: transform339
+    402172: transform34
+    402174: transform340
+    402176: transform341
+    402178: transform342
+    402180: transform343
+    402182: transform344
+    402184: transform345
+    402186: transform346
+    402188: transform347
+    402190: transform348
+    402192: transform349
+    402194: transform35
+    402196: transform350
+    402198: transform351
+    402200: transform352
+    402202: transform353
+    402204: transform354
+    402206: transform355
+    402208: transform356
+    402210: transform357
+    402212: transform358
+    402214: transform359
+    402216: transform36
+    402218: transform360
+    402220: transform361
+    402222: transform362
+    402224: transform363
+    402226: transform364
+    402228: transform365
+    402230: transform366
+    402232: transform367
+    402234: transform368
+    402236: transform369
+    402238: transform37
+    402240: transform370
+    402242: transform371
+    402244: transform372
+    402246: transform373
+    402248: transform374
+    402250: transform375
+    402252: transform376
+    402254: transform377
+    402256: transform378
+    402258: transform379
+    402260: transform38
+    402262: transform380
+    402264: transform39
+    402266: transform4
+    402268: transform40
+    402270: transform41
+    402272: transform42
+    402274: transform43
+    402276: transform44
+    402278: transform45
+    402280: transform46
+    402282: transform47
+    402284: transform48
+    402286: transform49
+    402288: transform5
+    402290: transform50
+    402292: transform51
+    402294: transform52
+    402296: transform53
+    402298: transform54
+    402300: transform55
+    402302: transform56
+    402304: transform57
+    402306: transform58
+    402308: transform59
+    402310: transform6
+    402312: transform60
+    402314: transform61
+    402316: transform62
+    402318: transform63
+    402320: transform64
+    402322: transform65
+    402324: transform66
+    402326: transform67
+    402328: transform68
+    402330: transform69
+    402332: transform7
+    402334: transform70
+    402336: transform71
+    402338: transform72
+    402340: transform73
+    402342: transform74
+    402344: transform75
+    402346: transform76
+    402348: transform77
+    402350: transform78
+    402352: transform79
+    402354: transform8
+    402356: transform80
+    402358: transform81
+    402360: transform82
+    402362: transform83
+    402364: transform84
+    402366: transform85
+    402368: transform86
+    402370: transform87
+    402372: transform88
+    402374: transform89
+    402376: transform90
+    402378: transform91
+    402380: transform92
+    402382: transform93
+    402384: transform94
+    402386: transform95
+    402388: transform96
+    402390: transform97
+    402392: transform98
+    402394: transform99
+    2300000: '0000_wi_hand00       '
+    2300002: '0001_wi_hand01       '
+    2300004: 0001_wi_hand01      !
+    2300006: '0002_wi_hand02       '
+    2300008: '0003_wi_hand03       '
+    2300010: '0004_wi_hand04       '
+    2300012: '0005_wi_hand05       '
+    2300014: '0006_wi_hand06       '
+    2300016: '0007_wi_hand07       '
+    2300018: '0008_wi_hand08       '
+    2300020: '0009_wi_hand09       '
+    2300022: '0010_wi_hand10       '
+    2300024: '0011_wi_hand11       '
+    2300026: '0012_wi_hand12       '
+    2300028: '0013_wi_hand13       '
+    2300030: '0014_wi_hand14       '
+    2300032: '0015_wi_hand15       '
+    2300034: '0016_wi_hand16       '
+    2300036: '0017_wi_hand17       '
+    2300038: '0018_wi_hand18       '
+    2300040: '0019_wi_hand19       '
+    2300042: '0020_wi_hand20       '
+    2300044: '0021_wi_hand21       '
+    2300046: '0022_wi_hand22       '
+    2300048: '0023_wi_hand23       '
+    2300050: '0024_wi_hand24       '
+    2300052: '0025_wi_hand25       '
+    2300054: '0026_wi_hand26       '
+    2300056: '0027_wi_hand27       '
+    2300058: '0028_wi_hand28       '
+    2300060: '0029_wi_hand29       '
+    2300062: '0030_wi_misr01       '
+    2300064: '0031_wi_misr00       '
+    2300066: '0032_wi_misr02       '
+    2300068: '0033_wi_misr03       '
+    2300070: '0034_wi_misr04       '
+    2300072: '0035_wi_misr05       '
+    2300074: '0036_wi_misr06       '
+    2300076: '0037_wi_misr09       '
+    2300078: '0038_wi_misr15       '
+    2300080: '0039_wi_my01         '
+    2300082: '0040_wi_my03         '
+    2300084: '0041_wi_mish01       '
+    2300086: '0042_wi_z_jmp01      '
+    2300088: '0043_wi_hand13_3     '
+    2300090: '0044_wi_hand17_1     '
+    2300092: '0045_wi_misr01_2     '
+    2300094: '0046_wi_misr00_1     '
+    2300096: '0047_wi_misr01_1     '
+    2300098: '0048_wi_hand7_1      '
+    2300100: '0049_wi_hand25_1     '
+    2300102: '0050_wi_hand15_1     '
+    2300104: '0051_wi_hand13_2     '
+    2300106: '0052_wi_hand00       '
+    2300108: '0053_wi_hand01       '
+    2300110: '0054_wi_hand02       '
+    2300112: '0055_wi_hand03       '
+    2300114: '0056_wi_hand04       '
+    2300116: '0057_wi_hand05       '
+    2300118: '0058_wi_hand06       '
+    2300120: '0059_wi_hand07       '
+    2300122: '0060_wi_hand08       '
+    2300124: '0061_wi_hand09       '
+    2300126: '0062_wi_hand10       '
+    2300128: '0063_wi_hand11       '
+    2300130: '0064_wi_hand12       '
+    2300132: '0065_wi_hand14       '
+    2300134: '0066_wi_hand15       '
+    2300136: '0067_wi_hand16       '
+    2300138: '0068_wi_hand17       '
+    2300140: '0069_wi_hand18       '
+    2300142: '0070_wi_hand19       '
+    2300144: '0071_wi_hand20       '
+    2300146: '0072_wi_hand21       '
+    2300148: '0073_wi_hand22       '
+    2300150: '0074_wi_hand23       '
+    2300152: '0075_wi_hand24       '
+    2300154: '0076_wi_hand25       '
+    2300156: '0077_wi_hand26       '
+    2300158: '0078_wi_hand27       '
+    2300160: '0079_wi_hand28       '
+    2300162: '0080_wi_hand29       '
+    2300164: '0081_wi_misr01       '
+    2300166: '0082_wi_misr00       '
+    2300168: '0083_wi_misr02       '
+    2300170: '0084_wi_misr03       '
+    2300172: '0085_wi_misr04       '
+    2300174: '0086_wi_misr05       '
+    2300176: '0087_wi_misr06       '
+    2300178: '0088_wi_misr07       '
+    2300180: '0089_wi_misr08       '
+    2300182: '0090_wi_misr09       '
+    2300184: '0091_wi_misr10       '
+    2300186: '0092_wi_misr11       '
+    2300188: '0093_wi_misr12       '
+    2300190: '0094_wi_misr14       '
+    2300192: '0095_wi_misr15       '
+    2300194: '0096_wi_my01         '
+    2300196: '0097_wi_my03         '
+    2300198: '0098_wi_mish00       '
+    2300200: '0099_wi_mish01       '
+    2300202: '0100_wi_mish02       '
+    2300204: '0101_wi_mish03       '
+    2300206: '0102_wi_z_jmp01      '
+    2300208: '0103_wi_z_jmp02      '
+    2300210: '0104_wi_misr09_1     '
+    2300212: '0105_wi_hand17_1     '
+    2300214: '0106_wi_misr01_2     '
+    2300216: '0107_wi_hand00       '
+    2300218: '0108_wi_hand01       '
+    2300220: '0109_wi_hand02       '
+    2300222: '0110_wi_hand03       '
+    2300224: '0111_wi_hand04       '
+    2300226: '0112_wi_hand05       '
+    2300228: '0113_wi_hand06       '
+    2300230: '0114_wi_hand07       '
+    2300232: '0115_wi_hand08       '
+    2300234: '0116_wi_hand09       '
+    2300236: '0117_wi_hand10       '
+    2300238: '0118_wi_hand11       '
+    2300240: '0119_wi_hand12       '
+    2300242: '0120_wi_hand13       '
+    2300244: '0121_wi_hand14       '
+    2300246: '0122_wi_hand15       '
+    2300248: '0123_wi_hand16       '
+    2300250: '0124_wi_hand17       '
+    2300252: '0125_wi_hand18       '
+    2300254: '0126_wi_hand19       '
+    2300256: '0127_wi_hand20       '
+    2300258: '0128_wi_hand21       '
+    2300260: '0129_wi_hand22       '
+    2300262: '0130_wi_hand23       '
+    2300264: '0131_wi_hand24       '
+    2300266: '0132_wi_hand25       '
+    2300268: '0133_wi_hand26       '
+    2300270: '0134_wi_hand27       '
+    2300272: '0135_wi_hand28       '
+    2300274: '0136_wi_hand29       '
+    2300276: '0137_wi_misr01       '
+    2300278: '0138_wi_misr00       '
+    2300280: '0139_wi_misr02       '
+    2300282: '0140_wi_misr03       '
+    2300284: '0141_wi_misr04       '
+    2300286: '0142_wi_misr05       '
+    2300288: '0143_wi_misr06       '
+    2300290: '0144_wi_misr07       '
+    2300292: '0145_wi_misr08       '
+    2300294: '0146_wi_misr09       '
+    2300296: '0147_wi_misr10       '
+    2300298: '0148_wi_misr11       '
+    2300300: '0149_wi_misr12       '
+    2300302: '0150_wi_misr14       '
+    2300304: '0151_wi_misr15       '
+    2300306: '0152_wi_my01         '
+    2300308: '0153_wi_my03         '
+    2300310: '0154_wi_mish00       '
+    2300312: '0155_wi_mish01       '
+    2300314: '0156_wi_mish02       '
+    2300316: '0157_wi_mish03       '
+    2300318: '0158_wi_z_jmp01      '
+    2300320: '0159_wi_z_jmp02      '
+    2300322: '0160_wi_misr09_1     '
+    2300324: '0161_wi_hand13_3     '
+    2300326: '0162_wi_misr01_2     '
+    2300328: '0163_wi_hand13_1     '
+    2300330: '0164_wi_misr00_1     '
+    2300332: '0165_wi_hand29_1     '
+    2300334: '0166_wi_hand19_1     '
+    2300336: '0167_wi_hand13_2     '
+    2300338: '0178_wi_hand10       '
+    2300340: '0192_wi_hand24       '
+    2300342: '0225_wi_hand13_1     '
+    2300344: '0235_wi_my01_1       '
+    2300346: '0237_wi_hand29_1     '
+    2300348: '0238_wi_hand26_2     '
+    2300350: '0239_wi_hand26_1     '
+    2300352: '0240_wi_hand20_1     '
+    2300354: '0241_wi_hand19_1     '
+    2300356: '0243_wi_hand14_1     '
+    2300358: '0244_wi_hand13_2     '
+    2300360: '0245_wi_my03_1       '
+    2300362: '0247_wi_hand01       '
+    2300364: '0248_wi_hand03       '
+    2300366: '0253_wi_hand10       '
+    2300368: '0254_wi_hand11       '
+    2300370: '0259_wi_hand18       '
+    2300372: '0271_wi_misr05       '
+    2300374: '0273_wi_misr09       '
+    2300376: '0277_wi_hand13_1     '
+    2300378: '0278_wi_hand7_1      '
+    2300380: '0281_wi_hand15_1     '
+    2300382: '0282_wi_hand14_1     '
+    2300384: '0283_chok_win01      '
+    2300386: '0284_wi_hand01       '
+    2300388: '0293_wi_hand10       '
+    2300390: '0318_wi_misr05       '
+    2300392: '0320_wi_misr08       '
+    2300394: '0323_wi_misr11       '
+    2300396: '0334_wi_z_jmp02      '
+    2300398: '0336_wi_misr01_2     '
+    2300400: '0337_wi_hand13_1     '
+    2300402: '0338_wi_misr00_1     '
+    2300404: '0339_wi_misr01_1     '
+    2300406: '0340_wi_hand7_1      '
+    2300408: '0341_wi_hand29_1     '
+    2300410: '0342_wi_hand26_2     '
+    2300412: '0343_wi_hand19_1     '
+    2300414: '0344_wi_hand05       '
+    2300416: '0345_wi_hand14       '
+    2300418: '0346_wi_hand20       '
+    2300420: '0347_wi_hand26       '
+    2300422: '0348_wi_misr04       '
+    2300424: '0349_wi_misr07       '
+    2300426: '0350_wi_misr08       '
+    2300428: '0351_wi_misr10       '
+    2300430: '0352_wi_fountain01   '
+    2300432: '0353_wi_hand05       '
+    2300434: '0354_wi_hand14       '
+    2300436: '0356_wi_hand13_1     '
+    2300438: '0357_wi_fountain00   '
+    2300440: '0358_wi_hand07       '
+    2300442: '0359_wi_hand15       '
+    2300444: '0360_wi_h_ryoji00h   '
+    2300446: '0361_wi_h_in00       '
+    2300448: '0362_wi_h_auc00h     '
+    2300450: '0363_wi_h_gate00     '
+    2300452: '0364_wi_h_gate00     '
+    2300454: '0365_wi_h_gate03     '
+    2300456: '0366_wi_h_myroom00   '
+    2300458: '0367_wi_i_ryj00      '
+    2300460: '0368_wi_i_inf0       '
+    2300462: '0369_wi_i_inf1       '
+    2300464: '0370_wi_h_auc01h     '
+    2300466: '0371_wi_h_auc02h     '
+    2300468: '0372_wi_h_myroom00_2 '
+    2300470: '0373_wi_h_in00_1     '
+    2300472: '0374_wi_h_in00_2     '
+    2300474: '0375_wi_h_ryoji01h   '
+    2300476: '0376_chok_win01      '
+    2300478: '0377_chok_win02      '
+    2300480: '0381_wi_h_auc00h     '
+    2300482: '0382_wi_h_gate03     '
+    2300484: '0383_wi_h_myroom04   '
+    2300486: '0388_chok_win01      '
+    2300488: '0389_chok_win02      '
+    2300490: '0390_wi_hand17       '
+    2300492: '0391_wi_hand17_1     '
+    2300494: '0394_wi_hand20       '
+    2300496: '0395_wi_misr04       '
+    2300498: '0396_wi_misr07       '
+    2300500: '0397_wi_misr08       '
+    2300502: '0398_wi_misr10       '
+    2300504: '0399_wi_hand20       '
+    2300506: '0401_wi_hand13_1     '
+    2300508: '0402_wi_misr04       '
+    2300510: '0403_wi_k_arch05     '
+    2300512: '0404_wi_r_hukuro01   '
+    2300514: '0405_wi_r_kanban     '
+    2300516: '0406_wi_r_komo02     '
+    2300518: '0407_wi_r_komo03     '
+    2300520: '0408_wi_k_aucknb01   '
+    2300522: '0409_wi_h_ryoji00h   '
+    2300524: '0410_wi_h_in00       '
+    2300526: '0411_wi_h_auc00h     '
+    2300528: '0412_wi_h_gate01     '
+    2300530: '0413_wi_h_gate00     '
+    2300532: '0414_wi_h_gate00     '
+    2300534: '0415_wi_h_gate03     '
+    2300536: '0416_wi_h_myroom00   '
+    2300538: '0417_wi_i_inf0       '
+    2300540: '0418_wi_i_inf1       '
+    2300542: '0419_wi_h_auc01h     '
+    2300544: '0420_wi_h_auc02h     '
+    2300546: '0421_wi_h_myroom00_2 '
+    2300548: '0422_wi_h_gate02     '
+    2300550: '0423_wi_h_in00_1     '
+    2300552: '0424_wi_h_in00_2     '
+    2300554: '0425_wi_h_ryoji01h   '
+    2300556: '0426_wi_i_arai01     '
+    2300558: '0427_wi_i_table      '
+    2300560: '0428_chok_win01      '
+    2300562: '0429_chok_win02      '
+    2300564: '0432_wi_h_auc00h     '
+    2300566: '0434_wi_h_myroom04   '
+    2300568: '0435_wi_h_auc01h     '
+    2300570: '0437_wi_h_myroom00_1 '
+    2300572: '0438_wi_h_myroom00_2 '
+    2300574: '0441_wi_h_in00       '
+    2300576: '0442_wi_h_gate01     '
+    2300578: '0443_wi_h_gate00     '
+    2300580: '0444_wi_h_gate00     '
+    2300582: '0445_wi_h_gate03     '
+    2300584: '0446_wi_ha_saku2     '
+    2300586: '0447_wi_h_gate02     '
+    2300588: '0448_wi_h_in00_1     '
+    2300590: '0449_wi_h_in00_2     '
+    2300592: '0450_chok_win01      '
+    2300594: '0451_chok_win02      '
+    2300596: '0452_wi_h_in00       '
+    2300598: '0453_wi_h_tent00     '
+    2300600: '0454_wi_h_tent00     '
+    2300602: '0455_wi_k_arch05     '
+    2300604: '0456_wi_ml_yane      '
+    2300606: '0457_wi_g_hata       '
+    2300608: '0458_wi_c_yane01     '
+    2300610: '0459_wi_r_kasa       '
+    2300612: '0460_wi_r_tana       '
+    2300614: '0461_wi_r_tukue      '
+    2300616: '0462_wi_k_f_gate     '
+    2300618: '0463_wi_k_f_hand     '
+    2300620: '0464_wi_c_koya_1     '
+    2300622: '0465_wi_h_auc00h     '
+    2300624: '0466_wi_h_auc_kanb   '
+    2300626: '0467_wi_h_auc_dai    '
+    2300628: '0468_wi_h_auc_cou    '
+    2300630: '0469_wi_h_auc01h     '
+    2300632: '0470_wi_h_auc02h     '
+    2300634: '0471_wi_c_mado_1     '
+    2300636: '0472_chok_win01      '
+    2300638: '0473_wi_fountain00   '
+    2300640: '0474_wi_fountain01   '
+    2300642: '0475_wi_fountain00   '
+    2300644: '0476_wi_h_gate03     '
+    2300646: '0477_wi_fountain01   '
+    2300648: '0478_wi_bri01h       '
+    2300650: '0479_wi_bri02h       '
+    2300652: '0480_wi_bri04h       '
+    2300654: '0481_wi_bri05h       '
+    2300656: '0482_wi_bri06h       '
+    2300658: '0483_wi_bri07h       '
+    2300660: '0484_wi_bri08h       '
+    2300662: '0485_wi_bri09h       '
+    2300664: '0486_wi_bri10h       '
+    2300666: '0487_wi_bri11h       '
+    2300668: '0488_wi_bri12h       '
+    2300670: '0489_wi_bri13h       '
+    2300672: '0490_wi_bri14h       '
+    2300674: '0491_wi_ms_dai       '
+    2300676: '0492_wi_m_ita01      '
+    2300678: '0493_wi_m_ita00      '
+    2300680: '0494_wi_m_ita        '
+    2300682: '0495_wi_m_dai00      '
+    2300684: '0496_wi_m_fukuro     '
+    2300686: '0497_wi_kirisaku     '
+    2300688: '0498_wi_k_tubo03     '
+    2300690: '0499_wi_k_tana       '
+    2300692: '0500_wi_ms_dai_1     '
+    2300694: '0501_wi_bri02a       '
+    2300696: '0502_wi_bri01a       '
+    2300698: '0503_wi_bri04a       '
+    2300700: '0504_wi_bri05a       '
+    2300702: '0505_wi_bri06a       '
+    2300704: '0506_wi_bri07a       '
+    2300706: '0507_wi_bri08a       '
+    2300708: '0508_wi_bri09a       '
+    2300710: '0509_wi_bri10a       '
+    2300712: '0510_wi_bri11a       '
+    2300714: '0511_wi_bri12a       '
+    2300716: '0512_wi_bri13a       '
+    2300718: '0513_wi_bri14a       '
+    2300720: '0514_wi_kirin00a     '
+    2300722: '0515_wi_m_dai00a     '
+    2300724: '0516_wi_m_dai01a     '
+    2300726: '0517_wi_h_tent00     '
+    2300728: '0518_wi_h_tent00     '
+    2300730: '0519_wi_ha_saku4     '
+    2300732: '0520_wi_ha_saku5     '
+    2300734: '0521_wi_ms_yane      '
+    2300736: '0522_wi_ms_hasira    '
+    2300738: '0523_wi_ms_dai       '
+    2300740: '0524_wi_ml_mado      '
+    2300742: '0525_wi_ml_hasira    '
+    2300744: '0526_wi_ml_body      '
+    2300746: '0527_wi_g_mado       '
+    2300748: '0528_wi_g_hisasi     '
+    2300750: '0529_wi_g_hasira     '
+    2300752: '0530_wi_c_yane00     '
+    2300754: '0531_wi_c_mado       '
+    2300756: '0532_wi_c_koya       '
+    2300758: '0533_wi_c_hisasi01   '
+    2300760: '0534_wi_c_hisasi00   '
+    2300762: '0535_wi_c_hasira     '
+    2300764: '0536_wi_c_dai        '
+    2300766: '0537_wi_h_yatai      '
+    2300768: '0538_wi_c_saku       '
+    2300770: '0539_wi_c_baketu1    '
+    2300772: '0540_wi_k_gate01     '
+    2300774: '0541_wi_r_kasa       '
+    2300776: '0542_wi_r_tukue      '
+    2300778: '0543_wi_k_arch08     '
+    2300780: '0544_wi_k_arch09     '
+    2300782: '0545_wi_k_arch09     '
+    2300784: '0546_wi_g_mado_1     '
+    2300786: '0547_wi_g_hasira_1   '
+    2300788: '0548_wi_c_hasira_1   '
+    2300790: '0549_wi_c_mado_1     '
+    2300792: '0550_wi_c_kabe_1     '
+    2300794: '0551_wi_ms_hasira1   '
+    2300796: '0552_wi_ml_hasira1   '
+    2300798: '0553_wi_ml_body_1    '
+    2300800: '0554_wi_c_koya_1     '
+    2300802: '0555_wi_h_tent00     '
+    2300804: '0556_wi_h_tent00     '
+    2300806: '0557_wi_g_hata       '
+    2300808: '0558_wi_c_yane01     '
+    2300810: '0559_wi_r_bin01      '
+    2300812: '0560_wi_r_bin01      '
+    2300814: '0561_wi_r_bin02      '
+    2300816: '0562_wi_r_hako       '
+    2300818: '0563_wi_r_hako       '
+    2300820: '0564_wi_r_hukuro01   '
+    2300822: '0565_wi_r_kabin      '
+    2300824: '0566_wi_r_kanban     '
+    2300826: '0567_wi_r_kasa       '
+    2300828: '0568_wi_r_kodana     '
+    2300830: '0569_wi_r_komo01     '
+    2300832: '0570_wi_r_komo02     '
+    2300834: '0571_wi_r_komo03     '
+    2300836: '0572_wi_r_oke        '
+    2300838: '0573_wi_r_oke        '
+    2300840: '0574_wi_r_pict       '
+    2300842: '0575_wi_r_tana       '
+    2300844: '0576_wi_r_tubo       '
+    2300846: '0577_wi_r_tuitate    '
+    2300848: '0578_wi_r_tukue      '
+    2300850: '0579_wi_k_tubo03     '
+    2300852: '0580_wi_k_tubo00     '
+    2300854: '0581_wi_k_tubo02     '
+    2300856: '0582_wi_k_kago00     '
+    2300858: '0583_wi_k_kago00     '
+    2300860: '0584_wi_k_tubo01     '
+    2300862: '0585_wi_k_ramp       '
+    2300864: '0586_wi_k_hako00     '
+    2300866: '0587_wi_k_dai        '
+    2300868: '0588_wi_k_hako01     '
+    2300870: '0589_wi_r_ramp       '
+    2300872: '0590_wi_k_kago01     '
+    2300874: '0591_wi_k_tubo04     '
+    2300876: '0592_wi_k_f_hand     '
+    2300878: '0593_wi_k_dai00      '
+    2300880: '0594_wi_h_tent03     '
+    2300882: '0595_wi_h_tent01     '
+    2300884: '0596_wi_h_tent01     '
+    2300886: '0597_wi_ms_yane      '
+    2300888: '0598_wi_ml_yane      '
+    2300890: '0599_wi_m_nuno       '
+    2300892: '0600_wi_h_yatai      '
+    2300894: '0601_wi_h_tent02     '
+    2300896: '0602_wi_r_kasa       '
+    2300898: '0603_wi_h_tent04     '
+    2300900: '0604_wi_ml_yane_1    '
+    2300902: '0605_wi_h_myroom00   '
+    2300904: '0606_wi_h_myroom04   '
+    2300906: '0607_wi_h_myroom00_1 '
+    2300908: '0608_wi_h_myroom00   '
+    2300910: '0609_wi_h_myroom01   '
+    2300912: '0610_wi_h_myroom03   '
+    2300914: '0611_wi_h_myroom00_2 '
+    2300916: '0614_wi_kirin00h     '
+    2300918: '0615_wi_ha_door      '
+    2300920: '0616_wi_ha_saku3     '
+    2300922: '0617_wi_ha_saku2     '
+    2300924: '0618_wi_ha_saku      '
+    2300926: '0619_wi_ml_yane      '
+    2300928: '0620_wi_ml_hasira    '
+    2300930: '0621_wi_ml_body      '
+    2300932: '0622_wi_m_dai01      '
+    2300934: '0623_wi_m_dai00      '
+    2300936: '0624_wi_g_yane       '
+    2300938: '0625_wi_g_ita        '
+    2300940: '0626_wi_g_hisasi     '
+    2300942: '0627_wi_g_body       '
+    2300944: '0628_wi_i_gild00     '
+    2300946: '0629_wi_i_gild       '
+    2300948: '0630_wi_i_gild01     '
+    2300950: '0631_wi_i_choco      '
+    2300952: '0632_wi_c_yane00     '
+    2300954: '0633_wi_c_kabe       '
+    2300956: '0634_wi_c_hisasi01   '
+    2300958: '0635_wi_c_hisasi00   '
+    2300960: '0636_wi_c_dai        '
+    2300962: '0637_wi_h_yatai      '
+    2300964: '0638_wi_c_esa6       '
+    2300966: '0639_wi_g_ita_1      '
+    2300968: '0640_wi_g_body_1     '
+    2300970: '0641_wi_c_dai_1      '
+    2300972: '0642_wi_c_kabe_1     '
+    2300974: '0643_wi_ml_body_1    '
+    2300976: '0644_wi_m_dai00_1    '
+    2300978: '0645_wi_c_koya_1     '
+    2300980: '0646_wi_m_dai01_1    '
+    2300982: '0647_wi_kirin00a     '
+    2300984: '0648_wi_m_dai00a     '
+    2300986: '0649_wi_m_dai01a     '
+    2300988: '0650__win_w04l       '
+    2300990: '0651__win_w04l       '
+    2300992: '0652__win_w04l       '
+    2300994: '0653__win_w05l       '
+    2300996: '0654__win_w05l       '
+    2300998: '0655__win_w05l       '
+    2301000: '0656__win_w03l       '
+    2301002: '0657__win_w03l       '
+    2301004: '0658__win_w03l       '
+    2301006: '0659__wi_wood        '
+    2301008: '0660__wi_kikabe      '
+    2301010: '0661__wi_kikabe      '
+    2301012: '0662__wi_kikabe      '
+    2301014: '0663_wi_k_arch01     '
+    2301016: '0664_wi_k_arch02     '
+    2301018: '0665_wi_k_arch03     '
+    2301020: '0666_wi_k_arch05     '
+    2301022: '0667_wi_k_arch04     '
+    2301024: '0668_wi_k_arch04     '
+    2301026: '0669_wi_ml_yane      '
+    2301028: '0670_wi_m_nuno       '
+    2301030: '0671_wi_g_k_ori0     '
+    2301032: '0672_wi_g_hata       '
+    2301034: '0673_wi_g_k_ori1     '
+    2301036: '0674_wi_g_k_hone     '
+    2301038: '0675_wi_g_k_zatu     '
+    2301040: '0676_wi_c_yane01     '
+    2301042: '0677_wi_k_mon        '
+    2301044: '0678_wi_k_in00h      '
+    2301046: '0679_wi_k_gate01     '
+    2301048: '0680_wi_r_kanban     '
+    2301050: '0681_wi_r_tana       '
+    2301052: '0682_wi_k_flag00h    '
+    2301054: '0683_wi_k_ramp       '
+    2301056: '0684_wi_k_f_gate     '
+    2301058: '0685_wi_c_kanban     '
+    2301060: '0686_wi_g_hasira_1   '
+    2301062: '0687_wi_k_aucknb00   '
+    2301064: '0688_wi_k_aucknb01   '
+    2301066: '0689_wi_k_ktori      '
+    2301068: '0690_wi_k_kthone     '
+    2301070: '0691_wi_k_ktzatu     '
+    2301072: '0692_wi_k_ktchoco    '
+    2301074: '0693_wi_k_ktkus      '
+    2301076: '0694_wi_k_arch01     '
+    2301078: '0695_wi_k_arch03     '
+    2301080: '0696_wi_k_arch05     '
+    2301082: '0697_wi_k_arch04     '
+    2301084: '0698_wi_k_arch04     '
+    2301086: '0699_wi_k_in00h      '
+    2301088: '0700_wi_k_gate00     '
+    2301090: '0701_wi_k_ryojih     '
+    2301092: '0702_wi_k_myroom00   '
+    2301094: '0703_wi_r_hukuro01   '
+    2301096: '0704_wi_r_komo01     '
+    2301098: '0705_wi_r_komo02     '
+    2301100: '0706_wi_r_komo03     '
+    2301102: '0707_wi_k_arch08     '
+    2301104: '0708_wi_k_flag00h    '
+    2301106: '0709_wi_r_ramp       '
+    2301108: '0710_wi_k_arch01     '
+    2301110: '0711_wi_k_arch02     '
+    2301112: 0711_wi_k_arch02    !
+    2301114: '0712_wi_g_k_ori0     '
+    2301116: '0713_wi_g_k_ori1     '
+    2301118: '0714_wi_g_k_hone     '
+    2301120: '0715_wi_k_mon        '
+    2301122: '0716_wi_k_gate00     '
+    2301124: '0717_wi_k_gate01     '
+    2301126: '0718_wi_k_ryojih     '
+    2301128: '0719_wi_r_kanban     '
+    2301130: '0720_wi_k_aucknb00   '
+    2301132: '0721_wi_k_aucknb01   '
+    2301134: '0722_wi_k_kthone     '
+    2301136: '0723_wi_ha_door      '
+    2301138: '0724_wi_ms_yane      '
+    2301140: '0725_wi_m_isu        '
+    2301142: '0726_wi_m_tabel      '
+    2301144: '0727_wi_m_tubo       '
+    2301146: '0728_wi_d_choco      '
+    2301148: '0729_wi_d_choco      '
+    2301150: '0730_wi_m_kago       '
+    2301152: '0731_wi_h_yatai      '
+    2301154: '0732_wi_m_fukuro     '
+    2301156: '0733_wi_d_in1f       '
+    2301158: '0734_wi_d_in2f       '
+    2301160: '0735_wi_r_kasa       '
+    2301162: '0736_wi_k_yumidai    '
+    2301164: '0737_wi_k_yumi       '
+    2301166: '0738_wi_k_ya         '
+    2301168: '0739_wi_ml_body_1    '
+    2301170: '0740_wi_ha_saku3     '
+    2301172: '0741_wi_ha_saku      '
+    2301174: '0742_wi_ms_dai       '
+    2301176: '0743_wi_ms_body      '
+    2301178: '0744_wi_ml_body      '
+    2301180: '0745_wi_g_body       '
+    2301182: '0746_wi_c_koya       '
+    2301184: '0747_wi_c_kabe       '
+    2301186: '0748_wi_g_body_1     '
+    2301188: '0749_wi_c_kabe_1     '
+    2301190: '0750_wi_ms_body_1    '
+    2301192: '0751_wi_ml_body_1    '
+    2301194: '0752_wi_c_koya_1     '
+    2301196: '0753_wi_ms_yane      '
+    2301198: '0754_wi_ml_yane      '
+    2301200: '0755_wi_ml_mado      '
+    2301202: '0756_wi_g_yane       '
+    2301204: '0757_wi_g_mado       '
+    2301206: '0758_wi_g_hisasi     '
+    2301208: '0759_wi_c_yane00     '
+    2301210: '0760_wi_c_hisasi01   '
+    2301212: '0761_wi_c_hisasi00   '
+    2301214: '0762_wi_ml_yane      '
+    2301216: '0763_wi_ml_yane      '
+    2301218: '0764_wi_ml_mado      '
+    2301220: '0765_wi_g_mado       '
+    2301222: '0766_wi_c_yane01     '
+    2301224: '0767_wi_c_mado       '
+    2301226: '0768_wi_h_yatai      '
+    2301228: '0769_wi_c_baketu1    '
+    2301230: '0770_wi_c_ballel1    '
+    2301232: '0771_wi_c_barrel2    '
+    2301234: '0772_wi_c_box01      '
+    2301236: '0773_wi_c_box01      '
+    2301238: '0774_wi_c_esa6       '
+    2301240: '0775_wi_c_fork       '
+    2301242: '0776_wi_c_scoop1     '
+    2301244: '0777_wi_c_scoop2     '
+    2301246: '0778_wi_kirisaku     '
+    2301248: '0779_wi_r_kasa       '
+    2301250: '0780_wi_h_tentka     '
+    2301252: '0781_wi_ha_saku4_1   '
+    2301254: '0782_wi_g_k_ori0     '
+    2301256: '0783_wi_g_k_ori1     '
+    2301258: '0784_wi_g_k_hone     '
+    2301260: '0785_wi_g_k_zatu     '
+    2301262: '0786_wi_h_yatai      '
+    2301264: '0787_wi_k_in00h      '
+    2301266: '0788_wi_k_ryojih     '
+    2301268: '0789_wi_k_f_gate     '
+    2301270: '0790_wi_c_kanban     '
+    2301272: '0791_wi_k_f_hand     '
+    2301274: '0792_wi_k_aucknb00   '
+    2301276: '0793_wi_k_aucknb01   '
+    2301278: '0794_wi_k_ktori      '
+    2301280: '0795_wi_k_kthone     '
+    2301282: '0796_wi_k_ktzatu     '
+    2301284: '0797_wi_k_ktchoco    '
+    2301286: '0798_wi_k_ktkus      '
+    2301288: '0799_wi_d_gild       '
+    2301290: '0800_wi_d_gild       '
+    2301292: '0801_wi_d_choco      '
+    2301294: '0802_wi_d_choco      '
+    2301296: '0803_wi_c_koya       '
+    2301298: '0804_wi_d_in1f       '
+    2301300: '0805_wi_d_in2f       '
+    2301302: '0806_wi_d_gate       '
+    2301304: '0807_wi_d_ryof1      '
+    2301306: '0808_wi_c_hasira_1   '
+    2301308: '0809_wi_ms_body_1    '
+    2301310: '0810_chok_win01      '
+    2301312: '0811_wi_d_gild       '
+    2301314: '0812_wi_d_gild       '
+    2301316: '0813_wi_d_choco      '
+    2301318: '0814_wi_d_choco      '
+    2301320: '0815_wi_d_in1f       '
+    2301322: '0816_wi_d_ryof1      '
+    2301324: '0817_wi_d_ryof1_2    '
+    2301326: '0818_wi_d_choco      '
+    2301328: '0819_wi_d_choco      '
+    2301330: '0820_wi_d_in1f       '
+    2301332: '0821__win_m01_h      '
+    2301334: '0822__win_m01_h      '
+    2301336: '0823__win_m01_t      '
+    2301338: '0824__win_m02        '
+    2301340: '0825__wi_kusa01      '
+    2301342: '0826__wi_kusa01      '
+    2301344: pPlane5
+    3300000: '0000_wi_hand00       '
+    3300002: '0001_wi_hand01       '
+    3300004: 0001_wi_hand01      !
+    3300006: '0002_wi_hand02       '
+    3300008: '0003_wi_hand03       '
+    3300010: '0004_wi_hand04       '
+    3300012: '0005_wi_hand05       '
+    3300014: '0006_wi_hand06       '
+    3300016: '0007_wi_hand07       '
+    3300018: '0008_wi_hand08       '
+    3300020: '0009_wi_hand09       '
+    3300022: '0010_wi_hand10       '
+    3300024: '0011_wi_hand11       '
+    3300026: '0012_wi_hand12       '
+    3300028: '0013_wi_hand13       '
+    3300030: '0014_wi_hand14       '
+    3300032: '0015_wi_hand15       '
+    3300034: '0016_wi_hand16       '
+    3300036: '0017_wi_hand17       '
+    3300038: '0018_wi_hand18       '
+    3300040: '0019_wi_hand19       '
+    3300042: '0020_wi_hand20       '
+    3300044: '0021_wi_hand21       '
+    3300046: '0022_wi_hand22       '
+    3300048: '0023_wi_hand23       '
+    3300050: '0024_wi_hand24       '
+    3300052: '0025_wi_hand25       '
+    3300054: '0026_wi_hand26       '
+    3300056: '0027_wi_hand27       '
+    3300058: '0028_wi_hand28       '
+    3300060: '0029_wi_hand29       '
+    3300062: '0030_wi_misr01       '
+    3300064: '0031_wi_misr00       '
+    3300066: '0032_wi_misr02       '
+    3300068: '0033_wi_misr03       '
+    3300070: '0034_wi_misr04       '
+    3300072: '0035_wi_misr05       '
+    3300074: '0036_wi_misr06       '
+    3300076: '0037_wi_misr09       '
+    3300078: '0038_wi_misr15       '
+    3300080: '0039_wi_my01         '
+    3300082: '0040_wi_my03         '
+    3300084: '0041_wi_mish01       '
+    3300086: '0042_wi_z_jmp01      '
+    3300088: '0043_wi_hand13_3     '
+    3300090: '0044_wi_hand17_1     '
+    3300092: '0045_wi_misr01_2     '
+    3300094: '0046_wi_misr00_1     '
+    3300096: '0047_wi_misr01_1     '
+    3300098: '0048_wi_hand7_1      '
+    3300100: '0049_wi_hand25_1     '
+    3300102: '0050_wi_hand15_1     '
+    3300104: '0051_wi_hand13_2     '
+    3300106: '0052_wi_hand00       '
+    3300108: '0053_wi_hand01       '
+    3300110: '0054_wi_hand02       '
+    3300112: '0055_wi_hand03       '
+    3300114: '0056_wi_hand04       '
+    3300116: '0057_wi_hand05       '
+    3300118: '0058_wi_hand06       '
+    3300120: '0059_wi_hand07       '
+    3300122: '0060_wi_hand08       '
+    3300124: '0061_wi_hand09       '
+    3300126: '0062_wi_hand10       '
+    3300128: '0063_wi_hand11       '
+    3300130: '0064_wi_hand12       '
+    3300132: '0065_wi_hand14       '
+    3300134: '0066_wi_hand15       '
+    3300136: '0067_wi_hand16       '
+    3300138: '0068_wi_hand17       '
+    3300140: '0069_wi_hand18       '
+    3300142: '0070_wi_hand19       '
+    3300144: '0071_wi_hand20       '
+    3300146: '0072_wi_hand21       '
+    3300148: '0073_wi_hand22       '
+    3300150: '0074_wi_hand23       '
+    3300152: '0075_wi_hand24       '
+    3300154: '0076_wi_hand25       '
+    3300156: '0077_wi_hand26       '
+    3300158: '0078_wi_hand27       '
+    3300160: '0079_wi_hand28       '
+    3300162: '0080_wi_hand29       '
+    3300164: '0081_wi_misr01       '
+    3300166: '0082_wi_misr00       '
+    3300168: '0083_wi_misr02       '
+    3300170: '0084_wi_misr03       '
+    3300172: '0085_wi_misr04       '
+    3300174: '0086_wi_misr05       '
+    3300176: '0087_wi_misr06       '
+    3300178: '0088_wi_misr07       '
+    3300180: '0089_wi_misr08       '
+    3300182: '0090_wi_misr09       '
+    3300184: '0091_wi_misr10       '
+    3300186: '0092_wi_misr11       '
+    3300188: '0093_wi_misr12       '
+    3300190: '0094_wi_misr14       '
+    3300192: '0095_wi_misr15       '
+    3300194: '0096_wi_my01         '
+    3300196: '0097_wi_my03         '
+    3300198: '0098_wi_mish00       '
+    3300200: '0099_wi_mish01       '
+    3300202: '0100_wi_mish02       '
+    3300204: '0101_wi_mish03       '
+    3300206: '0102_wi_z_jmp01      '
+    3300208: '0103_wi_z_jmp02      '
+    3300210: '0104_wi_misr09_1     '
+    3300212: '0105_wi_hand17_1     '
+    3300214: '0106_wi_misr01_2     '
+    3300216: '0107_wi_hand00       '
+    3300218: '0108_wi_hand01       '
+    3300220: '0109_wi_hand02       '
+    3300222: '0110_wi_hand03       '
+    3300224: '0111_wi_hand04       '
+    3300226: '0112_wi_hand05       '
+    3300228: '0113_wi_hand06       '
+    3300230: '0114_wi_hand07       '
+    3300232: '0115_wi_hand08       '
+    3300234: '0116_wi_hand09       '
+    3300236: '0117_wi_hand10       '
+    3300238: '0118_wi_hand11       '
+    3300240: '0119_wi_hand12       '
+    3300242: '0120_wi_hand13       '
+    3300244: '0121_wi_hand14       '
+    3300246: '0122_wi_hand15       '
+    3300248: '0123_wi_hand16       '
+    3300250: '0124_wi_hand17       '
+    3300252: '0125_wi_hand18       '
+    3300254: '0126_wi_hand19       '
+    3300256: '0127_wi_hand20       '
+    3300258: '0128_wi_hand21       '
+    3300260: '0129_wi_hand22       '
+    3300262: '0130_wi_hand23       '
+    3300264: '0131_wi_hand24       '
+    3300266: '0132_wi_hand25       '
+    3300268: '0133_wi_hand26       '
+    3300270: '0134_wi_hand27       '
+    3300272: '0135_wi_hand28       '
+    3300274: '0136_wi_hand29       '
+    3300276: '0137_wi_misr01       '
+    3300278: '0138_wi_misr00       '
+    3300280: '0139_wi_misr02       '
+    3300282: '0140_wi_misr03       '
+    3300284: '0141_wi_misr04       '
+    3300286: '0142_wi_misr05       '
+    3300288: '0143_wi_misr06       '
+    3300290: '0144_wi_misr07       '
+    3300292: '0145_wi_misr08       '
+    3300294: '0146_wi_misr09       '
+    3300296: '0147_wi_misr10       '
+    3300298: '0148_wi_misr11       '
+    3300300: '0149_wi_misr12       '
+    3300302: '0150_wi_misr14       '
+    3300304: '0151_wi_misr15       '
+    3300306: '0152_wi_my01         '
+    3300308: '0153_wi_my03         '
+    3300310: '0154_wi_mish00       '
+    3300312: '0155_wi_mish01       '
+    3300314: '0156_wi_mish02       '
+    3300316: '0157_wi_mish03       '
+    3300318: '0158_wi_z_jmp01      '
+    3300320: '0159_wi_z_jmp02      '
+    3300322: '0160_wi_misr09_1     '
+    3300324: '0161_wi_hand13_3     '
+    3300326: '0162_wi_misr01_2     '
+    3300328: '0163_wi_hand13_1     '
+    3300330: '0164_wi_misr00_1     '
+    3300332: '0165_wi_hand29_1     '
+    3300334: '0166_wi_hand19_1     '
+    3300336: '0167_wi_hand13_2     '
+    3300338: '0178_wi_hand10       '
+    3300340: '0192_wi_hand24       '
+    3300342: '0225_wi_hand13_1     '
+    3300344: '0235_wi_my01_1       '
+    3300346: '0237_wi_hand29_1     '
+    3300348: '0238_wi_hand26_2     '
+    3300350: '0239_wi_hand26_1     '
+    3300352: '0240_wi_hand20_1     '
+    3300354: '0241_wi_hand19_1     '
+    3300356: '0243_wi_hand14_1     '
+    3300358: '0244_wi_hand13_2     '
+    3300360: '0245_wi_my03_1       '
+    3300362: '0247_wi_hand01       '
+    3300364: '0248_wi_hand03       '
+    3300366: '0253_wi_hand10       '
+    3300368: '0254_wi_hand11       '
+    3300370: '0259_wi_hand18       '
+    3300372: '0271_wi_misr05       '
+    3300374: '0273_wi_misr09       '
+    3300376: '0277_wi_hand13_1     '
+    3300378: '0278_wi_hand7_1      '
+    3300380: '0281_wi_hand15_1     '
+    3300382: '0282_wi_hand14_1     '
+    3300384: '0283_chok_win01      '
+    3300386: '0284_wi_hand01       '
+    3300388: '0293_wi_hand10       '
+    3300390: '0318_wi_misr05       '
+    3300392: '0320_wi_misr08       '
+    3300394: '0323_wi_misr11       '
+    3300396: '0334_wi_z_jmp02      '
+    3300398: '0336_wi_misr01_2     '
+    3300400: '0337_wi_hand13_1     '
+    3300402: '0338_wi_misr00_1     '
+    3300404: '0339_wi_misr01_1     '
+    3300406: '0340_wi_hand7_1      '
+    3300408: '0341_wi_hand29_1     '
+    3300410: '0342_wi_hand26_2     '
+    3300412: '0343_wi_hand19_1     '
+    3300414: '0344_wi_hand05       '
+    3300416: '0345_wi_hand14       '
+    3300418: '0346_wi_hand20       '
+    3300420: '0347_wi_hand26       '
+    3300422: '0348_wi_misr04       '
+    3300424: '0349_wi_misr07       '
+    3300426: '0350_wi_misr08       '
+    3300428: '0351_wi_misr10       '
+    3300430: '0352_wi_fountain01   '
+    3300432: '0353_wi_hand05       '
+    3300434: '0354_wi_hand14       '
+    3300436: '0356_wi_hand13_1     '
+    3300438: '0357_wi_fountain00   '
+    3300440: '0358_wi_hand07       '
+    3300442: '0359_wi_hand15       '
+    3300444: '0360_wi_h_ryoji00h   '
+    3300446: '0361_wi_h_in00       '
+    3300448: '0362_wi_h_auc00h     '
+    3300450: '0363_wi_h_gate00     '
+    3300452: '0364_wi_h_gate00     '
+    3300454: '0365_wi_h_gate03     '
+    3300456: '0366_wi_h_myroom00   '
+    3300458: '0367_wi_i_ryj00      '
+    3300460: '0368_wi_i_inf0       '
+    3300462: '0369_wi_i_inf1       '
+    3300464: '0370_wi_h_auc01h     '
+    3300466: '0371_wi_h_auc02h     '
+    3300468: '0372_wi_h_myroom00_2 '
+    3300470: '0373_wi_h_in00_1     '
+    3300472: '0374_wi_h_in00_2     '
+    3300474: '0375_wi_h_ryoji01h   '
+    3300476: '0376_chok_win01      '
+    3300478: '0377_chok_win02      '
+    3300480: '0381_wi_h_auc00h     '
+    3300482: '0382_wi_h_gate03     '
+    3300484: '0383_wi_h_myroom04   '
+    3300486: '0388_chok_win01      '
+    3300488: '0389_chok_win02      '
+    3300490: '0390_wi_hand17       '
+    3300492: '0391_wi_hand17_1     '
+    3300494: '0394_wi_hand20       '
+    3300496: '0395_wi_misr04       '
+    3300498: '0396_wi_misr07       '
+    3300500: '0397_wi_misr08       '
+    3300502: '0398_wi_misr10       '
+    3300504: '0399_wi_hand20       '
+    3300506: '0401_wi_hand13_1     '
+    3300508: '0402_wi_misr04       '
+    3300510: '0403_wi_k_arch05     '
+    3300512: '0404_wi_r_hukuro01   '
+    3300514: '0405_wi_r_kanban     '
+    3300516: '0406_wi_r_komo02     '
+    3300518: '0407_wi_r_komo03     '
+    3300520: '0408_wi_k_aucknb01   '
+    3300522: '0409_wi_h_ryoji00h   '
+    3300524: '0410_wi_h_in00       '
+    3300526: '0411_wi_h_auc00h     '
+    3300528: '0412_wi_h_gate01     '
+    3300530: '0413_wi_h_gate00     '
+    3300532: '0414_wi_h_gate00     '
+    3300534: '0415_wi_h_gate03     '
+    3300536: '0416_wi_h_myroom00   '
+    3300538: '0417_wi_i_inf0       '
+    3300540: '0418_wi_i_inf1       '
+    3300542: '0419_wi_h_auc01h     '
+    3300544: '0420_wi_h_auc02h     '
+    3300546: '0421_wi_h_myroom00_2 '
+    3300548: '0422_wi_h_gate02     '
+    3300550: '0423_wi_h_in00_1     '
+    3300552: '0424_wi_h_in00_2     '
+    3300554: '0425_wi_h_ryoji01h   '
+    3300556: '0426_wi_i_arai01     '
+    3300558: '0427_wi_i_table      '
+    3300560: '0428_chok_win01      '
+    3300562: '0429_chok_win02      '
+    3300564: '0432_wi_h_auc00h     '
+    3300566: '0434_wi_h_myroom04   '
+    3300568: '0435_wi_h_auc01h     '
+    3300570: '0437_wi_h_myroom00_1 '
+    3300572: '0438_wi_h_myroom00_2 '
+    3300574: '0441_wi_h_in00       '
+    3300576: '0442_wi_h_gate01     '
+    3300578: '0443_wi_h_gate00     '
+    3300580: '0444_wi_h_gate00     '
+    3300582: '0445_wi_h_gate03     '
+    3300584: '0446_wi_ha_saku2     '
+    3300586: '0447_wi_h_gate02     '
+    3300588: '0448_wi_h_in00_1     '
+    3300590: '0449_wi_h_in00_2     '
+    3300592: '0450_chok_win01      '
+    3300594: '0451_chok_win02      '
+    3300596: '0452_wi_h_in00       '
+    3300598: '0453_wi_h_tent00     '
+    3300600: '0454_wi_h_tent00     '
+    3300602: '0455_wi_k_arch05     '
+    3300604: '0456_wi_ml_yane      '
+    3300606: '0457_wi_g_hata       '
+    3300608: '0458_wi_c_yane01     '
+    3300610: '0459_wi_r_kasa       '
+    3300612: '0460_wi_r_tana       '
+    3300614: '0461_wi_r_tukue      '
+    3300616: '0462_wi_k_f_gate     '
+    3300618: '0463_wi_k_f_hand     '
+    3300620: '0464_wi_c_koya_1     '
+    3300622: '0465_wi_h_auc00h     '
+    3300624: '0466_wi_h_auc_kanb   '
+    3300626: '0467_wi_h_auc_dai    '
+    3300628: '0468_wi_h_auc_cou    '
+    3300630: '0469_wi_h_auc01h     '
+    3300632: '0470_wi_h_auc02h     '
+    3300634: '0471_wi_c_mado_1     '
+    3300636: '0472_chok_win01      '
+    3300638: '0473_wi_fountain00   '
+    3300640: '0474_wi_fountain01   '
+    3300642: '0475_wi_fountain00   '
+    3300644: '0476_wi_h_gate03     '
+    3300646: '0477_wi_fountain01   '
+    3300648: '0478_wi_bri01h       '
+    3300650: '0479_wi_bri02h       '
+    3300652: '0480_wi_bri04h       '
+    3300654: '0481_wi_bri05h       '
+    3300656: '0482_wi_bri06h       '
+    3300658: '0483_wi_bri07h       '
+    3300660: '0484_wi_bri08h       '
+    3300662: '0485_wi_bri09h       '
+    3300664: '0486_wi_bri10h       '
+    3300666: '0487_wi_bri11h       '
+    3300668: '0488_wi_bri12h       '
+    3300670: '0489_wi_bri13h       '
+    3300672: '0490_wi_bri14h       '
+    3300674: '0491_wi_ms_dai       '
+    3300676: '0492_wi_m_ita01      '
+    3300678: '0493_wi_m_ita00      '
+    3300680: '0494_wi_m_ita        '
+    3300682: '0495_wi_m_dai00      '
+    3300684: '0496_wi_m_fukuro     '
+    3300686: '0497_wi_kirisaku     '
+    3300688: '0498_wi_k_tubo03     '
+    3300690: '0499_wi_k_tana       '
+    3300692: '0500_wi_ms_dai_1     '
+    3300694: '0501_wi_bri02a       '
+    3300696: '0502_wi_bri01a       '
+    3300698: '0503_wi_bri04a       '
+    3300700: '0504_wi_bri05a       '
+    3300702: '0505_wi_bri06a       '
+    3300704: '0506_wi_bri07a       '
+    3300706: '0507_wi_bri08a       '
+    3300708: '0508_wi_bri09a       '
+    3300710: '0509_wi_bri10a       '
+    3300712: '0510_wi_bri11a       '
+    3300714: '0511_wi_bri12a       '
+    3300716: '0512_wi_bri13a       '
+    3300718: '0513_wi_bri14a       '
+    3300720: '0514_wi_kirin00a     '
+    3300722: '0515_wi_m_dai00a     '
+    3300724: '0516_wi_m_dai01a     '
+    3300726: '0517_wi_h_tent00     '
+    3300728: '0518_wi_h_tent00     '
+    3300730: '0519_wi_ha_saku4     '
+    3300732: '0520_wi_ha_saku5     '
+    3300734: '0521_wi_ms_yane      '
+    3300736: '0522_wi_ms_hasira    '
+    3300738: '0523_wi_ms_dai       '
+    3300740: '0524_wi_ml_mado      '
+    3300742: '0525_wi_ml_hasira    '
+    3300744: '0526_wi_ml_body      '
+    3300746: '0527_wi_g_mado       '
+    3300748: '0528_wi_g_hisasi     '
+    3300750: '0529_wi_g_hasira     '
+    3300752: '0530_wi_c_yane00     '
+    3300754: '0531_wi_c_mado       '
+    3300756: '0532_wi_c_koya       '
+    3300758: '0533_wi_c_hisasi01   '
+    3300760: '0534_wi_c_hisasi00   '
+    3300762: '0535_wi_c_hasira     '
+    3300764: '0536_wi_c_dai        '
+    3300766: '0537_wi_h_yatai      '
+    3300768: '0538_wi_c_saku       '
+    3300770: '0539_wi_c_baketu1    '
+    3300772: '0540_wi_k_gate01     '
+    3300774: '0541_wi_r_kasa       '
+    3300776: '0542_wi_r_tukue      '
+    3300778: '0543_wi_k_arch08     '
+    3300780: '0544_wi_k_arch09     '
+    3300782: '0545_wi_k_arch09     '
+    3300784: '0546_wi_g_mado_1     '
+    3300786: '0547_wi_g_hasira_1   '
+    3300788: '0548_wi_c_hasira_1   '
+    3300790: '0549_wi_c_mado_1     '
+    3300792: '0550_wi_c_kabe_1     '
+    3300794: '0551_wi_ms_hasira1   '
+    3300796: '0552_wi_ml_hasira1   '
+    3300798: '0553_wi_ml_body_1    '
+    3300800: '0554_wi_c_koya_1     '
+    3300802: '0555_wi_h_tent00     '
+    3300804: '0556_wi_h_tent00     '
+    3300806: '0557_wi_g_hata       '
+    3300808: '0558_wi_c_yane01     '
+    3300810: '0559_wi_r_bin01      '
+    3300812: '0560_wi_r_bin01      '
+    3300814: '0561_wi_r_bin02      '
+    3300816: '0562_wi_r_hako       '
+    3300818: '0563_wi_r_hako       '
+    3300820: '0564_wi_r_hukuro01   '
+    3300822: '0565_wi_r_kabin      '
+    3300824: '0566_wi_r_kanban     '
+    3300826: '0567_wi_r_kasa       '
+    3300828: '0568_wi_r_kodana     '
+    3300830: '0569_wi_r_komo01     '
+    3300832: '0570_wi_r_komo02     '
+    3300834: '0571_wi_r_komo03     '
+    3300836: '0572_wi_r_oke        '
+    3300838: '0573_wi_r_oke        '
+    3300840: '0574_wi_r_pict       '
+    3300842: '0575_wi_r_tana       '
+    3300844: '0576_wi_r_tubo       '
+    3300846: '0577_wi_r_tuitate    '
+    3300848: '0578_wi_r_tukue      '
+    3300850: '0579_wi_k_tubo03     '
+    3300852: '0580_wi_k_tubo00     '
+    3300854: '0581_wi_k_tubo02     '
+    3300856: '0582_wi_k_kago00     '
+    3300858: '0583_wi_k_kago00     '
+    3300860: '0584_wi_k_tubo01     '
+    3300862: '0585_wi_k_ramp       '
+    3300864: '0586_wi_k_hako00     '
+    3300866: '0587_wi_k_dai        '
+    3300868: '0588_wi_k_hako01     '
+    3300870: '0589_wi_r_ramp       '
+    3300872: '0590_wi_k_kago01     '
+    3300874: '0591_wi_k_tubo04     '
+    3300876: '0592_wi_k_f_hand     '
+    3300878: '0593_wi_k_dai00      '
+    3300880: '0594_wi_h_tent03     '
+    3300882: '0595_wi_h_tent01     '
+    3300884: '0596_wi_h_tent01     '
+    3300886: '0597_wi_ms_yane      '
+    3300888: '0598_wi_ml_yane      '
+    3300890: '0599_wi_m_nuno       '
+    3300892: '0600_wi_h_yatai      '
+    3300894: '0601_wi_h_tent02     '
+    3300896: '0602_wi_r_kasa       '
+    3300898: '0603_wi_h_tent04     '
+    3300900: '0604_wi_ml_yane_1    '
+    3300902: '0605_wi_h_myroom00   '
+    3300904: '0606_wi_h_myroom04   '
+    3300906: '0607_wi_h_myroom00_1 '
+    3300908: '0608_wi_h_myroom00   '
+    3300910: '0609_wi_h_myroom01   '
+    3300912: '0610_wi_h_myroom03   '
+    3300914: '0611_wi_h_myroom00_2 '
+    3300916: '0614_wi_kirin00h     '
+    3300918: '0615_wi_ha_door      '
+    3300920: '0616_wi_ha_saku3     '
+    3300922: '0617_wi_ha_saku2     '
+    3300924: '0618_wi_ha_saku      '
+    3300926: '0619_wi_ml_yane      '
+    3300928: '0620_wi_ml_hasira    '
+    3300930: '0621_wi_ml_body      '
+    3300932: '0622_wi_m_dai01      '
+    3300934: '0623_wi_m_dai00      '
+    3300936: '0624_wi_g_yane       '
+    3300938: '0625_wi_g_ita        '
+    3300940: '0626_wi_g_hisasi     '
+    3300942: '0627_wi_g_body       '
+    3300944: '0628_wi_i_gild00     '
+    3300946: '0629_wi_i_gild       '
+    3300948: '0630_wi_i_gild01     '
+    3300950: '0631_wi_i_choco      '
+    3300952: '0632_wi_c_yane00     '
+    3300954: '0633_wi_c_kabe       '
+    3300956: '0634_wi_c_hisasi01   '
+    3300958: '0635_wi_c_hisasi00   '
+    3300960: '0636_wi_c_dai        '
+    3300962: '0637_wi_h_yatai      '
+    3300964: '0638_wi_c_esa6       '
+    3300966: '0639_wi_g_ita_1      '
+    3300968: '0640_wi_g_body_1     '
+    3300970: '0641_wi_c_dai_1      '
+    3300972: '0642_wi_c_kabe_1     '
+    3300974: '0643_wi_ml_body_1    '
+    3300976: '0644_wi_m_dai00_1    '
+    3300978: '0645_wi_c_koya_1     '
+    3300980: '0646_wi_m_dai01_1    '
+    3300982: '0647_wi_kirin00a     '
+    3300984: '0648_wi_m_dai00a     '
+    3300986: '0649_wi_m_dai01a     '
+    3300988: '0650__win_w04l       '
+    3300990: '0651__win_w04l       '
+    3300992: '0652__win_w04l       '
+    3300994: '0653__win_w05l       '
+    3300996: '0654__win_w05l       '
+    3300998: '0655__win_w05l       '
+    3301000: '0656__win_w03l       '
+    3301002: '0657__win_w03l       '
+    3301004: '0658__win_w03l       '
+    3301006: '0659__wi_wood        '
+    3301008: '0660__wi_kikabe      '
+    3301010: '0661__wi_kikabe      '
+    3301012: '0662__wi_kikabe      '
+    3301014: '0663_wi_k_arch01     '
+    3301016: '0664_wi_k_arch02     '
+    3301018: '0665_wi_k_arch03     '
+    3301020: '0666_wi_k_arch05     '
+    3301022: '0667_wi_k_arch04     '
+    3301024: '0668_wi_k_arch04     '
+    3301026: '0669_wi_ml_yane      '
+    3301028: '0670_wi_m_nuno       '
+    3301030: '0671_wi_g_k_ori0     '
+    3301032: '0672_wi_g_hata       '
+    3301034: '0673_wi_g_k_ori1     '
+    3301036: '0674_wi_g_k_hone     '
+    3301038: '0675_wi_g_k_zatu     '
+    3301040: '0676_wi_c_yane01     '
+    3301042: '0677_wi_k_mon        '
+    3301044: '0678_wi_k_in00h      '
+    3301046: '0679_wi_k_gate01     '
+    3301048: '0680_wi_r_kanban     '
+    3301050: '0681_wi_r_tana       '
+    3301052: '0682_wi_k_flag00h    '
+    3301054: '0683_wi_k_ramp       '
+    3301056: '0684_wi_k_f_gate     '
+    3301058: '0685_wi_c_kanban     '
+    3301060: '0686_wi_g_hasira_1   '
+    3301062: '0687_wi_k_aucknb00   '
+    3301064: '0688_wi_k_aucknb01   '
+    3301066: '0689_wi_k_ktori      '
+    3301068: '0690_wi_k_kthone     '
+    3301070: '0691_wi_k_ktzatu     '
+    3301072: '0692_wi_k_ktchoco    '
+    3301074: '0693_wi_k_ktkus      '
+    3301076: '0694_wi_k_arch01     '
+    3301078: '0695_wi_k_arch03     '
+    3301080: '0696_wi_k_arch05     '
+    3301082: '0697_wi_k_arch04     '
+    3301084: '0698_wi_k_arch04     '
+    3301086: '0699_wi_k_in00h      '
+    3301088: '0700_wi_k_gate00     '
+    3301090: '0701_wi_k_ryojih     '
+    3301092: '0702_wi_k_myroom00   '
+    3301094: '0703_wi_r_hukuro01   '
+    3301096: '0704_wi_r_komo01     '
+    3301098: '0705_wi_r_komo02     '
+    3301100: '0706_wi_r_komo03     '
+    3301102: '0707_wi_k_arch08     '
+    3301104: '0708_wi_k_flag00h    '
+    3301106: '0709_wi_r_ramp       '
+    3301108: '0710_wi_k_arch01     '
+    3301110: '0711_wi_k_arch02     '
+    3301112: 0711_wi_k_arch02    !
+    3301114: '0712_wi_g_k_ori0     '
+    3301116: '0713_wi_g_k_ori1     '
+    3301118: '0714_wi_g_k_hone     '
+    3301120: '0715_wi_k_mon        '
+    3301122: '0716_wi_k_gate00     '
+    3301124: '0717_wi_k_gate01     '
+    3301126: '0718_wi_k_ryojih     '
+    3301128: '0719_wi_r_kanban     '
+    3301130: '0720_wi_k_aucknb00   '
+    3301132: '0721_wi_k_aucknb01   '
+    3301134: '0722_wi_k_kthone     '
+    3301136: '0723_wi_ha_door      '
+    3301138: '0724_wi_ms_yane      '
+    3301140: '0725_wi_m_isu        '
+    3301142: '0726_wi_m_tabel      '
+    3301144: '0727_wi_m_tubo       '
+    3301146: '0728_wi_d_choco      '
+    3301148: '0729_wi_d_choco      '
+    3301150: '0730_wi_m_kago       '
+    3301152: '0731_wi_h_yatai      '
+    3301154: '0732_wi_m_fukuro     '
+    3301156: '0733_wi_d_in1f       '
+    3301158: '0734_wi_d_in2f       '
+    3301160: '0735_wi_r_kasa       '
+    3301162: '0736_wi_k_yumidai    '
+    3301164: '0737_wi_k_yumi       '
+    3301166: '0738_wi_k_ya         '
+    3301168: '0739_wi_ml_body_1    '
+    3301170: '0740_wi_ha_saku3     '
+    3301172: '0741_wi_ha_saku      '
+    3301174: '0742_wi_ms_dai       '
+    3301176: '0743_wi_ms_body      '
+    3301178: '0744_wi_ml_body      '
+    3301180: '0745_wi_g_body       '
+    3301182: '0746_wi_c_koya       '
+    3301184: '0747_wi_c_kabe       '
+    3301186: '0748_wi_g_body_1     '
+    3301188: '0749_wi_c_kabe_1     '
+    3301190: '0750_wi_ms_body_1    '
+    3301192: '0751_wi_ml_body_1    '
+    3301194: '0752_wi_c_koya_1     '
+    3301196: '0753_wi_ms_yane      '
+    3301198: '0754_wi_ml_yane      '
+    3301200: '0755_wi_ml_mado      '
+    3301202: '0756_wi_g_yane       '
+    3301204: '0757_wi_g_mado       '
+    3301206: '0758_wi_g_hisasi     '
+    3301208: '0759_wi_c_yane00     '
+    3301210: '0760_wi_c_hisasi01   '
+    3301212: '0761_wi_c_hisasi00   '
+    3301214: '0762_wi_ml_yane      '
+    3301216: '0763_wi_ml_yane      '
+    3301218: '0764_wi_ml_mado      '
+    3301220: '0765_wi_g_mado       '
+    3301222: '0766_wi_c_yane01     '
+    3301224: '0767_wi_c_mado       '
+    3301226: '0768_wi_h_yatai      '
+    3301228: '0769_wi_c_baketu1    '
+    3301230: '0770_wi_c_ballel1    '
+    3301232: '0771_wi_c_barrel2    '
+    3301234: '0772_wi_c_box01      '
+    3301236: '0773_wi_c_box01      '
+    3301238: '0774_wi_c_esa6       '
+    3301240: '0775_wi_c_fork       '
+    3301242: '0776_wi_c_scoop1     '
+    3301244: '0777_wi_c_scoop2     '
+    3301246: '0778_wi_kirisaku     '
+    3301248: '0779_wi_r_kasa       '
+    3301250: '0780_wi_h_tentka     '
+    3301252: '0781_wi_ha_saku4_1   '
+    3301254: '0782_wi_g_k_ori0     '
+    3301256: '0783_wi_g_k_ori1     '
+    3301258: '0784_wi_g_k_hone     '
+    3301260: '0785_wi_g_k_zatu     '
+    3301262: '0786_wi_h_yatai      '
+    3301264: '0787_wi_k_in00h      '
+    3301266: '0788_wi_k_ryojih     '
+    3301268: '0789_wi_k_f_gate     '
+    3301270: '0790_wi_c_kanban     '
+    3301272: '0791_wi_k_f_hand     '
+    3301274: '0792_wi_k_aucknb00   '
+    3301276: '0793_wi_k_aucknb01   '
+    3301278: '0794_wi_k_ktori      '
+    3301280: '0795_wi_k_kthone     '
+    3301282: '0796_wi_k_ktzatu     '
+    3301284: '0797_wi_k_ktchoco    '
+    3301286: '0798_wi_k_ktkus      '
+    3301288: '0799_wi_d_gild       '
+    3301290: '0800_wi_d_gild       '
+    3301292: '0801_wi_d_choco      '
+    3301294: '0802_wi_d_choco      '
+    3301296: '0803_wi_c_koya       '
+    3301298: '0804_wi_d_in1f       '
+    3301300: '0805_wi_d_in2f       '
+    3301302: '0806_wi_d_gate       '
+    3301304: '0807_wi_d_ryof1      '
+    3301306: '0808_wi_c_hasira_1   '
+    3301308: '0809_wi_ms_body_1    '
+    3301310: '0810_chok_win01      '
+    3301312: '0811_wi_d_gild       '
+    3301314: '0812_wi_d_gild       '
+    3301316: '0813_wi_d_choco      '
+    3301318: '0814_wi_d_choco      '
+    3301320: '0815_wi_d_in1f       '
+    3301322: '0816_wi_d_ryof1      '
+    3301324: '0817_wi_d_ryof1_2    '
+    3301326: '0818_wi_d_choco      '
+    3301328: '0819_wi_d_choco      '
+    3301330: '0820_wi_d_in1f       '
+    3301332: '0821__win_m01_h      '
+    3301334: '0822__win_m01_h      '
+    3301336: '0823__win_m01_t      '
+    3301338: '0824__win_m02        '
+    3301340: '0825__wi_kusa01      '
+    3301342: '0826__wi_kusa01      '
+    3301344: pPlane5
+    4300000: '0000_wi_hand00       '
+    4300002: '0001_wi_hand01       '
+    4300004: '0002_wi_hand02       '
+    4300006: '0003_wi_hand03       '
+    4300008: '0004_wi_hand04       '
+    4300010: '0005_wi_hand05       '
+    4300012: '0006_wi_hand06       '
+    4300014: '0007_wi_hand07       '
+    4300016: '0008_wi_hand08       '
+    4300018: '0009_wi_hand09       '
+    4300020: '0010_wi_hand10       '
+    4300022: '0011_wi_hand11       '
+    4300024: '0012_wi_hand12       '
+    4300026: '0013_wi_hand13       '
+    4300028: '0014_wi_hand14       '
+    4300030: '0015_wi_hand15       '
+    4300032: '0016_wi_hand16       '
+    4300034: '0017_wi_hand17       '
+    4300036: '0018_wi_hand18       '
+    4300038: '0019_wi_hand19       '
+    4300040: '0020_wi_hand20       '
+    4300042: '0021_wi_hand21       '
+    4300044: '0022_wi_hand22       '
+    4300046: '0023_wi_hand23       '
+    4300048: '0024_wi_hand24       '
+    4300050: '0025_wi_hand25       '
+    4300052: '0026_wi_hand26       '
+    4300054: '0027_wi_hand27       '
+    4300056: '0028_wi_hand28       '
+    4300058: '0029_wi_hand29       '
+    4300060: '0030_wi_misr01       '
+    4300062: '0031_wi_misr00       '
+    4300064: '0032_wi_misr02       '
+    4300066: '0033_wi_misr03       '
+    4300068: '0034_wi_misr04       '
+    4300070: '0035_wi_misr05       '
+    4300072: '0036_wi_misr06       '
+    4300074: '0037_wi_misr09       '
+    4300076: '0038_wi_misr15       '
+    4300078: '0039_wi_my01         '
+    4300080: '0040_wi_my03         '
+    4300082: '0041_wi_mish01       '
+    4300084: '0042_wi_z_jmp01      '
+    4300086: '0043_wi_hand13_3     '
+    4300088: '0044_wi_hand17_1     '
+    4300090: '0045_wi_misr01_2     '
+    4300092: '0046_wi_misr00_1     '
+    4300094: '0047_wi_misr01_1     '
+    4300096: '0048_wi_hand7_1      '
+    4300098: '0049_wi_hand25_1     '
+    4300100: '0050_wi_hand15_1     '
+    4300102: '0051_wi_hand13_2     '
+    4300104: '0052_wi_hand00       '
+    4300106: '0053_wi_hand01       '
+    4300108: '0054_wi_hand02       '
+    4300110: '0055_wi_hand03       '
+    4300112: '0056_wi_hand04       '
+    4300114: '0057_wi_hand05       '
+    4300116: '0058_wi_hand06       '
+    4300118: '0059_wi_hand07       '
+    4300120: '0060_wi_hand08       '
+    4300122: '0061_wi_hand09       '
+    4300124: '0062_wi_hand10       '
+    4300126: '0063_wi_hand11       '
+    4300128: '0064_wi_hand12       '
+    4300130: '0065_wi_hand14       '
+    4300132: '0066_wi_hand15       '
+    4300134: '0067_wi_hand16       '
+    4300136: '0068_wi_hand17       '
+    4300138: '0069_wi_hand18       '
+    4300140: '0070_wi_hand19       '
+    4300142: '0071_wi_hand20       '
+    4300144: '0072_wi_hand21       '
+    4300146: '0073_wi_hand22       '
+    4300148: '0074_wi_hand23       '
+    4300150: '0075_wi_hand24       '
+    4300152: '0076_wi_hand25       '
+    4300154: '0077_wi_hand26       '
+    4300156: '0078_wi_hand27       '
+    4300158: '0079_wi_hand28       '
+    4300160: '0080_wi_hand29       '
+    4300162: '0081_wi_misr01       '
+    4300164: '0082_wi_misr00       '
+    4300166: '0083_wi_misr02       '
+    4300168: '0084_wi_misr03       '
+    4300170: '0085_wi_misr04       '
+    4300172: '0086_wi_misr05       '
+    4300174: '0087_wi_misr06       '
+    4300176: '0088_wi_misr07       '
+    4300178: '0089_wi_misr08       '
+    4300180: '0090_wi_misr09       '
+    4300182: '0091_wi_misr10       '
+    4300184: '0092_wi_misr11       '
+    4300186: '0093_wi_misr12       '
+    4300188: '0094_wi_misr14       '
+    4300190: '0095_wi_misr15       '
+    4300192: '0096_wi_my01         '
+    4300194: '0097_wi_my03         '
+    4300196: '0098_wi_mish00       '
+    4300198: '0099_wi_mish01       '
+    4300200: '0100_wi_mish02       '
+    4300202: '0101_wi_mish03       '
+    4300204: '0102_wi_z_jmp01      '
+    4300206: '0103_wi_z_jmp02      '
+    4300208: '0104_wi_misr09_1     '
+    4300210: '0105_wi_hand17_1     '
+    4300212: '0106_wi_misr01_2     '
+    4300214: '0107_wi_hand00       '
+    4300216: '0108_wi_hand01       '
+    4300218: '0109_wi_hand02       '
+    4300220: '0110_wi_hand03       '
+    4300222: '0111_wi_hand04       '
+    4300224: '0112_wi_hand05       '
+    4300226: '0113_wi_hand06       '
+    4300228: '0114_wi_hand07       '
+    4300230: '0115_wi_hand08       '
+    4300232: '0116_wi_hand09       '
+    4300234: '0117_wi_hand10       '
+    4300236: '0118_wi_hand11       '
+    4300238: '0119_wi_hand12       '
+    4300240: '0120_wi_hand13       '
+    4300242: '0121_wi_hand14       '
+    4300244: '0122_wi_hand15       '
+    4300246: '0123_wi_hand16       '
+    4300248: '0124_wi_hand17       '
+    4300250: '0125_wi_hand18       '
+    4300252: '0126_wi_hand19       '
+    4300254: '0127_wi_hand20       '
+    4300256: '0128_wi_hand21       '
+    4300258: '0129_wi_hand22       '
+    4300260: '0130_wi_hand23       '
+    4300262: '0131_wi_hand24       '
+    4300264: '0132_wi_hand25       '
+    4300266: '0133_wi_hand26       '
+    4300268: '0134_wi_hand27       '
+    4300270: '0135_wi_hand28       '
+    4300272: '0136_wi_hand29       '
+    4300274: '0137_wi_misr01       '
+    4300276: '0138_wi_misr00       '
+    4300278: '0139_wi_misr02       '
+    4300280: '0140_wi_misr03       '
+    4300282: '0141_wi_misr04       '
+    4300284: '0142_wi_misr05       '
+    4300286: '0143_wi_misr06       '
+    4300288: '0144_wi_misr07       '
+    4300290: '0145_wi_misr08       '
+    4300292: '0146_wi_misr09       '
+    4300294: '0147_wi_misr10       '
+    4300296: '0148_wi_misr11       '
+    4300298: '0149_wi_misr12       '
+    4300300: '0150_wi_misr14       '
+    4300302: '0151_wi_misr15       '
+    4300304: '0152_wi_my01         '
+    4300306: '0153_wi_my03         '
+    4300308: '0154_wi_mish00       '
+    4300310: '0155_wi_mish01       '
+    4300312: '0156_wi_mish02       '
+    4300314: '0157_wi_mish03       '
+    4300316: '0158_wi_z_jmp01      '
+    4300318: '0159_wi_z_jmp02      '
+    4300320: '0160_wi_misr09_1     '
+    4300322: '0161_wi_hand13_3     '
+    4300324: '0162_wi_misr01_2     '
+    4300326: '0163_wi_hand13_1     '
+    4300328: '0164_wi_misr00_1     '
+    4300330: '0165_wi_hand29_1     '
+    4300332: '0166_wi_hand19_1     '
+    4300334: '0167_wi_hand13_2     '
+    4300336: '0178_wi_hand10       '
+    4300338: '0192_wi_hand24       '
+    4300340: '0225_wi_hand13_1     '
+    4300342: '0235_wi_my01_1       '
+    4300344: '0237_wi_hand29_1     '
+    4300346: '0238_wi_hand26_2     '
+    4300348: '0239_wi_hand26_1     '
+    4300350: '0240_wi_hand20_1     '
+    4300352: '0241_wi_hand19_1     '
+    4300354: '0243_wi_hand14_1     '
+    4300356: '0244_wi_hand13_2     '
+    4300358: '0245_wi_my03_1       '
+    4300360: '0247_wi_hand01       '
+    4300362: '0248_wi_hand03       '
+    4300364: '0253_wi_hand10       '
+    4300366: '0254_wi_hand11       '
+    4300368: '0259_wi_hand18       '
+    4300370: '0271_wi_misr05       '
+    4300372: '0273_wi_misr09       '
+    4300374: '0277_wi_hand13_1     '
+    4300376: '0278_wi_hand7_1      '
+    4300378: '0281_wi_hand15_1     '
+    4300380: '0282_wi_hand14_1     '
+    4300382: '0283_chok_win01      '
+    4300384: '0284_wi_hand01       '
+    4300386: '0293_wi_hand10       '
+    4300388: '0318_wi_misr05       '
+    4300390: '0320_wi_misr08       '
+    4300392: '0323_wi_misr11       '
+    4300394: '0334_wi_z_jmp02      '
+    4300396: '0336_wi_misr01_2     '
+    4300398: '0337_wi_hand13_1     '
+    4300400: '0338_wi_misr00_1     '
+    4300402: '0339_wi_misr01_1     '
+    4300404: '0340_wi_hand7_1      '
+    4300406: '0341_wi_hand29_1     '
+    4300408: '0342_wi_hand26_2     '
+    4300410: '0343_wi_hand19_1     '
+    4300412: '0344_wi_hand05       '
+    4300414: '0345_wi_hand14       '
+    4300416: '0346_wi_hand20       '
+    4300418: '0347_wi_hand26       '
+    4300420: '0348_wi_misr04       '
+    4300422: '0349_wi_misr07       '
+    4300424: '0350_wi_misr08       '
+    4300426: '0351_wi_misr10       '
+    4300428: '0352_wi_fountain01   '
+    4300430: '0353_wi_hand05       '
+    4300432: '0354_wi_hand14       '
+    4300434: '0356_wi_hand13_1     '
+    4300436: '0357_wi_fountain00   '
+    4300438: '0358_wi_hand07       '
+    4300440: '0359_wi_hand15       '
+    4300442: '0360_wi_h_ryoji00h   '
+    4300444: '0361_wi_h_in00       '
+    4300446: '0362_wi_h_auc00h     '
+    4300448: '0363_wi_h_gate00     '
+    4300450: '0364_wi_h_gate00     '
+    4300452: '0365_wi_h_gate03     '
+    4300454: '0366_wi_h_myroom00   '
+    4300456: '0367_wi_i_ryj00      '
+    4300458: '0368_wi_i_inf0       '
+    4300460: '0369_wi_i_inf1       '
+    4300462: '0370_wi_h_auc01h     '
+    4300464: '0371_wi_h_auc02h     '
+    4300466: '0372_wi_h_myroom00_2 '
+    4300468: '0373_wi_h_in00_1     '
+    4300470: '0374_wi_h_in00_2     '
+    4300472: '0375_wi_h_ryoji01h   '
+    4300474: '0376_chok_win01      '
+    4300476: '0377_chok_win02      '
+    4300478: '0381_wi_h_auc00h     '
+    4300480: '0382_wi_h_gate03     '
+    4300482: '0383_wi_h_myroom04   '
+    4300484: '0388_chok_win01      '
+    4300486: '0389_chok_win02      '
+    4300488: '0390_wi_hand17       '
+    4300490: '0391_wi_hand17_1     '
+    4300492: '0394_wi_hand20       '
+    4300494: '0395_wi_misr04       '
+    4300496: '0396_wi_misr07       '
+    4300498: '0397_wi_misr08       '
+    4300500: '0398_wi_misr10       '
+    4300502: '0399_wi_hand20       '
+    4300504: '0401_wi_hand13_1     '
+    4300506: '0402_wi_misr04       '
+    4300508: '0403_wi_k_arch05     '
+    4300510: '0404_wi_r_hukuro01   '
+    4300512: '0405_wi_r_kanban     '
+    4300514: '0406_wi_r_komo02     '
+    4300516: '0407_wi_r_komo03     '
+    4300518: '0408_wi_k_aucknb01   '
+    4300520: '0409_wi_h_ryoji00h   '
+    4300522: '0410_wi_h_in00       '
+    4300524: '0411_wi_h_auc00h     '
+    4300526: '0412_wi_h_gate01     '
+    4300528: '0413_wi_h_gate00     '
+    4300530: '0414_wi_h_gate00     '
+    4300532: '0415_wi_h_gate03     '
+    4300534: '0416_wi_h_myroom00   '
+    4300536: '0417_wi_i_inf0       '
+    4300538: '0418_wi_i_inf1       '
+    4300540: '0419_wi_h_auc01h     '
+    4300542: '0420_wi_h_auc02h     '
+    4300544: '0421_wi_h_myroom00_2 '
+    4300546: '0422_wi_h_gate02     '
+    4300548: '0423_wi_h_in00_1     '
+    4300550: '0424_wi_h_in00_2     '
+    4300552: '0425_wi_h_ryoji01h   '
+    4300554: '0426_wi_i_arai01     '
+    4300556: '0427_wi_i_table      '
+    4300558: '0428_chok_win01      '
+    4300560: '0429_chok_win02      '
+    4300562: '0432_wi_h_auc00h     '
+    4300564: '0434_wi_h_myroom04   '
+    4300566: '0435_wi_h_auc01h     '
+    4300568: '0437_wi_h_myroom00_1 '
+    4300570: '0438_wi_h_myroom00_2 '
+    4300572: '0441_wi_h_in00       '
+    4300574: '0442_wi_h_gate01     '
+    4300576: '0443_wi_h_gate00     '
+    4300578: '0444_wi_h_gate00     '
+    4300580: '0445_wi_h_gate03     '
+    4300582: '0446_wi_ha_saku2     '
+    4300584: '0447_wi_h_gate02     '
+    4300586: '0448_wi_h_in00_1     '
+    4300588: '0449_wi_h_in00_2     '
+    4300590: '0450_chok_win01      '
+    4300592: '0451_chok_win02      '
+    4300594: '0452_wi_h_in00       '
+    4300596: '0453_wi_h_tent00     '
+    4300598: '0454_wi_h_tent00     '
+    4300600: '0455_wi_k_arch05     '
+    4300602: '0456_wi_ml_yane      '
+    4300604: '0457_wi_g_hata       '
+    4300606: '0458_wi_c_yane01     '
+    4300608: '0459_wi_r_kasa       '
+    4300610: '0460_wi_r_tana       '
+    4300612: '0461_wi_r_tukue      '
+    4300614: '0462_wi_k_f_gate     '
+    4300616: '0463_wi_k_f_hand     '
+    4300618: '0464_wi_c_koya_1     '
+    4300620: '0465_wi_h_auc00h     '
+    4300622: '0466_wi_h_auc_kanb   '
+    4300624: '0467_wi_h_auc_dai    '
+    4300626: '0468_wi_h_auc_cou    '
+    4300628: '0469_wi_h_auc01h     '
+    4300630: '0470_wi_h_auc02h     '
+    4300632: '0471_wi_c_mado_1     '
+    4300634: '0472_chok_win01      '
+    4300636: '0473_wi_fountain00   '
+    4300638: '0474_wi_fountain01   '
+    4300640: '0475_wi_fountain00   '
+    4300642: '0476_wi_h_gate03     '
+    4300644: '0477_wi_fountain01   '
+    4300646: '0478_wi_bri01h       '
+    4300648: '0479_wi_bri02h       '
+    4300650: '0480_wi_bri04h       '
+    4300652: '0481_wi_bri05h       '
+    4300654: '0482_wi_bri06h       '
+    4300656: '0483_wi_bri07h       '
+    4300658: '0484_wi_bri08h       '
+    4300660: '0485_wi_bri09h       '
+    4300662: '0486_wi_bri10h       '
+    4300664: '0487_wi_bri11h       '
+    4300666: '0488_wi_bri12h       '
+    4300668: '0489_wi_bri13h       '
+    4300670: '0490_wi_bri14h       '
+    4300672: '0491_wi_ms_dai       '
+    4300674: '0492_wi_m_ita01      '
+    4300676: '0493_wi_m_ita00      '
+    4300678: '0494_wi_m_ita        '
+    4300680: '0495_wi_m_dai00      '
+    4300682: '0496_wi_m_fukuro     '
+    4300684: '0497_wi_kirisaku     '
+    4300686: '0498_wi_k_tubo03     '
+    4300688: '0499_wi_k_tana       '
+    4300690: '0500_wi_ms_dai_1     '
+    4300692: '0501_wi_bri02a       '
+    4300694: '0502_wi_bri01a       '
+    4300696: '0503_wi_bri04a       '
+    4300698: '0504_wi_bri05a       '
+    4300700: '0505_wi_bri06a       '
+    4300702: '0506_wi_bri07a       '
+    4300704: '0507_wi_bri08a       '
+    4300706: '0508_wi_bri09a       '
+    4300708: '0509_wi_bri10a       '
+    4300710: '0510_wi_bri11a       '
+    4300712: '0511_wi_bri12a       '
+    4300714: '0512_wi_bri13a       '
+    4300716: '0513_wi_bri14a       '
+    4300718: '0514_wi_kirin00a     '
+    4300720: '0515_wi_m_dai00a     '
+    4300722: '0516_wi_m_dai01a     '
+    4300724: '0517_wi_h_tent00     '
+    4300726: '0518_wi_h_tent00     '
+    4300728: '0519_wi_ha_saku4     '
+    4300730: '0520_wi_ha_saku5     '
+    4300732: '0521_wi_ms_yane      '
+    4300734: '0522_wi_ms_hasira    '
+    4300736: '0523_wi_ms_dai       '
+    4300738: '0524_wi_ml_mado      '
+    4300740: '0525_wi_ml_hasira    '
+    4300742: '0526_wi_ml_body      '
+    4300744: '0527_wi_g_mado       '
+    4300746: '0528_wi_g_hisasi     '
+    4300748: '0529_wi_g_hasira     '
+    4300750: '0530_wi_c_yane00     '
+    4300752: '0531_wi_c_mado       '
+    4300754: '0532_wi_c_koya       '
+    4300756: '0533_wi_c_hisasi01   '
+    4300758: '0534_wi_c_hisasi00   '
+    4300760: '0535_wi_c_hasira     '
+    4300762: '0536_wi_c_dai        '
+    4300764: '0537_wi_h_yatai      '
+    4300766: '0538_wi_c_saku       '
+    4300768: '0539_wi_c_baketu1    '
+    4300770: '0540_wi_k_gate01     '
+    4300772: '0541_wi_r_kasa       '
+    4300774: '0542_wi_r_tukue      '
+    4300776: '0543_wi_k_arch08     '
+    4300778: '0544_wi_k_arch09     '
+    4300780: '0545_wi_k_arch09     '
+    4300782: '0546_wi_g_mado_1     '
+    4300784: '0547_wi_g_hasira_1   '
+    4300786: '0548_wi_c_hasira_1   '
+    4300788: '0549_wi_c_mado_1     '
+    4300790: '0550_wi_c_kabe_1     '
+    4300792: '0551_wi_ms_hasira1   '
+    4300794: '0552_wi_ml_hasira1   '
+    4300796: '0553_wi_ml_body_1    '
+    4300798: '0554_wi_c_koya_1     '
+    4300800: '0555_wi_h_tent00     '
+    4300802: '0556_wi_h_tent00     '
+    4300804: '0557_wi_g_hata       '
+    4300806: '0558_wi_c_yane01     '
+    4300808: '0559_wi_r_bin01      '
+    4300810: '0560_wi_r_bin01      '
+    4300812: '0561_wi_r_bin02      '
+    4300814: '0562_wi_r_hako       '
+    4300816: '0563_wi_r_hako       '
+    4300818: '0564_wi_r_hukuro01   '
+    4300820: '0565_wi_r_kabin      '
+    4300822: '0566_wi_r_kanban     '
+    4300824: '0567_wi_r_kasa       '
+    4300826: '0568_wi_r_kodana     '
+    4300828: '0569_wi_r_komo01     '
+    4300830: '0570_wi_r_komo02     '
+    4300832: '0571_wi_r_komo03     '
+    4300834: '0572_wi_r_oke        '
+    4300836: '0573_wi_r_oke        '
+    4300838: '0574_wi_r_pict       '
+    4300840: '0575_wi_r_tana       '
+    4300842: '0576_wi_r_tubo       '
+    4300844: '0577_wi_r_tuitate    '
+    4300846: '0578_wi_r_tukue      '
+    4300848: '0579_wi_k_tubo03     '
+    4300850: '0580_wi_k_tubo00     '
+    4300852: '0581_wi_k_tubo02     '
+    4300854: '0582_wi_k_kago00     '
+    4300856: '0583_wi_k_kago00     '
+    4300858: '0584_wi_k_tubo01     '
+    4300860: '0585_wi_k_ramp       '
+    4300862: '0586_wi_k_hako00     '
+    4300864: '0587_wi_k_dai        '
+    4300866: '0588_wi_k_hako01     '
+    4300868: '0589_wi_r_ramp       '
+    4300870: '0590_wi_k_kago01     '
+    4300872: '0591_wi_k_tubo04     '
+    4300874: '0592_wi_k_f_hand     '
+    4300876: '0593_wi_k_dai00      '
+    4300878: '0594_wi_h_tent03     '
+    4300880: '0595_wi_h_tent01     '
+    4300882: '0596_wi_h_tent01     '
+    4300884: '0597_wi_ms_yane      '
+    4300886: '0598_wi_ml_yane      '
+    4300888: '0599_wi_m_nuno       '
+    4300890: '0600_wi_h_yatai      '
+    4300892: '0601_wi_h_tent02     '
+    4300894: '0602_wi_r_kasa       '
+    4300896: '0603_wi_h_tent04     '
+    4300898: '0604_wi_ml_yane_1    '
+    4300900: '0605_wi_h_myroom00   '
+    4300902: '0606_wi_h_myroom04   '
+    4300904: '0607_wi_h_myroom00_1 '
+    4300906: '0608_wi_h_myroom00   '
+    4300908: '0609_wi_h_myroom01   '
+    4300910: '0610_wi_h_myroom03   '
+    4300912: '0611_wi_h_myroom00_2 '
+    4300914: '0614_wi_kirin00h     '
+    4300916: '0615_wi_ha_door      '
+    4300918: '0616_wi_ha_saku3     '
+    4300920: '0617_wi_ha_saku2     '
+    4300922: '0618_wi_ha_saku      '
+    4300924: '0619_wi_ml_yane      '
+    4300926: '0620_wi_ml_hasira    '
+    4300928: '0621_wi_ml_body      '
+    4300930: '0622_wi_m_dai01      '
+    4300932: '0623_wi_m_dai00      '
+    4300934: '0624_wi_g_yane       '
+    4300936: '0625_wi_g_ita        '
+    4300938: '0626_wi_g_hisasi     '
+    4300940: '0627_wi_g_body       '
+    4300942: '0628_wi_i_gild00     '
+    4300944: '0629_wi_i_gild       '
+    4300946: '0630_wi_i_gild01     '
+    4300948: '0631_wi_i_choco      '
+    4300950: '0632_wi_c_yane00     '
+    4300952: '0633_wi_c_kabe       '
+    4300954: '0634_wi_c_hisasi01   '
+    4300956: '0635_wi_c_hisasi00   '
+    4300958: '0636_wi_c_dai        '
+    4300960: '0637_wi_h_yatai      '
+    4300962: '0638_wi_c_esa6       '
+    4300964: '0639_wi_g_ita_1      '
+    4300966: '0640_wi_g_body_1     '
+    4300968: '0641_wi_c_dai_1      '
+    4300970: '0642_wi_c_kabe_1     '
+    4300972: '0643_wi_ml_body_1    '
+    4300974: '0644_wi_m_dai00_1    '
+    4300976: '0645_wi_c_koya_1     '
+    4300978: '0646_wi_m_dai01_1    '
+    4300980: '0647_wi_kirin00a     '
+    4300982: '0648_wi_m_dai00a     '
+    4300984: '0649_wi_m_dai01a     '
+    4300986: '0650__win_w04l       '
+    4300988: '0651__win_w04l       '
+    4300990: '0652__win_w04l       '
+    4300992: '0653__win_w05l       '
+    4300994: '0654__win_w05l       '
+    4300996: '0655__win_w05l       '
+    4300998: '0656__win_w03l       '
+    4301000: '0657__win_w03l       '
+    4301002: '0658__win_w03l       '
+    4301004: '0659__wi_wood        '
+    4301006: '0660__wi_kikabe      '
+    4301008: '0661__wi_kikabe      '
+    4301010: '0662__wi_kikabe      '
+    4301012: '0663_wi_k_arch01     '
+    4301014: '0664_wi_k_arch02     '
+    4301016: '0665_wi_k_arch03     '
+    4301018: '0666_wi_k_arch05     '
+    4301020: '0667_wi_k_arch04     '
+    4301022: '0668_wi_k_arch04     '
+    4301024: '0669_wi_ml_yane      '
+    4301026: '0670_wi_m_nuno       '
+    4301028: '0671_wi_g_k_ori0     '
+    4301030: '0672_wi_g_hata       '
+    4301032: '0673_wi_g_k_ori1     '
+    4301034: '0674_wi_g_k_hone     '
+    4301036: '0675_wi_g_k_zatu     '
+    4301038: '0676_wi_c_yane01     '
+    4301040: '0677_wi_k_mon        '
+    4301042: '0678_wi_k_in00h      '
+    4301044: '0679_wi_k_gate01     '
+    4301046: '0680_wi_r_kanban     '
+    4301048: '0681_wi_r_tana       '
+    4301050: '0682_wi_k_flag00h    '
+    4301052: '0683_wi_k_ramp       '
+    4301054: '0684_wi_k_f_gate     '
+    4301056: '0685_wi_c_kanban     '
+    4301058: '0686_wi_g_hasira_1   '
+    4301060: '0687_wi_k_aucknb00   '
+    4301062: '0688_wi_k_aucknb01   '
+    4301064: '0689_wi_k_ktori      '
+    4301066: '0690_wi_k_kthone     '
+    4301068: '0691_wi_k_ktzatu     '
+    4301070: '0692_wi_k_ktchoco    '
+    4301072: '0693_wi_k_ktkus      '
+    4301074: '0694_wi_k_arch01     '
+    4301076: '0695_wi_k_arch03     '
+    4301078: '0696_wi_k_arch05     '
+    4301080: '0697_wi_k_arch04     '
+    4301082: '0698_wi_k_arch04     '
+    4301084: '0699_wi_k_in00h      '
+    4301086: '0700_wi_k_gate00     '
+    4301088: '0701_wi_k_ryojih     '
+    4301090: '0702_wi_k_myroom00   '
+    4301092: '0703_wi_r_hukuro01   '
+    4301094: '0704_wi_r_komo01     '
+    4301096: '0705_wi_r_komo02     '
+    4301098: '0706_wi_r_komo03     '
+    4301100: '0707_wi_k_arch08     '
+    4301102: '0708_wi_k_flag00h    '
+    4301104: '0709_wi_r_ramp       '
+    4301106: '0710_wi_k_arch01     '
+    4301108: '0711_wi_k_arch02     '
+    4301110: '0712_wi_g_k_ori0     '
+    4301112: '0713_wi_g_k_ori1     '
+    4301114: '0714_wi_g_k_hone     '
+    4301116: '0715_wi_k_mon        '
+    4301118: '0716_wi_k_gate00     '
+    4301120: '0717_wi_k_gate01     '
+    4301122: '0718_wi_k_ryojih     '
+    4301124: '0719_wi_r_kanban     '
+    4301126: '0720_wi_k_aucknb00   '
+    4301128: '0721_wi_k_aucknb01   '
+    4301130: '0722_wi_k_kthone     '
+    4301132: '0723_wi_ha_door      '
+    4301134: '0724_wi_ms_yane      '
+    4301136: '0725_wi_m_isu        '
+    4301138: '0726_wi_m_tabel      '
+    4301140: '0727_wi_m_tubo       '
+    4301142: '0728_wi_d_choco      '
+    4301144: '0729_wi_d_choco      '
+    4301146: '0730_wi_m_kago       '
+    4301148: '0731_wi_h_yatai      '
+    4301150: '0732_wi_m_fukuro     '
+    4301152: '0733_wi_d_in1f       '
+    4301154: '0734_wi_d_in2f       '
+    4301156: '0735_wi_r_kasa       '
+    4301158: '0736_wi_k_yumidai    '
+    4301160: '0737_wi_k_yumi       '
+    4301162: '0738_wi_k_ya         '
+    4301164: '0739_wi_ml_body_1    '
+    4301166: '0740_wi_ha_saku3     '
+    4301168: '0741_wi_ha_saku      '
+    4301170: '0742_wi_ms_dai       '
+    4301172: '0743_wi_ms_body      '
+    4301174: '0744_wi_ml_body      '
+    4301176: '0745_wi_g_body       '
+    4301178: '0746_wi_c_koya       '
+    4301180: '0747_wi_c_kabe       '
+    4301182: '0748_wi_g_body_1     '
+    4301184: '0749_wi_c_kabe_1     '
+    4301186: '0750_wi_ms_body_1    '
+    4301188: '0751_wi_ml_body_1    '
+    4301190: '0752_wi_c_koya_1     '
+    4301192: '0753_wi_ms_yane      '
+    4301194: '0754_wi_ml_yane      '
+    4301196: '0755_wi_ml_mado      '
+    4301198: '0756_wi_g_yane       '
+    4301200: '0757_wi_g_mado       '
+    4301202: '0758_wi_g_hisasi     '
+    4301204: '0759_wi_c_yane00     '
+    4301206: '0760_wi_c_hisasi01   '
+    4301208: '0761_wi_c_hisasi00   '
+    4301210: '0762_wi_ml_yane      '
+    4301212: '0763_wi_ml_yane      '
+    4301214: '0764_wi_ml_mado      '
+    4301216: '0765_wi_g_mado       '
+    4301218: '0766_wi_c_yane01     '
+    4301220: '0767_wi_c_mado       '
+    4301222: '0768_wi_h_yatai      '
+    4301224: '0769_wi_c_baketu1    '
+    4301226: '0770_wi_c_ballel1    '
+    4301228: '0771_wi_c_barrel2    '
+    4301230: '0772_wi_c_box01      '
+    4301232: '0773_wi_c_box01      '
+    4301234: '0774_wi_c_esa6       '
+    4301236: '0775_wi_c_fork       '
+    4301238: '0776_wi_c_scoop1     '
+    4301240: '0777_wi_c_scoop2     '
+    4301242: '0778_wi_kirisaku     '
+    4301244: '0779_wi_r_kasa       '
+    4301246: '0780_wi_h_tentka     '
+    4301248: '0781_wi_ha_saku4_1   '
+    4301250: '0782_wi_g_k_ori0     '
+    4301252: '0783_wi_g_k_ori1     '
+    4301254: '0784_wi_g_k_hone     '
+    4301256: '0785_wi_g_k_zatu     '
+    4301258: '0786_wi_h_yatai      '
+    4301260: '0787_wi_k_in00h      '
+    4301262: '0788_wi_k_ryojih     '
+    4301264: '0789_wi_k_f_gate     '
+    4301266: '0790_wi_c_kanban     '
+    4301268: '0791_wi_k_f_hand     '
+    4301270: '0792_wi_k_aucknb00   '
+    4301272: '0793_wi_k_aucknb01   '
+    4301274: '0794_wi_k_ktori      '
+    4301276: '0795_wi_k_kthone     '
+    4301278: '0796_wi_k_ktzatu     '
+    4301280: '0797_wi_k_ktchoco    '
+    4301282: '0798_wi_k_ktkus      '
+    4301284: '0799_wi_d_gild       '
+    4301286: '0800_wi_d_gild       '
+    4301288: '0801_wi_d_choco      '
+    4301290: '0802_wi_d_choco      '
+    4301292: '0803_wi_c_koya       '
+    4301294: '0804_wi_d_in1f       '
+    4301296: '0805_wi_d_in2f       '
+    4301298: '0806_wi_d_gate       '
+    4301300: '0807_wi_d_ryof1      '
+    4301302: '0808_wi_c_hasira_1   '
+    4301304: '0809_wi_ms_body_1    '
+    4301306: '0810_chok_win01      '
+    4301308: '0811_wi_d_gild       '
+    4301310: '0812_wi_d_gild       '
+    4301312: '0813_wi_d_choco      '
+    4301314: '0814_wi_d_choco      '
+    4301316: '0815_wi_d_in1f       '
+    4301318: '0816_wi_d_ryof1      '
+    4301320: '0817_wi_d_ryof1_2    '
+    4301322: '0818_wi_d_choco      '
+    4301324: '0819_wi_d_choco      '
+    4301326: '0820_wi_d_in1f       '
+    4301328: '0821__win_m01_h      '
+    4301330: '0822__win_m01_h      '
+    4301332: '0823__win_m01_t      '
+    4301334: '0824__win_m02        '
+    4301336: '0825__wi_kusa01      '
+    4301338: '0826__wi_kusa01      '
+    4301340: pPlane5
+    4301342: 0711_wi_k_arch02    !
+    4301344: 0001_wi_hand01      !
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
