@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Zones/East Sarutabaruta/EastSarutabaruta.unity
+- path: Assets/Zones/Selbina/Selbina.unity
   isLoaded: 1
   isActive: 1
