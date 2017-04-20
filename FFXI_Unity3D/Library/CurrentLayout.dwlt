@@ -20,7 +20,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 6}
-  m_MinSize: {x: 950, y: 542}
+  m_MinSize: {x: 950, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -45,7 +45,7 @@ MonoBehaviour:
   m_MinSize: {x: 683, y: 492}
   m_MaxSize: {x: 14004, y: 14042}
   vertical: 0
-  controlID: 89
+  controlID: 9
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -89,8 +89,8 @@ MonoBehaviour:
     y: 0
     width: 269
     height: 934
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
@@ -143,7 +143,7 @@ MonoBehaviour:
     y: 0
     width: 2560
     height: 1357
-  m_MinSize: {x: 950, y: 542}
+  m_MinSize: {x: 950, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &7
 MonoBehaviour:
@@ -209,7 +209,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
-  controlID: 90
+  controlID: 10
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -233,7 +233,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 221}
   m_MaxSize: {x: 8006, y: 4021}
   vertical: 0
-  controlID: 91
+  controlID: 11
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -324,19 +324,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Zones/Selbina
+    - Assets/Zones/East Sarutabaruta
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Zones/Selbina
+  - Assets/Zones/East Sarutabaruta
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\GitFFXI\FFXI_Unity3D\FFXI_Unity3D
   m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 341}
-    m_SelectedIDs: a0330000
-    m_LastClickedID: 13216
-    m_ExpandedIDs: 0000000064280000de280000a033000020340000a83400008a3d0000a83d0000de3d000096560000b25700001e58000010590000505900007c5a00009c5e00000e740000387400006e740000ac740000bc740000767500007a750000b2750000127600008eae000090ae000092ae000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 335}
+    m_SelectedIDs: 94340000
+    m_LastClickedID: 13460
+    m_ExpandedIDs: 0000000050280000ca2800008c3300000c34000094340000763d0000943d0000ca3d0000825600009e5700000c580000fe5800003e5900006a5a00008a5e0000fc730000267400005c7400009a740000aa7400006475000068750000a07500000076000036860000388600003a86000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -364,7 +364,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000064280000de280000a033000020340000a83400008a3d0000a83d0000de3d000096560000b25700001e58000010590000505900007c5a00009c5e00000e740000387400006e740000ac740000bc740000767500007a750000b2750000127600008eae000090ae000092ae0000
+    m_ExpandedIDs: 0000000050280000ca2800008c3300000c34000094340000763d0000943d0000ca3d0000825600009e5700000c580000fe5800003e5900006a5a00008a5e0000fc730000267400005c7400009a740000aa7400006475000068750000a07500000076000036860000388600003a860000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -480,9 +480,9 @@ MonoBehaviour:
     height: 913
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 424bffff
-    m_LastClickedID: -46270
-    m_ExpandedIDs: 924bfffff06affffc4fbffff00000000
+    m_SelectedIDs: 88280000
+    m_LastClickedID: 0
+    m_ExpandedIDs: ea69ffff0077ffffcc7bfffff0a1ffff34a9ffff7ec9ffff2ce7ffffe4fbffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -501,7 +501,7 @@ MonoBehaviour:
       m_ClientGUIView: {fileID: 4}
     m_SearchString: 
   m_ExpandedScenes:
-  - Selbina
+  - EastSarutabaruta
   m_CurrenRootInstanceID: 0
   m_Locked: 0
   m_CurrentSortingName: TransformSorting
@@ -537,9 +537,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 30.255009, y: 10.488357, z: -8.942865}
+    m_Target: {x: 15.738293, y: 13.083243, z: -9.961466}
     speed: 2
-    m_Value: {x: 30.255009, y: 10.488357, z: -8.942865}
+    m_Value: {x: 15.738293, y: 13.083243, z: -9.961466}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -562,9 +562,9 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: -0.08174474, y: 0.66284895, z: -0.07315873, w: -0.74067336}
+    m_Target: {x: -0.10113971, y: 0.48186877, z: -0.056113448, w: -0.86857617}
     speed: 2
-    m_Value: {x: -0.08174473, y: 0.6628489, z: -0.073158726, w: -0.7406733}
+    m_Value: {x: -0.10113971, y: 0.48186877, z: -0.056113448, w: -0.86857617}
   m_Size:
     m_Target: 1.5156524
     speed: 2
