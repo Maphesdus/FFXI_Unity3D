@@ -3,6 +3,7 @@
     using UnityEngine;
     using UnityEngine.EventSystems;
     using UnityEngine.UI;
+    using System.Collections;
 
     public class UI_Interactions : MonoBehaviour
     {
@@ -10,22 +11,22 @@
 
         public void Button_Red()
         {
-            Debug.Log("Red Button Clicked");
+            VRTK_Logger.Info("Red Button Clicked");
         }
 
         public void Button_Pink()
         {
-            Debug.Log("Pink Button Clicked");
+            VRTK_Logger.Info("Pink Button Clicked");
         }
 
         public void Toggle(bool state)
         {
-            Debug.Log("The toggle state is " + (state ? "on" : "off"));
+            VRTK_Logger.Info("The toggle state is " + (state ? "on" : "off"));
         }
 
         public void Dropdown(int value)
         {
-            Debug.Log("Dropdown option selected was ID " + value);
+            VRTK_Logger.Info("Dropdown option selected was ID " + value);
         }
 
         public void SetDropText(BaseEventData data)
@@ -41,6 +42,13 @@
 
         public void CreateCanvas()
         {
+            StartCoroutine(CreateCanvasOnNextFrame());
+        }
+
+        private IEnumerator CreateCanvasOnNextFrame()
+        {
+            yield return null;
+
             var canvasCount = FindObjectsOfType<Canvas>().Length - EXISTING_CANVAS_COUNT;
             var newCanvasGO = new GameObject("TempCanvas");
             newCanvasGO.layer = 5;
@@ -51,11 +59,9 @@
             canvasRT.localScale = new Vector3(0.005f, 0.005f, 0.005f);
             canvasRT.eulerAngles = new Vector3(0f, 270f, 0f);
 
-            var newButtonGO = new GameObject("TempButton");
-            newButtonGO.transform.parent = newCanvasGO.transform;
+            var newButtonGO = new GameObject("TempButton", typeof(RectTransform));
+            newButtonGO.transform.SetParent(newCanvasGO.transform);
             newButtonGO.layer = 5;
-
-            newButtonGO.AddComponent<RectTransform>();
 
             var buttonRT = newButtonGO.GetComponent<RectTransform>();
             buttonRT.position = new Vector3(0f, 0f, 0f);
@@ -71,11 +77,11 @@
             buttonColourBlock.highlightedColor = Color.red;
             canvasButton.colors = buttonColourBlock;
 
-            var newTextGO = new GameObject("BtnText");
-            newTextGO.transform.parent = newButtonGO.transform;
+            var newTextGO = new GameObject("BtnText", typeof(RectTransform));
+            newTextGO.transform.SetParent(newButtonGO.transform);
             newTextGO.layer = 5;
 
-            var textRT = newTextGO.AddComponent<RectTransform>();
+            var textRT = newTextGO.GetComponent<RectTransform>();
             textRT.position = new Vector3(0f, 0f, 0f);
             textRT.anchoredPosition = new Vector3(0f, 0f, 0f);
             textRT.localPosition = new Vector3(0f, 0f, 0f);

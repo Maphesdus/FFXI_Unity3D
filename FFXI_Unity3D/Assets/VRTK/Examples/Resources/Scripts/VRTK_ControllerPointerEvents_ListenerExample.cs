@@ -4,16 +4,22 @@
 
     public class VRTK_ControllerPointerEvents_ListenerExample : MonoBehaviour
     {
+        public bool showHoverState = false;
+
         private void Start()
         {
             if (GetComponent<VRTK_DestinationMarker>() == null)
             {
-                Debug.LogError("VRTK_ControllerPointerEvents_ListenerExample is required to be attached to a Controller that has the `VRTK_DestinationMarker` script attached to it");
+                VRTK_Logger.Error(VRTK_Logger.GetCommonMessage(VRTK_Logger.CommonMessageKeys.REQUIRED_COMPONENT_MISSING_FROM_GAMEOBJECT, "VRTK_ControllerPointerEvents_ListenerExample", "VRTK_DestinationMarker", "the Controller Alias"));
                 return;
             }
 
             //Setup controller event listeners
             GetComponent<VRTK_DestinationMarker>().DestinationMarkerEnter += new DestinationMarkerEventHandler(DoPointerIn);
+            if (showHoverState)
+            {
+                GetComponent<VRTK_DestinationMarker>().DestinationMarkerHover += new DestinationMarkerEventHandler(DoPointerHover);
+            }
             GetComponent<VRTK_DestinationMarker>().DestinationMarkerExit += new DestinationMarkerEventHandler(DoPointerOut);
             GetComponent<VRTK_DestinationMarker>().DestinationMarkerSet += new DestinationMarkerEventHandler(DoPointerDestinationSet);
         }
@@ -22,7 +28,7 @@
         {
             string targetName = (target ? target.name : "<NO VALID TARGET>");
             string colliderName = (raycastHit.collider ? raycastHit.collider.name : "<NO VALID COLLIDER>");
-            Debug.Log("Controller on index '" + index + "' is " + action + " at a distance of " + distance + " on object named [" + targetName + "] on the collider named [" + colliderName + "] - the pointer tip position is/was: " + tipPosition);
+            VRTK_Logger.Info("Controller on index '" + index + "' is " + action + " at a distance of " + distance + " on object named [" + targetName + "] on the collider named [" + colliderName + "] - the pointer tip position is/was: " + tipPosition);
         }
 
         private void DoPointerIn(object sender, DestinationMarkerEventArgs e)
@@ -33,6 +39,11 @@
         private void DoPointerOut(object sender, DestinationMarkerEventArgs e)
         {
             DebugLogger(e.controllerIndex, "POINTER OUT", e.target, e.raycastHit, e.distance, e.destinationPosition);
+        }
+
+        private void DoPointerHover(object sender, DestinationMarkerEventArgs e)
+        {
+            DebugLogger(e.controllerIndex, "POINTER HOVER", e.target, e.raycastHit, e.distance, e.destinationPosition);
         }
 
         private void DoPointerDestinationSet(object sender, DestinationMarkerEventArgs e)

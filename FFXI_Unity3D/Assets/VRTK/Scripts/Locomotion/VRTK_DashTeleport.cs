@@ -31,8 +31,11 @@ namespace VRTK
     /// <example>
     /// `SteamVR_Unity_Toolkit/Examples/038_CameraRig_DashTeleport` shows how to turn off the mesh renderers of objects that are in the way during the dash.
     /// </example>
+    [AddComponentMenu("VRTK/Scripts/Locomotion/VRTK_DashTeleport")]
     public class VRTK_DashTeleport : VRTK_HeightAdjustTeleport
     {
+        [Header("Dash Settings")]
+
         [Tooltip("The fixed time it takes to dash to a new position.")]
         public float normalLerpTime = 0.1f; // 100ms for every dash above minDistanceForNormalLerp
         [Tooltip("The minimum speed for dashing in meters per second.")]
@@ -55,8 +58,8 @@ namespace VRTK
 
         // The minimum distance for fixed time lerp is determined by the minSpeed and the normalLerpTime
         // If you want to always lerp with a fixed mps speed, set the normalLerpTime to a high value
-        private float minDistanceForNormalLerp;
-        private float lerpTime = 0.1f;
+        protected float minDistanceForNormalLerp;
+        protected float lerpTime = 0.1f;
 
         public virtual void OnWillDashThruObjects(DashTeleportEventArgs e)
         {
@@ -74,9 +77,9 @@ namespace VRTK
             }
         }
 
-        protected override void Awake()
+        protected override void OnEnable()
         {
-            base.Awake();
+            base.OnEnable();
             minDistanceForNormalLerp = minSpeedMps * normalLerpTime; // default values give 5.0f
         }
 
@@ -86,7 +89,7 @@ namespace VRTK
             StartCoroutine(lerpToPosition(targetPosition, target));
         }
 
-        private IEnumerator lerpToPosition(Vector3 targetPosition, Transform target)
+        protected virtual IEnumerator lerpToPosition(Vector3 targetPosition, Transform target)
         {
             enableTeleport = false;
             bool gameObjectInTheWay = false;
@@ -150,7 +153,7 @@ namespace VRTK
             enableTeleport = true;
         }
 
-        private DashTeleportEventArgs SetDashTeleportEvent(RaycastHit[] hits)
+        protected virtual DashTeleportEventArgs SetDashTeleportEvent(RaycastHit[] hits)
         {
             DashTeleportEventArgs e;
             e.hits = hits;

@@ -11,19 +11,19 @@
         {
             if (GetComponent<VRTK_ControllerEvents>() == null)
             {
-                Debug.LogError("VRTK_RoomExtender_ControllerExample is required to be attached to a Controller that has the VRTK_ControllerEvents script attached to it");
+                VRTK_Logger.Error(VRTK_Logger.GetCommonMessage(VRTK_Logger.CommonMessageKeys.REQUIRED_COMPONENT_MISSING_FROM_GAMEOBJECT, "VRTK_RoomExtender_ControllerExample", "VRTK_ControllerEvents", "the Controller Alias"));
                 return;
             }
             if (FindObjectOfType<VRTK_RoomExtender>() == null)
             {
-                Debug.LogError("VRTK_RoomExtender script is required.");
+                VRTK_Logger.Error(VRTK_Logger.GetCommonMessage(VRTK_Logger.CommonMessageKeys.REQUIRED_COMPONENT_MISSING_FROM_SCENE, "VRTK_RoomExtender_ControllerExample", "VRTK_RoomExtender"));
                 return;
             }
             roomExtender = FindObjectOfType<VRTK_RoomExtender>();
             //Setup controller event listeners
             GetComponent<VRTK_ControllerEvents>().TouchpadPressed += new ControllerInteractionEventHandler(DoTouchpadPressed);
             GetComponent<VRTK_ControllerEvents>().TouchpadReleased += new ControllerInteractionEventHandler(DoTouchpadReleased);
-            GetComponent<VRTK_ControllerEvents>().AliasMenuOn += new ControllerInteractionEventHandler(DoSwitchMovementFunction);
+            GetComponent<VRTK_ControllerEvents>().ButtonTwoPressed += new ControllerInteractionEventHandler(DoSwitchMovementFunction);
         }
 
         private void DoTouchpadPressed(object sender, ControllerInteractionEventArgs e)

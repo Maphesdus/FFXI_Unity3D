@@ -22,10 +22,10 @@
 
         private void Start()
         {
-            GetComponentInParent<VRTK_ControllerEvents>().AliasGrabOn += new ControllerInteractionEventHandler(DoGrabOn);
-            GetComponentInParent<VRTK_ControllerEvents>().AliasGrabOff += new ControllerInteractionEventHandler(DoGrabOff);
-            GetComponentInParent<VRTK_ControllerEvents>().AliasUseOn += new ControllerInteractionEventHandler(DoUseOn);
-            GetComponentInParent<VRTK_ControllerEvents>().AliasUseOff += new ControllerInteractionEventHandler(DoUseOff);
+            GetComponentInParent<VRTK_InteractGrab>().GrabButtonPressed += DoGrabOn;
+            GetComponentInParent<VRTK_InteractGrab>().GrabButtonReleased += DoGrabOff;
+            GetComponentInParent<VRTK_InteractUse>().UseButtonPressed += DoUseOn;
+            GetComponentInParent<VRTK_InteractUse>().UseButtonReleased += DoUseOff;
 
             var handContainer = "ModelPieces";
             pointerFinger = transform.Find(handContainer + "/PointerFingerContainer");

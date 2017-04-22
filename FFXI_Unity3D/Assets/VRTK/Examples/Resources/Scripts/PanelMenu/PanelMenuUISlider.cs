@@ -27,12 +27,12 @@ namespace VRTK.Examples.PanelMenu
             slider = GetComponent<Slider>();
             if (slider == null)
             {
-                Debug.LogWarning("The PanelMenuUISlider could not automatically find the UI Slider component.");
+                VRTK_Logger.Warn(VRTK_Logger.GetCommonMessage(VRTK_Logger.CommonMessageKeys.REQUIRED_COMPONENT_MISSING_FROM_GAMEOBJECT, "PanelMenuUISlider", "Slider", "the same"));
                 return;
             }
 
-            GetComponentInParent<PanelMenuItemController>().PanelMenuItemSwipeLeft += new PanelMenuItemControllerEventHandler(OnPanelMenuItemSwipeLeft);
-            GetComponentInParent<PanelMenuItemController>().PanelMenuItemSwipeRight += new PanelMenuItemControllerEventHandler(OnPanelMenuItemSwipeRight);
+            GetComponentInParent<VRTK_PanelMenuItemController>().PanelMenuItemSwipeLeft += new PanelMenuItemControllerEventHandler(OnPanelMenuItemSwipeLeft);
+            GetComponentInParent<VRTK_PanelMenuItemController>().PanelMenuItemSwipeRight += new PanelMenuItemControllerEventHandler(OnPanelMenuItemSwipeRight);
         }
 
         #endregion Unity Methods

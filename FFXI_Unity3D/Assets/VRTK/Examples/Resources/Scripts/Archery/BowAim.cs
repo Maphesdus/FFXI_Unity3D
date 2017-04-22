@@ -18,11 +18,8 @@
 
         private VRTK_InteractableObject interact;
 
-        private VRTK_ControllerEvents holdControl;
-        private VRTK_ControllerEvents stringControl;
-
-        private VRTK_ControllerActions stringActions;
-        private VRTK_ControllerActions holdActions;
+        private VRTK_InteractGrab holdControl;
+        private VRTK_InteractGrab stringControl;
 
         private Quaternion releaseRotation;
         private Quaternion baseRotation;
@@ -31,7 +28,7 @@
         private float currentPull;
         private float previousPull;
 
-        public VRTK_ControllerEvents GetPullHand()
+        public VRTK_InteractGrab GetPullHand()
         {
             return stringControl;
         }
@@ -63,19 +60,13 @@
         {
             if (VRTK_DeviceFinder.IsControllerLeftHand(e.interactingObject))
             {
-                holdControl = VRTK_DeviceFinder.GetControllerLeftHand().GetComponent<VRTK_ControllerEvents>();
-                stringControl = VRTK_DeviceFinder.GetControllerRightHand().GetComponent<VRTK_ControllerEvents>();
-
-                holdActions = VRTK_DeviceFinder.GetControllerLeftHand().GetComponent<VRTK_ControllerActions>();
-                stringActions = VRTK_DeviceFinder.GetControllerRightHand().GetComponent<VRTK_ControllerActions>();
+                holdControl = VRTK_DeviceFinder.GetControllerLeftHand().GetComponent<VRTK_InteractGrab>();
+                stringControl = VRTK_DeviceFinder.GetControllerRightHand().GetComponent<VRTK_InteractGrab>();
             }
             else
             {
-                stringControl = VRTK_DeviceFinder.GetControllerLeftHand().GetComponent<VRTK_ControllerEvents>();
-                holdControl = VRTK_DeviceFinder.GetControllerRightHand().GetComponent<VRTK_ControllerEvents>();
-
-                stringActions = VRTK_DeviceFinder.GetControllerLeftHand().GetComponent<VRTK_ControllerActions>();
-                holdActions = VRTK_DeviceFinder.GetControllerRightHand().GetComponent<VRTK_ControllerActions>();
+                stringControl = VRTK_DeviceFinder.GetControllerLeftHand().GetComponent<VRTK_InteractGrab>();
+                holdControl = VRTK_DeviceFinder.GetControllerRightHand().GetComponent<VRTK_InteractGrab>();
             }
             StartCoroutine("GetBaseRotation");
         }
@@ -93,7 +84,7 @@
                 AimArrow();
                 AimBow();
                 PullString();
-                if (!stringControl.grabPressed)
+                if (!stringControl.IsGrabButtonPressed())
                 {
                     currentArrow.GetComponent<Arrow>().Fired();
                     fired = true;
@@ -148,9 +139,9 @@
 
         private void ReleaseArrow()
         {
-            if (stringControl.gameObject.GetComponent<VRTK_InteractGrab>())
+            if (stringControl)
             {
-                stringControl.gameObject.GetComponent<VRTK_InteractGrab>().ForceRelease();
+                stringControl.ForceRelease();
             }
         }
 
@@ -172,8 +163,8 @@
 
             if (!currentPull.ToString("F2").Equals(previousPull.ToString("F2")))
             {
-                holdActions.TriggerHapticPulse(bowVibration);
-                stringActions.TriggerHapticPulse(stringVibration);
+                VRTK_SharedMethods.TriggerHapticPulse(VRTK_DeviceFinder.GetControllerIndex(holdControl.gameObject), bowVibration);
+                VRTK_SharedMethods.TriggerHapticPulse(VRTK_DeviceFinder.GetControllerIndex(stringControl.gameObject), stringVibration);
             }
             previousPull = currentPull;
         }

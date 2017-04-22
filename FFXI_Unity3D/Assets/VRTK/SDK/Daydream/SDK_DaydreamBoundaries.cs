@@ -1,14 +1,22 @@
-﻿// Daydream Boundaries|SDK_Daydream|004
+﻿// Daydream Boundaries|SDK_Daydream|005
 namespace VRTK
 {
-#if VRTK_SDK_DAYDREAM
+#if VRTK_DEFINE_SDK_DAYDREAM
     using UnityEngine;
+#endif
 
     /// <summary>
-    /// The Daydream Boundaries SDK script provides dummy functions for the play area bounderies.
+    /// The Daydream Boundaries SDK script provides dummy functions for the play area boundaries.
     /// </summary>
-    public class SDK_DaydreamBoundaries : SDK_BaseBoundaries
+    [SDK_Description(typeof(SDK_DaydreamSystem))]
+    public class SDK_DaydreamBoundaries
+#if VRTK_DEFINE_SDK_DAYDREAM
+        : SDK_BaseBoundaries
+#else
+        : SDK_FallbackBoundaries
+#endif
     {
+#if VRTK_DEFINE_SDK_DAYDREAM
         private Transform area;
 
         /// <summary>
@@ -47,16 +55,6 @@ namespace VRTK
         /// <returns>A Vector3 array of the points in the scene that represent the play area boundaries.</returns>
         public override Vector3[] GetPlayAreaVertices(GameObject playArea)
         {
-            if (area)
-            {
-                // taken from SDK_Simulator, is this a valid size? does bounds even make sense in non-positionaly tracked HMD?
-                Vector3[] vertices = new Vector3[4];
-                vertices[0] = new Vector3(1, 0, 1);
-                vertices[1] = new Vector3(-1, 0, 1);
-                vertices[2] = new Vector3(1, 0, -1);
-                vertices[3] = new Vector3(-1, 0, -1);
-                return vertices;
-            }
             return null;
         }
 
@@ -79,10 +77,23 @@ namespace VRTK
         {
             return true;
         }
-    }
-#else
-    public class SDK_DaydreamBoundaries : SDK_FallbackBoundaries
-    {
-    }
+
+        /// <summary>
+        /// The GetDrawAtRuntime method returns whether the given play area drawn border is being displayed.
+        /// </summary>
+        /// <returns>Returns true if the drawn border is being displayed.</returns>
+        public override bool GetDrawAtRuntime()
+        {
+            return false;
+        }
+
+        /// <summary>
+        /// The SetDrawAtRuntime method sets whether the given play area drawn border should be displayed at runtime.
+        /// </summary>
+        /// <param name="value">The state of whether the drawn border should be displayed or not.</param>
+        public override void SetDrawAtRuntime(bool value)
+        {
+        }
 #endif
+    }
 }

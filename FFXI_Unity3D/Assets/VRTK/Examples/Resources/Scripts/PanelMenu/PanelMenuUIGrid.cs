@@ -38,15 +38,15 @@ namespace VRTK.Examples.PanelMenu
             gridLayoutGroup = GetComponent<GridLayoutGroup>();
             if (gridLayoutGroup == null)
             {
-                Debug.LogWarning("The PanelMenuUIGrid could not automatically find the UI GridLayoutGroup component.");
+                VRTK_Logger.Warn(VRTK_Logger.GetCommonMessage(VRTK_Logger.CommonMessageKeys.REQUIRED_COMPONENT_MISSING_FROM_GAMEOBJECT, "PanelMenuUIGrid", "GridLayoutGroup", "the same"));
                 return;
             }
 
-            GetComponentInParent<PanelMenuItemController>().PanelMenuItemSwipeTop += new PanelMenuItemControllerEventHandler(OnPanelMenuItemSwipeTop);
-            GetComponentInParent<PanelMenuItemController>().PanelMenuItemSwipeBottom += new PanelMenuItemControllerEventHandler(OnPanelMenuItemSwipeBottom);
-            GetComponentInParent<PanelMenuItemController>().PanelMenuItemSwipeLeft += new PanelMenuItemControllerEventHandler(OnPanelMenuItemSwipeLeft);
-            GetComponentInParent<PanelMenuItemController>().PanelMenuItemSwipeRight += new PanelMenuItemControllerEventHandler(OnPanelMenuItemSwipeRight);
-            GetComponentInParent<PanelMenuItemController>().PanelMenuItemTriggerPressed += new PanelMenuItemControllerEventHandler(OnPanelMenuItemTriggerPressed);
+            GetComponentInParent<VRTK_PanelMenuItemController>().PanelMenuItemSwipeTop += new PanelMenuItemControllerEventHandler(OnPanelMenuItemSwipeTop);
+            GetComponentInParent<VRTK_PanelMenuItemController>().PanelMenuItemSwipeBottom += new PanelMenuItemControllerEventHandler(OnPanelMenuItemSwipeBottom);
+            GetComponentInParent<VRTK_PanelMenuItemController>().PanelMenuItemSwipeLeft += new PanelMenuItemControllerEventHandler(OnPanelMenuItemSwipeLeft);
+            GetComponentInParent<VRTK_PanelMenuItemController>().PanelMenuItemSwipeRight += new PanelMenuItemControllerEventHandler(OnPanelMenuItemSwipeRight);
+            GetComponentInParent<VRTK_PanelMenuItemController>().PanelMenuItemTriggerPressed += new PanelMenuItemControllerEventHandler(OnPanelMenuItemTriggerPressed);
 
             SetGridLayoutItemSelectedState(selectedIndex);
         }

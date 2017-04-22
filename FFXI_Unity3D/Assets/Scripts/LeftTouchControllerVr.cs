@@ -12,7 +12,8 @@ public class LeftTouchControllerVr : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		transform.localPosition = OVRInput.GetLocalControllerPosition (OVRInput.Controller.LTouch);
+		//transform.localPosition = OVRInput.GetLocalControllerPosition (OVRInput.Controller.LTouch);
 		//transform.localRotation = OVRInput.GetLocalControllerRotation (OVRInput.Controller.LTouch);
+
 	}
 }

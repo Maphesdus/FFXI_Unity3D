@@ -17,6 +17,19 @@ namespace VRTK
     /// </example>
     public class VRTK_DestinationPoint : VRTK_DestinationMarker
     {
+        /// <summary>
+        /// Allowed snap to rotation types.
+        /// </summary>
+        /// <param name="NoRotation">No rotation information will be emitted in the destination set payload.</param>
+        /// <param name="RotateWithNoHeadsetOffset">The destination point's rotation will be emitted without taking into consideration the current headset rotation.</param>
+        /// <param name="RotateWithHeadsetOffset">The destination point's rotation will be emitted and will take into consideration the current headset rotation.</param>
+        public enum RotationTypes
+        {
+            NoRotation,
+            RotateWithNoHeadsetOffset,
+            RotateWithHeadsetOffset
+        }
+
         [Header("Destination Point Settings")]
 
         [Tooltip("The GameObject to use to represent the default cursor state.")]
@@ -25,10 +38,14 @@ namespace VRTK
         public GameObject hoverCursorObject;
         [Tooltip("The GameObject to use to represent the locked cursor state.")]
         public GameObject lockedCursorObject;
+        [Tooltip("An optional transform to determine the destination location for the destination marker. This can be useful to offset the destination location from the destination point. If this is left empty then the destiantion point transform will be used.")]
+        public Transform destinationLocation;
         [Tooltip("If this is checked then after teleporting, the play area will be snapped to the origin of the destination point. If this is false then it's possible to teleport to anywhere within the destination point collider.")]
         public bool snapToPoint = true;
         [Tooltip("If this is checked, then the pointer cursor will be hidden when a valid destination point is hovered over.")]
         public bool hidePointerCursorOnHover = true;
+        [Tooltip("Determines if the play area will be rotated to the rotation of the destination point upon the destination marker being set.")]
+        public RotationTypes snapToRotation = RotationTypes.NoRotation;
 
         public static VRTK_DestinationPoint currentDestinationPoint;
 
@@ -41,6 +58,8 @@ namespace VRTK
         protected VRTK_BasePointerRenderer.VisibilityStates storedCursorState;
         protected Coroutine setDestination;
         protected bool currentTeleportState;
+        protected Transform playArea;
+        protected Transform headset;
 
         /// <summary>
         /// The ResetDestinationPoint resets the destination point back to the default state.
@@ -59,6 +78,9 @@ namespace VRTK
             ResetPoint();
             currentTeleportState = enableTeleport;
             currentDestinationPoint = null;
+            playArea = VRTK_DeviceFinder.PlayAreaTransform();
+            headset = VRTK_DeviceFinder.HeadsetTransform();
+            destinationLocation = (destinationLocation != null ? destinationLocation : transform);
         }
 
         protected override void OnDisable()
@@ -120,7 +142,7 @@ namespace VRTK
             pointRigidbody.useGravity = false;
         }
 
-        private IEnumerator ManageDestinationMarkersAtEndOfFrame()
+        protected virtual IEnumerator ManageDestinationMarkersAtEndOfFrame()
         {
             yield return new WaitForEndOfFrame();
             if (enabled)
@@ -175,6 +197,7 @@ namespace VRTK
                 isActive = true;
                 ToggleCursor(sender, false);
                 EnablePoint();
+                OnDestinationMarkerEnter(SetDestinationMarkerEvent(0f, e.raycastHit.transform, e.raycastHit, e.raycastHit.transform.position, e.controllerIndex, false, GetRotation()));
             }
         }
 
@@ -185,6 +208,7 @@ namespace VRTK
                 isActive = false;
                 ToggleCursor(sender, true);
                 ResetPoint();
+                OnDestinationMarkerExit(SetDestinationMarkerEvent(0f, e.raycastHit.transform, e.raycastHit, e.raycastHit.transform.position, e.controllerIndex, false, GetRotation()));
             }
         }
 
@@ -195,7 +219,7 @@ namespace VRTK
                 currentDestinationPoint = this;
                 if (snapToPoint)
                 {
-                    e.raycastHit.point = transform.position;
+                    e.raycastHit.point = destinationLocation.position;
                     setDestination = StartCoroutine(DoDestinationMarkerSetAtEndOfFrame(e));
                 }
             }
@@ -205,14 +229,14 @@ namespace VRTK
             }
         }
 
-        private IEnumerator DoDestinationMarkerSetAtEndOfFrame(DestinationMarkerEventArgs e)
+        protected virtual IEnumerator DoDestinationMarkerSetAtEndOfFrame(DestinationMarkerEventArgs e)
         {
             yield return new WaitForEndOfFrame();
             if (enabled)
             {
-                e.raycastHit.point = transform.position;
+                e.raycastHit.point = destinationLocation.position;
                 DisablePoint();
-                OnDestinationMarkerSet(SetDestinationMarkerEvent(e.distance, transform, e.raycastHit, transform.position, e.controllerIndex));
+                OnDestinationMarkerSet(SetDestinationMarkerEvent(e.distance, transform, e.raycastHit, destinationLocation.position, e.controllerIndex, false, GetRotation()));
             }
         }
 
@@ -251,6 +275,7 @@ namespace VRTK
 
         protected virtual void ResetPoint()
         {
+            currentDestinationPoint = null;
             ToggleObject(hoverCursorObject, false);
             if (enableTeleport)
             {
@@ -272,6 +297,17 @@ namespace VRTK
             {
                 givenObject.SetActive(state);
             }
+        }
+
+        protected virtual Quaternion? GetRotation()
+        {
+            if (snapToRotation == RotationTypes.NoRotation)
+            {
+                return null;
+            }
+
+            float offset = (snapToRotation == RotationTypes.RotateWithHeadsetOffset && playArea != null && headset != null ? playArea.eulerAngles.y - headset.eulerAngles.y : 0f);
+            return Quaternion.Euler(0f, destinationLocation.localEulerAngles.y + offset, 0f);
         }
     }
 }

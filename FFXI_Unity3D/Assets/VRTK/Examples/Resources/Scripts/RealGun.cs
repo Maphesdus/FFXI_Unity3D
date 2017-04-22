@@ -18,7 +18,6 @@
         private Collider safetySwitchCollider;
 
         private VRTK_ControllerEvents controllerEvents;
-        private VRTK_ControllerActions controllerActions;
 
         private float minTriggerRotation = -10f;
         private float maxTriggerRotation = 45f;
@@ -54,7 +53,6 @@
             base.Grabbed(currentGrabbingObject);
 
             controllerEvents = currentGrabbingObject.GetComponent<VRTK_ControllerEvents>();
-            controllerActions = currentGrabbingObject.GetComponent<VRTK_ControllerActions>();
 
             ToggleSlide(true);
             ToggleSafetySwitch(true);
@@ -62,17 +60,17 @@
             //Limit hands grabbing when picked up
             if (VRTK_DeviceFinder.GetControllerHand(currentGrabbingObject) == SDK_BaseController.ControllerHand.Left)
             {
-                allowedTouchControllers = AllowedController.Left_Only;
-                allowedUseControllers = AllowedController.Left_Only;
-                slide.allowedGrabControllers = AllowedController.Right_Only;
-                safetySwitch.allowedGrabControllers = AllowedController.Right_Only;
+                allowedTouchControllers = AllowedController.LeftOnly;
+                allowedUseControllers = AllowedController.LeftOnly;
+                slide.allowedGrabControllers = AllowedController.RightOnly;
+                safetySwitch.allowedGrabControllers = AllowedController.RightOnly;
             }
             else if (VRTK_DeviceFinder.GetControllerHand(currentGrabbingObject) == SDK_BaseController.ControllerHand.Right)
             {
-                allowedTouchControllers = AllowedController.Right_Only;
-                allowedUseControllers = AllowedController.Right_Only;
-                slide.allowedGrabControllers = AllowedController.Left_Only;
-                safetySwitch.allowedGrabControllers = AllowedController.Left_Only;
+                allowedTouchControllers = AllowedController.RightOnly;
+                allowedUseControllers = AllowedController.RightOnly;
+                slide.allowedGrabControllers = AllowedController.LeftOnly;
+                safetySwitch.allowedGrabControllers = AllowedController.LeftOnly;
             }
         }
 
@@ -90,7 +88,6 @@
             safetySwitch.allowedGrabControllers = AllowedController.Both;
 
             controllerEvents = null;
-            controllerActions = null;
         }
 
         public override void StartUsing(GameObject currentUsingObject)
@@ -100,11 +97,11 @@
             {
                 slide.Fire();
                 FireBullet();
-                controllerActions.TriggerHapticPulse(0.63f, 0.2f, 0.01f);
+                VRTK_SharedMethods.TriggerHapticPulse(VRTK_DeviceFinder.GetControllerIndex(controllerEvents.gameObject), 0.63f, 0.2f, 0.01f);
             }
             else
             {
-                controllerActions.TriggerHapticPulse(0.08f, 0.1f, 0.01f);
+                VRTK_SharedMethods.TriggerHapticPulse(VRTK_DeviceFinder.GetControllerIndex(controllerEvents.gameObject), 0.08f, 0.1f, 0.01f);
             }
         }
 
