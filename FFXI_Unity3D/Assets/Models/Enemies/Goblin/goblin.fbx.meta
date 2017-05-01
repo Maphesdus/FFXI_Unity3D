@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 12dcbebbf84cb71499ee6f482d7effe7
-timeCreated: 1492815312
+timeCreated: 1493608556
 licenseType: Free
 ModelImporter:
   serializedVersion: 19
@@ -131,14 +131,15 @@ ModelImporter:
     4300002: hf_k
     4300004: hh_b
     4300006: hh_1
-    7400000: Noesis Frames
+    7400000: Walk
+    7400002: Idle
     9500000: //RootNode
     13700000: hf_k
     13700002: hh_1
     13700004: hh_b
     13700006: hh_k
   materials:
-    importMaterials: 1
+    importMaterials: 0
     materialName: 0
     materialSearch: 1
   animations:
@@ -146,24 +147,324 @@ ModelImporter:
     bakeSimulation: 0
     resampleCurves: 1
     optimizeGameObjects: 0
-    motionNodeName: 
+    motionNodeName: bone0000
     rigImportErrors: 
     rigImportWarnings: 
     animationImportErrors: 
     animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
-    animationCompression: 1
+    animationCompression: 0
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Walk
+      takeName: Noesis Frames
+      firstFrame: 0
+      lastFrame: 22
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: bone0000
+        weight: 1
+      - path: bone0000/bone0001
+        weight: 1
+      - path: bone0000/bone0001/bone0002
+        weight: 1
+      - path: bone0000/bone0001/bone0002/bone0003
+        weight: 1
+      - path: bone0000/bone0001/bone0002/bone0004
+        weight: 1
+      - path: bone0000/bone0001/bone0002/bone0004/bone0005
+        weight: 1
+      - path: bone0000/bone0001/bone0002/bone0004/bone0005/bone0006
+        weight: 1
+      - path: bone0000/bone0001/bone0002/bone0004/bone0005/bone0006/bone0007
+        weight: 1
+      - path: bone0000/bone0001/bone0002/bone0004/bone0005/bone0006/bone0007/bone0008
+        weight: 1
+      - path: bone0000/bone0001/bone0002/bone0004/bone0005/bone0006/bone0007/bone0008/bone0009
+        weight: 1
+      - path: bone0000/bone0001/bone0002/bone0004/bone0005/bone0006/bone0007/bone0008/bone0009/bone0010
+        weight: 1
+      - path: bone0000/bone0001/bone0002/bone0011
+        weight: 1
+      - path: bone0000/bone0001/bone0002/bone0011/bone0012
+        weight: 1
+      - path: bone0000/bone0001/bone0002/bone0011/bone0012/bone0013
+        weight: 1
+      - path: bone0000/bone0001/bone0002/bone0011/bone0012/bone0013/bone0014
+        weight: 1
+      - path: bone0000/bone0001/bone0002/bone0011/bone0012/bone0013/bone0014/bone0015
+        weight: 1
+      - path: bone0000/bone0001/bone0002/bone0011/bone0012/bone0013/bone0014/bone0015/bone0016
+        weight: 1
+      - path: bone0000/bone0001/bone0002/bone0011/bone0012/bone0013/bone0014/bone0015/bone0016/bone0017
+        weight: 1
+      - path: bone0000/bone0001/bone0018
+        weight: 1
+      - path: bone0000/bone0001/bone0018/bone0019
+        weight: 1
+      - path: bone0000/bone0001/bone0018/bone0019/bone0020
+        weight: 1
+      - path: bone0000/bone0001/bone0018/bone0019/bone0020/bone0021
+        weight: 1
+      - path: bone0000/bone0001/bone0018/bone0019/bone0020/bone0021/bone0022
+        weight: 1
+      - path: bone0000/bone0001/bone0018/bone0019/bone0020/bone0021/bone0022/bone0023
+        weight: 1
+      - path: bone0000/bone0001/bone0018/bone0019/bone0020/bone0021/bone0022/bone0024
+        weight: 1
+      - path: bone0000/bone0001/bone0018/bone0019/bone0020/bone0021/bone0022/bone0025
+        weight: 1
+      - path: bone0000/bone0001/bone0018/bone0019/bone0020/bone0026
+        weight: 1
+      - path: bone0000/bone0001/bone0018/bone0019/bone0020/bone0026/bone0027
+        weight: 1
+      - path: bone0000/bone0001/bone0018/bone0019/bone0020/bone0026/bone0028
+        weight: 1
+      - path: bone0000/bone0001/bone0018/bone0019/bone0020/bone0026/bone0029
+        weight: 1
+      - path: bone0000/bone0001/bone0018/bone0019/bone0020/bone0026/bone0030
+        weight: 1
+      - path: bone0000/bone0001/bone0018/bone0019/bone0020/bone0026/bone0031
+        weight: 1
+      - path: bone0000/bone0001/bone0018/bone0019/bone0020/bone0026/bone0032
+        weight: 1
+      - path: bone0000/bone0001/bone0018/bone0019/bone0020/bone0026/bone0033
+        weight: 1
+      - path: bone0000/bone0001/bone0018/bone0019/bone0020/bone0034
+        weight: 1
+      - path: bone0000/bone0001/bone0018/bone0019/bone0020/bone0034/bone0035
+        weight: 1
+      - path: bone0000/bone0001/bone0018/bone0019/bone0020/bone0034/bone0035/bone0036
+        weight: 1
+      - path: bone0000/bone0001/bone0018/bone0019/bone0020/bone0034/bone0035/bone0036/bone0037
+        weight: 1
+      - path: bone0000/bone0001/bone0018/bone0019/bone0020/bone0034/bone0035/bone0036/bone0037/bone0038
+        weight: 1
+      - path: bone0000/bone0001/bone0018/bone0019/bone0020/bone0034/bone0035/bone0036/bone0037/bone0038/bone0039
+        weight: 1
+      - path: bone0000/bone0001/bone0018/bone0019/bone0020/bone0034/bone0035/bone0036/bone0037/bone0038/bone0039/bone0040
+        weight: 1
+      - path: bone0000/bone0001/bone0018/bone0019/bone0020/bone0034/bone0035/bone0036/bone0037/bone0038/bone0039/bone0040/bone0041
+        weight: 1
+      - path: bone0000/bone0001/bone0018/bone0019/bone0020/bone0034/bone0035/bone0036/bone0037/bone0038/bone0039/bone0040/bone0041/bone0042
+        weight: 1
+      - path: bone0000/bone0001/bone0018/bone0019/bone0020/bone0034/bone0035/bone0036/bone0037/bone0038/bone0043
+        weight: 1
+      - path: bone0000/bone0001/bone0018/bone0019/bone0020/bone0044
+        weight: 1
+      - path: bone0000/bone0001/bone0018/bone0019/bone0020/bone0044/bone0045
+        weight: 1
+      - path: bone0000/bone0001/bone0018/bone0019/bone0020/bone0044/bone0045/bone0046
+        weight: 1
+      - path: bone0000/bone0001/bone0018/bone0019/bone0020/bone0044/bone0045/bone0046/bone0047
+        weight: 1
+      - path: bone0000/bone0001/bone0018/bone0019/bone0020/bone0044/bone0045/bone0046/bone0047/bone0048
+        weight: 1
+      - path: bone0000/bone0001/bone0018/bone0019/bone0020/bone0044/bone0045/bone0046/bone0047/bone0048/bone0049
+        weight: 1
+      - path: bone0000/bone0001/bone0018/bone0019/bone0020/bone0044/bone0045/bone0046/bone0047/bone0048/bone0049/bone0050
+        weight: 1
+      - path: bone0000/bone0001/bone0018/bone0019/bone0020/bone0044/bone0045/bone0046/bone0047/bone0048/bone0049/bone0050/bone0051
+        weight: 1
+      - path: bone0000/bone0001/bone0018/bone0019/bone0020/bone0044/bone0045/bone0046/bone0047/bone0048/bone0049/bone0050/bone0051/bone0052
+        weight: 1
+      - path: bone0000/bone0001/bone0018/bone0019/bone0020/bone0044/bone0045/bone0046/bone0047/bone0048/bone0049/bone0053
+        weight: 1
+      - path: bone0000/bone0001/bone0018/bone0019/bone0020/bone0044/bone0045/bone0046/bone0047/bone0048/bone0049/bone0053/bone0054
+        weight: 1
+      - path: bone0000/bone0001/bone0018/bone0019/bone0020/bone0044/bone0045/bone0046/bone0047/bone0048/bone0055
+        weight: 1
+      - path: hf_k
+        weight: 1
+      - path: hh_1
+        weight: 1
+      - path: hh_b
+        weight: 1
+      - path: hh_k
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Idle
+      takeName: Noesis Frames
+      firstFrame: 23
+      lastFrame: 37
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: bone0000
+        weight: 1
+      - path: bone0000/bone0001
+        weight: 1
+      - path: bone0000/bone0001/bone0002
+        weight: 1
+      - path: bone0000/bone0001/bone0002/bone0003
+        weight: 1
+      - path: bone0000/bone0001/bone0002/bone0004
+        weight: 1
+      - path: bone0000/bone0001/bone0002/bone0004/bone0005
+        weight: 1
+      - path: bone0000/bone0001/bone0002/bone0004/bone0005/bone0006
+        weight: 1
+      - path: bone0000/bone0001/bone0002/bone0004/bone0005/bone0006/bone0007
+        weight: 1
+      - path: bone0000/bone0001/bone0002/bone0004/bone0005/bone0006/bone0007/bone0008
+        weight: 1
+      - path: bone0000/bone0001/bone0002/bone0004/bone0005/bone0006/bone0007/bone0008/bone0009
+        weight: 1
+      - path: bone0000/bone0001/bone0002/bone0004/bone0005/bone0006/bone0007/bone0008/bone0009/bone0010
+        weight: 1
+      - path: bone0000/bone0001/bone0002/bone0011
+        weight: 1
+      - path: bone0000/bone0001/bone0002/bone0011/bone0012
+        weight: 1
+      - path: bone0000/bone0001/bone0002/bone0011/bone0012/bone0013
+        weight: 1
+      - path: bone0000/bone0001/bone0002/bone0011/bone0012/bone0013/bone0014
+        weight: 1
+      - path: bone0000/bone0001/bone0002/bone0011/bone0012/bone0013/bone0014/bone0015
+        weight: 1
+      - path: bone0000/bone0001/bone0002/bone0011/bone0012/bone0013/bone0014/bone0015/bone0016
+        weight: 1
+      - path: bone0000/bone0001/bone0002/bone0011/bone0012/bone0013/bone0014/bone0015/bone0016/bone0017
+        weight: 1
+      - path: bone0000/bone0001/bone0018
+        weight: 1
+      - path: bone0000/bone0001/bone0018/bone0019
+        weight: 1
+      - path: bone0000/bone0001/bone0018/bone0019/bone0020
+        weight: 1
+      - path: bone0000/bone0001/bone0018/bone0019/bone0020/bone0021
+        weight: 1
+      - path: bone0000/bone0001/bone0018/bone0019/bone0020/bone0021/bone0022
+        weight: 1
+      - path: bone0000/bone0001/bone0018/bone0019/bone0020/bone0021/bone0022/bone0023
+        weight: 1
+      - path: bone0000/bone0001/bone0018/bone0019/bone0020/bone0021/bone0022/bone0024
+        weight: 1
+      - path: bone0000/bone0001/bone0018/bone0019/bone0020/bone0021/bone0022/bone0025
+        weight: 1
+      - path: bone0000/bone0001/bone0018/bone0019/bone0020/bone0026
+        weight: 1
+      - path: bone0000/bone0001/bone0018/bone0019/bone0020/bone0026/bone0027
+        weight: 1
+      - path: bone0000/bone0001/bone0018/bone0019/bone0020/bone0026/bone0028
+        weight: 1
+      - path: bone0000/bone0001/bone0018/bone0019/bone0020/bone0026/bone0029
+        weight: 1
+      - path: bone0000/bone0001/bone0018/bone0019/bone0020/bone0026/bone0030
+        weight: 1
+      - path: bone0000/bone0001/bone0018/bone0019/bone0020/bone0026/bone0031
+        weight: 1
+      - path: bone0000/bone0001/bone0018/bone0019/bone0020/bone0026/bone0032
+        weight: 1
+      - path: bone0000/bone0001/bone0018/bone0019/bone0020/bone0026/bone0033
+        weight: 1
+      - path: bone0000/bone0001/bone0018/bone0019/bone0020/bone0034
+        weight: 1
+      - path: bone0000/bone0001/bone0018/bone0019/bone0020/bone0034/bone0035
+        weight: 1
+      - path: bone0000/bone0001/bone0018/bone0019/bone0020/bone0034/bone0035/bone0036
+        weight: 1
+      - path: bone0000/bone0001/bone0018/bone0019/bone0020/bone0034/bone0035/bone0036/bone0037
+        weight: 1
+      - path: bone0000/bone0001/bone0018/bone0019/bone0020/bone0034/bone0035/bone0036/bone0037/bone0038
+        weight: 1
+      - path: bone0000/bone0001/bone0018/bone0019/bone0020/bone0034/bone0035/bone0036/bone0037/bone0038/bone0039
+        weight: 1
+      - path: bone0000/bone0001/bone0018/bone0019/bone0020/bone0034/bone0035/bone0036/bone0037/bone0038/bone0039/bone0040
+        weight: 1
+      - path: bone0000/bone0001/bone0018/bone0019/bone0020/bone0034/bone0035/bone0036/bone0037/bone0038/bone0039/bone0040/bone0041
+        weight: 1
+      - path: bone0000/bone0001/bone0018/bone0019/bone0020/bone0034/bone0035/bone0036/bone0037/bone0038/bone0039/bone0040/bone0041/bone0042
+        weight: 1
+      - path: bone0000/bone0001/bone0018/bone0019/bone0020/bone0034/bone0035/bone0036/bone0037/bone0038/bone0043
+        weight: 1
+      - path: bone0000/bone0001/bone0018/bone0019/bone0020/bone0044
+        weight: 1
+      - path: bone0000/bone0001/bone0018/bone0019/bone0020/bone0044/bone0045
+        weight: 1
+      - path: bone0000/bone0001/bone0018/bone0019/bone0020/bone0044/bone0045/bone0046
+        weight: 1
+      - path: bone0000/bone0001/bone0018/bone0019/bone0020/bone0044/bone0045/bone0046/bone0047
+        weight: 1
+      - path: bone0000/bone0001/bone0018/bone0019/bone0020/bone0044/bone0045/bone0046/bone0047/bone0048
+        weight: 1
+      - path: bone0000/bone0001/bone0018/bone0019/bone0020/bone0044/bone0045/bone0046/bone0047/bone0048/bone0049
+        weight: 1
+      - path: bone0000/bone0001/bone0018/bone0019/bone0020/bone0044/bone0045/bone0046/bone0047/bone0048/bone0049/bone0050
+        weight: 1
+      - path: bone0000/bone0001/bone0018/bone0019/bone0020/bone0044/bone0045/bone0046/bone0047/bone0048/bone0049/bone0050/bone0051
+        weight: 1
+      - path: bone0000/bone0001/bone0018/bone0019/bone0020/bone0044/bone0045/bone0046/bone0047/bone0048/bone0049/bone0050/bone0051/bone0052
+        weight: 1
+      - path: bone0000/bone0001/bone0018/bone0019/bone0020/bone0044/bone0045/bone0046/bone0047/bone0048/bone0049/bone0053
+        weight: 1
+      - path: bone0000/bone0001/bone0018/bone0019/bone0020/bone0044/bone0045/bone0046/bone0047/bone0048/bone0049/bone0053/bone0054
+        weight: 1
+      - path: bone0000/bone0001/bone0018/bone0019/bone0020/bone0044/bone0045/bone0046/bone0047/bone0048/bone0055
+        weight: 1
+      - path: hf_k
+        weight: 1
+      - path: hh_1
+        weight: 1
+      - path: hh_b
+        weight: 1
+      - path: hh_k
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 1
+    globalScale: 100
     meshCompression: 0
     addColliders: 0
     importBlendShapes: 1

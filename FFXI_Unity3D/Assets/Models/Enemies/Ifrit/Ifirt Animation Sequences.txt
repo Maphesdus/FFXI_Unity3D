@@ -1,0 +1,15 @@
+Ifirt Animation Sequences:
+
+Idle 1: 0-24
+Stutter: 25-26
+Attack 1: 27-112
+Attack 2: 113-196
+Attack 3: 197-245
+Take Damage: 246-257
+Attack 4: 258-340
+Shaking: 341-369
+Glide Start: 371-382
+Gliding: 383-400
+Idle 2: 401-423
+Idle 3: 424-446
+Idle 4: 447-471

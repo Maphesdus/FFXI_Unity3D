@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Zones/Jeuno/JeunoMH/JeunoMH.unity
+- path: Assets/Miscellaneous/Main.unity
   isLoaded: 1
   isActive: 1
