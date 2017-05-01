@@ -496,14 +496,17 @@
      <None Include="Assets\_IMPORTED\BitmapFontImporter\Examples\Font1\font1.fnt" />
      <None Include="Assets\_IMPORTED\VRTK\Scripts\Internal\Shaders\VRTK_OutlineBasic.shader" />
      <None Include="Assets\_IMPORTED\VRTK\Scripts\Internal\Shaders\AdaptiveQualityDebugVisualization.shader" />
+     <None Include="Assets\_IMPORTED\Silhouette Outline Shaders\SilhouettedDiffuse.shader" />
      <None Include="Assets\_IMPORTED\UCLAGameLab\Wireframe\Shaders\UCLA GameLab Wireframe.shader" />
      <None Include="Assets\Miscellaneous\TransparentWithShadow.shader" />
      <None Include="Assets\_IMPORTED\OVR\Shaders\Unlit Crosshair.shader" />
      <None Include="Assets\_IMPORTED\OVR\Resources\Unlit Transparent Color.shader" />
      <None Include="Assets\_IMPORTED\Standard Assets\Environment\Water (Basic)\Shaders\FXWaterBasic.shader" />
      <None Include="Assets\Zones\Jeuno\JeunoMH\Mirror.shader" />
+     <None Include="Assets\_IMPORTED\Silhouette Outline Shaders\SilhouettedBumpedDiffuse.shader" />
      <None Include="Assets\_IMPORTED\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
      <None Include="Assets\Zones\Jeuno\New Text Document.txt" />
+     <None Include="Assets\_IMPORTED\Silhouette Outline Shaders\SilhouetteOnly.shader" />
      <None Include="Assets\_IMPORTED\Standard Assets\Environment\Water\Water\Shaders\FXWaterPro.shader" />
      <None Include="Assets\Models\Enemies\Ifrit\Ifirt Animation Sequences.txt" />
      <None Include="Assets\Miscellaneous\FFXI font\FFXI font 2.fnt" />
